@@ -10,5 +10,6 @@
 9. key word phrases
 	a. life events ex. <phrase type="lifeEvent">
 	b. raw emotions ex. happy, sad <phrase type="emotion">
-10. profanity
-11. derogatory terms
+	c. profanity ex. <phrase type="profanity">
+	d. derogatory terms ex. <phrase type="derogatoryTerms">
+	e. posessions ex. <phrase type="posessions">
