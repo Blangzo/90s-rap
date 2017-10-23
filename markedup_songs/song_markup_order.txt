@@ -8,8 +8,8 @@
 (singer if applicable)
 8. parts of song(intro, verses, chrous, outro, maybe adLib)
 9. key word phrases
-	a. life events ex. <phrase type="lifeEvent">
-	b. raw emotions ex. happy, sad <phrase type="emotion">
-	c. profanity ex. <phrase type="profanity">
-	d. derogatory terms ex. <phrase type="derogatoryTerms">
-	e. posessions ex. <phrase type="posessions">
+	a. life events ex. <phrase type='lifeEvent'>
+	b. raw emotions ex. happy, sad <phrase type='emotion'>
+	c. profanity ex. <phrase type='profanity'>
+	d. derogatory terms ex. <phrase type='dt'>
+	e. posessions ex. <phrase type='posessions'>
