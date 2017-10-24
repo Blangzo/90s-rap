@@ -1,0 +1,29 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = song
+
+song = element song {head, lyrics}
+
+head = element head {songTitle, artist, featuredArtist*, producer+, album, certification}
+
+songTitle = element songTitle {text}
+artist = element artist {text}
+featuredArtist = element featuredArtist {text}
+producer = element producer {text}
+album = element album {text}
+certification = element certification {text}
+
+lyrics = element lyrics {(line+ | intro | verse | chorus | outro)*}
+
+intro = element intro {mixed{line*}}
+verse = element verse {mixed{line*}}
+chorus = element chorus {mixed{line*}}
+outro = element outro {mixed{line*}}
+
+line = element line {phrase*}
+phrase = element phrase {mixed{(lifeEvent | emotion | profanity | dt)*}}
+
+lifeEvent = attribute lifeEvent {text}
+emotion = attribute emotion {text}
+profanity = attribute profanity {text}
+dt = attribute dt {text}
