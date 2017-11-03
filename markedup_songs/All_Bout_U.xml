@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+ <head>
+  <songTitle>All Bout U</songTitle>
+  <artist>2Pac</artist>
+  <featuredArtist>Snoop Dogg</featuredArtist>
+  <featuredArtist>Outlawz</featuredArtist>
+  <featuredArtist>Nate Dogg</featuredArtist>
+  <featuredArtist>Yaki Kadafi</featuredArtist>
+  <featuredArtist>Hussein Fatal</featuredArtist>
+  <producer>Johnny J</producer>
+  <producer>2Pac</producer>
+  <album>All Eyez on Me</album>
+  <certification>Diamond</certification>
+ </head>
+
+ <lyrics>
+  <intro>
+   <singer>2Pac</singer>
+   <featuredSinger>Dru Down</featuredSinger>
+   <line>Ah, yeah! Hahaha (Yeah!)</line>
+   <line>It's all about you, one time!</line>
+   <line>(I'ma say it's all about you, baby, yeah!)</line>
+   <line>Haha, for the <phrase type="profanity">bitches</phrase> that think it's all about
+    you</line>
+   <line>It's all about you! (This Dru Down in the house With my boy 'Pizznac, you know what I'm
+    sayin'?)</line>
+   <line>It's all about you</line>
+   <line>(Yeah, I'm gon' say it's all about you</line>
+   <line>But you know I'm lyin' though, hah! Yeah)</line>
+  </intro>
+
+  <verse>
+   <singer>2Pac</singer>
+   <line>You probably crooked as the last trick</line>
+   <line>Want to laugh about how I got my <phrase type="profanity">ass</phrase> caught up</line>
+   <line>With this bad <phrase type="profanity">bitch</phrase>?</line>
+   <line>Thinkin' I had her, but she had me in the long run</line>
+   <line>It's just my luck, I'm stuck with <phrase type="profanity">fuckin'</phrase> with the wrong
+    one</line>
+   <line>Wise decisions, based on lies we livin'</line>
+   <line>Scandalous times, this game's like my religion</line>
+   <line>You could be rollin' with a thug</line>
+   <line>Instead you with this weak scrub, lookin' for some love</line>
+   <line>In every club, I see you starin' like you want it</line>
+   <line>Well, baby, if you got it, better flaunt it</line>
+   <line>Let the liquor help you get up on it</line>
+   <line>I'm still tipsy from last night</line>
+   <line>Bumpin' these walls as I pause, addicted to the fast life</line>
+   <line>I try to holla, but you tell me you taken</line>
+   <line>Sayin' you ain't impressed with the money I'm makin'</line>
+   <line>Guess it's true what they tellin' me</line>
+   <line>Fresh out of jail, life's <phrase type="profanity">hell</phrase> for a black
+    celebrity</line>
+   <line>So that's the reason why I call, and maybe you with it</line>
+   <line>Fantasies of us sweatin', can I hit it?</line>
+   <line>Addicted to the things you do</line>
+   <line>But still true what I'm sayin', boo, ‘cause this is all about you</line>
+  </verse>
+
+  <chorus>
+   <featuredSinger>Nate Dogg</featuredSinger>
+   <singer>2Pac</singer>
+   <line>Every other city we go, every other video</line>
+   <line>It's all about you</line>
+   <line>No matter where I go, I see the same <phrase type="dt">hoe</phrase></line>
+   <line>Yeah, <phrase type="profanity">nigga</phrase></line>
+   <line>Every other city we go, every other video</line>
+   <line>It's all about you</line>
+   <line>No matter where I go, I see the same <phrase type="dt">hoe</phrase></line>
+  </chorus>
+
+  <verse>
+   <singer>2Pac</singer>
+   <line>I make a promise if you go with me, just let me know</line>
+   <line>I'll have you hollerin' my name out before I leave</line>
+   <line>Nobody loves me, I'm a thug <phrase type="profanity">nigga</phrase></line>
+   <line>I only hung out with the criminals and drug dealers</line>
+   <line>I love <phrase type="profanity">niggas</phrase>, ‘cause we comin' from the same
+    place</line>
+   <line>Witness me holla at a hoochie See how quick the game takes</line>
+   <line>How can I tell her I'm a playa?</line>
+   <line>And I don't even care</line>
+   <line>Creep low, weed smoke's in the air</line>
+   <line>Everywhere I go, it's all about the groupie <phrase type="dt">hoes</phrase></line>
+   <line>Waitin' for <phrase type="profanity">niggas</phrase> at the end of every show</line>
+   <line>I just seen you in my friend's video</line>
+   <line>Could never put a <phrase type="profanity">bitch</phrase> before my friends, so here we
+    go</line>
+   <line>Follow the leader and peep the drama that I'm goin' through</line>
+   <line>It's all about you, yeah, <phrase type="profanity">nigga</phrase>, it's all about
+    you</line>
+  </verse>
+
+  <chorus>
+   <featuredSinger>Nate Dogg</featuredSinger>
+   <singer>2Pac</singer>
+   <line>Every other city we go, every other video</line>
+   <line>It's all about you</line>
+   <line>No matter where I go, I see the same <phrase type="dt">hoe</phrase></line>
+   <line>Yeah, <phrase type="profanity">nigga</phrase></line>
+   <line>Every other city we go, every other video</line>
+   <line>It's all about you</line>
+   <line>No matter where I go, I see the same <phrase type="dt">hoe</phrase></line>
+  </chorus>
+
+  <verse>
+   <featuredSinger>Hussein Fatal</featuredSinger>
+   <line>Is you sick from the dick, or is it the flu?</line>
+   <line>It ain't about you or your <phrase type="profanity">bitch-ass</phrase> crew</line>
+   <line>Every other city we go and every video</line>
+   <line>Explain to a <phrase type="profanity">nigga</phrase> why I see the same <phrase
+     type="profanity">shitty</phrase>
+    <phrase type="dt">hoe</phrase></line>
+   <line>You think it's all about you? Well, boo</line>
+   <line>I gets down like Dru, and my nasty new <phrase type="profanity">niggas</phrase>, too</line>
+  </verse>
+
+  <verse>
+   <featuredSinger>Yaki Kadafi</featuredSinger>
+   <line>You couldn't hold me back, it'd take a fatter track</line>
+   <line>A lyrical attack, perhaps, it was a visual bluff</line>
+   <line>When I started to snaps all your rode 'em swoll</line>
+   <line>Straight in control, flows'll fold, while <phrase type="dt">hoes</phrase> cold
+    stroll</line>
+   <line>Hold the set, I told Dramacy' go in next</line>
+   <line>Gold diggin', cold diggin' a gold Rolex</line>
+  </verse>
+
+  <verse>
+   <featuredSinger>Hussein Fatal</featuredSinger>
+   <line>I slide in easily, try a grizzly</line>
+   <line><phrase type="dt">Sluts</phrase> know the cuts, I came to <phrase type="profanity"
+     >fuck</phrase>, try skeezin' me</line>
+   <line>Runnin' up in ya just like Bruce Jenner when I bend ya</line>
+   <line>At the most, I <phrase type="profanity">fucked</phrase> a <phrase type="profanity"
+     >bitch</phrase></line>
+   <line>From the West Coast to West Virginia</line>
+  </verse>
+
+  <chorus>
+   <featuredSinger>Nate Dogg</featuredSinger>
+   <singer>2Pac</singer>
+   <line>Every other city we go, every other video</line>
+   <line>It's all about you</line>
+   <line>No matter where I go, I see the same <phrase type="dt">hoe</phrase></line>
+   <line>Every other city we go, every other video</line>
+   <line>It's all about you</line>
+   <line>No matter where I go, I see the same <phrase type="dt">hoe</phrase></line>
+   <line>Every other city we go, every other video</line>
+   <line>It's all about you</line>
+   <line>No matter where I go, I see the same <phrase type="dt">hoe</phrase></line>
+   <line>Every other city we go, every other video</line>
+   <line>No matter where I go, I see the same <phrase type="dt">hoe</phrase></line>
+  </chorus>
+
+  <outro>
+   <featuredSinger>Snoop Dogg</featuredSinger>
+   <line>I'm tellin' ya, it's the same old <phrase type="profanity">shit</phrase></line>
+   <line>I mean, <phrase type="profanity">goddamn</phrase>, you know what I'm sayin'?</line>
+   <line><phrase type="lifeEvent">I'm sittin' back, watchin' Montell Jordan video</phrase></line>
+   <line>I see the same <phrase type="profanity">bitch</phrase> who was in my homeboy Nate Dogg
+    video,</line>
+   <line>then I flip the channel</line>
+   <line><phrase type="lifeEvent">I'm checkin' out my homeboy 2Pac video</phrase></line>
+   <line>I see the same <phrase type="profanity">bitch</phrase> that was in my video, you
+    knahmsayin'?</line>
+   <line>And then, you nahmsayin', what make that even mo' <phrase type="profanity">fucked</phrase>
+    up,</line>
+   <line>I'm watchin' a Million Man March</line>
+   <line>And I see the same <phrase type="profanity">bitch</phrase>, on the Million Man March</line>
+   <line>That was in the homeboy Warren G video</line>
+   <line>I mean, <phrase type="profanity">damn</phrase>, everywhere I look</line>
+   <line>Everywhere I go, I see the same <phrase type="dt">hoe</phrase></line>
+   <line>Don't get mad, I'm only bein' real, yeah</line>
+  </outro>
+ </lyrics>
+</song>
