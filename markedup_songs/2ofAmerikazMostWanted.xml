@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<song><title>"2 Of Amerikaz Most Wanted"</title>
-    (feat. Snoop Doggy Dogg)
-    
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>2 Of Amerikaz Most Wanted</songTitle>
+        <artist>Tupac</artist>
+        <featuredArtist>Snoop Dogg</featuredArtist>
+        <producer>Daz Dillinger</producer>
+        <album>All Eyez on Me</album>
+        <certification>Diamond</certification>
+    </head>
+    <lyrics>
     <chorus><singer>[2Pac:]</singer>
     Up out of there
     Ain't nothin' but a gangsta party
@@ -133,4 +141,4 @@
     <outro><singer>[2Pac:]</singer>
     <profanity>Biatch!</profanity> Where you at? Where you at?
     Ain't nothin' but a gangsta party
-    Yeah, Death Row</outro></song>
+    Yeah, Death Row</outro></lyrics></song>

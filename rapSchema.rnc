@@ -15,15 +15,15 @@ certification = element certification {text}
 
 lyrics = element lyrics {(line+ | intro | verse | chorus | outro)*}
 
-intro = element intro {mixed{line*}}
-verse = element verse {mixed{line*}}
-chorus = element chorus {mixed{line*}}
-outro = element outro {mixed{line*}}
+intro = element intro {mixed{(line | singer | featuredSinger)*}}
+verse = element verse {mixed{(line | singer | featuredSinger)*}}
+chorus = element chorus {mixed{(line | singer | featuredSinger)*}}
+outro = element outro {mixed{(line | singer | featuredSinger)*}}
 
-line = element line {phrase*}
-phrase = element phrase {mixed{(lifeEvent | emotion | profanity | dt)*}}
+line = element line {mixed{phrase*}}
+phrase = element phrase {mixed{type*}}
 
-lifeEvent = attribute lifeEvent {text}
-emotion = attribute emotion {text}
-profanity = attribute profanity {text}
-dt = attribute dt {text}
+type = attribute type {text}
+
+singer = element singer {text}
+featuredSinger = element featuredSinger {text}
