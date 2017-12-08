@@ -1,68 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song><songTitle>Something Wicked</songTitle>
-<artist>2Pac</artist>
-<producer>Produced by The Underground Railroad</producer>
-<album>Album 2Pacalypse Now</album>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>Something Wicked</songTitle>
+        <artist>2Pac</artist>
+        <producer>The Underground Railroad</producer>
+        <album> 2Pacalypse Now</album>
+        <certification>Diamond</certification>
+    </head>
+    
+    <lyrics>
+        <intro>
+            <line>Something wicked, this way comes</line>
+            <line>Some-Something wicked, this way comes</line>
+            <line>Some-Something wicked, this way comes</line>
+            <line>Some-Something wicked, this way comes</line>
+            <line>Something wicked, this way comes</line>
+            <line>Something wicked, this way comes</line>
+            <line>(wicked) (wicked)</line>
+        </intro>
 
-<intro><chorus>[Intro/Hook]
-Something wicked, this way comes
-Some-Something wicked, this way comes
-Some-Something wicked, this way comes
-Some-Something wicked, this way comes
-Something wicked, this way comes
-Something wicked, this way comes
-(wicked) (wicked)</chorus></intro>
-
-<verse>[Verse]
-'emember
-More than an adversary, I'm very quick
-I'm ready to hit 'em with this gift, I'm equipped to kick
-So, grab your coat and your hat, cause I'm prepared to clown
-Let's carry this end that throw these <phrase type="profanity">motherfuckers</phrase> down
-Oh <phrase type="profanity">shit</phrase>, 2Pacalypse is back and strapped
-Attackin' the packs, I'm kickin' the facts for stacks to rap
-And those that max, relax and let the blacks get jacks
-I'm gettin' taxed, my packs is packed with angry blacks
-I'm ready to go
-I'm rippin' the shows, hittin' the dough
-Gettin' the <phrase type="dt">hoes</phrase>, clothes
-Pumpin' the flow, thanks to the hump
-Cause the nose knows
-Check the pose, froze, when you see me close
-Punks you gonna roast, host in a cloud of smoke
-Broke, choked on some potent dank smoke
-<phrase type="lifeEvent">Wrote, rhymes that'll bring me bank notes</phrase >
-Nope, I ain't the type of fella that you're used to
-Ki-ki-ki-kickin' the funky flava
-Pumpin' the deuce with no producers
-Run for cover when you hear the bass drum
-One verse is all it takes
-Something wicked this way comes
-Come come, come come
-</verse>
-<verse><outro>[Hook/Outro]
-Something wicked, this way comes
-Something wicked, this way comes
-Some-Something wicked, this way comes
-Some-Something wicked, this way comes
-Some-Something wicked, this way comes
-Some-Something wicked, this way comes
-Some-Something wicked, this way comes
-Some-Something wicked, this way comes
-Some-Something wicked, this way comes
-Some-Something wicked, this way comes
-Some-Something wicked, this way comes
-Some-Something wicked, this way comes
-Some-Something wicked, this way comes
-Some-Something wicked, this way comes
-Some-Something wicked, this way comes
-Something wicked, wicked, wicked, wicked
-Something wicked, this way comes
-Wicked something wicked, this way comes
-Something wicked kick it, this way comes
-Wicked kick it, this way comes
-Something wicked wicked wicked wicked ,this way comes
-Something wicked wicked wicked wicked ,this way comes
-Something wicked wicked, this way comes
-Wicked wicked, this way COME
-{​monster sound}</outro></verse>​</song>
+        <verse>
+            <line>'emember</line>
+            <line>More than an adversary, I'm very quick</line>
+            <line>I'm ready to hit 'em with this gift, I'm equipped to kick</line>
+            <line>So, grab your coat and your hat, cause I'm prepared to clown</line>
+            <line>Let's carry this end that throw these <phrase type="profanity"
+                    >motherfuckers</phrase> down</line>
+            <line>Oh <phrase type="profanity">shit</phrase>, 2Pacalypse is back and strapped</line>
+            <line>Attackin' the packs, I'm kickin' the facts for stacks to rap</line>
+            <line>And those that max, relax and let the blacks get jacks</line>
+            <line>I'm gettin' taxed, my packs is packed with angry blacks</line>
+            <line>I'm ready to go</line>
+            <line>I'm rippin' the shows, hittin' the dough</line>
+            <line>Gettin' the <phrase type="dt">hoes</phrase>, clothes</line>
+            <line>Pumpin' the flow, thanks to the hump</line>
+            <line>Cause the nose knows</line>
+            <line>Check the pose, froze, when you see me close</line>
+            <line>Punks you gonna roast, host in a cloud of smoke</line>
+            <line>Broke, choked on some potent dank smoke</line>
+            <line><phrase type="lifeEvent">Wrote, rhymes that'll bring me bank notes</phrase></line>
+            <line>Nope, I ain't the type of fella that you're used to</line>
+            <line>Ki-ki-ki-kickin' the funky flava</line>
+            <line>Pumpin' the deuce with no producers</line>
+            <line>Run for cover when you hear the bass drum</line>
+            <line>One verse is all it takes</line>
+            <line>Something wicked this way comes</line>
+            <line>Come come, come come</line>
+        </verse>
+        
+        <outro>
+            <line>Something wicked, this way comes</line>
+            <line>Something wicked, this way comes</line>
+            <line>Some-Something wicked, this way comes</line>
+            <line>Some-Something wicked, this way comes</line>
+            <line>Some-Something wicked, this way comes</line>
+            <line>Some-Something wicked, this way comes</line>
+            <line>Some-Something wicked, this way comes</line>
+            <line>Some-Something wicked, this way comes</line>
+            <line>Some-Something wicked, this way comes</line>
+            <line>Some-Something wicked, this way comes</line>
+            <line>Some-Something wicked, this way comes</line>
+            <line>Some-Something wicked, this way comes</line>
+            <line>Some-Something wicked, this way comes</line>
+            <line>Some-Something wicked, this way comes</line>
+            <line>Some-Something wicked, this way comes</line>
+            <line>Something wicked, wicked, wicked, wicked</line>
+            <line>Something wicked, this way comes</line>
+            <line>Wicked something wicked, this way comes</line>
+            <line>Something wicked kick it, this way comes</line>
+            <line>Wicked kick it, this way comes</line>
+            <line>Something wicked wicked wicked wicked ,this way comes</line>
+            <line>Something wicked wicked wicked wicked ,this way comes</line>
+            <line>Something wicked wicked, this way comes</line>
+            <line>Wicked wicked, this way COME</line>
+            <line>{​monster sound}</line>
+        </outro>
+    </lyrics>
+</song>

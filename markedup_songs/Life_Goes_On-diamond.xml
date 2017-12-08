@@ -1,108 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song><songTitle>Life Goes On</songTitle>
-<singer>2Pac</singer>
-<producers>2Pac and Johnny J</producers>
-<album>All Eyez on Me</album>
-<certification>Diamond</certification>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>Life Goes On</songTitle>
+        <artist>2Pac</artist>
+        <producer>2Pac</producer>
+        <producer>Johnny J</producer>
+        <album>All Eyez on Me</album>
+        <certification>Diamond</certification>
+    </head>
 
-<lyrics><chorus>How many brothers fell victim to the streets?
-Rest in peace, young <phrase type="profanity">nigga</phrase>, there's a heaven for a G
-Be a lie If I told you that I never thought of death
-My <phrase type="profanity">niggas</phrase>, we the last ones left, but life goes on
-How many brothers fell victim to the streets?
-Rest in peace, young <phrase type="profanity">nigga</phrase>, there's a heaven for a G
-Be a lie If I told you that I never thought of death
-My <phrase type="profanity">niggas</phrase>, we the last ones left, but life goes on</chorus>
+    <lyrics>
+        <chorus>
+            <line>How many brothers fell victim to the streets?</line>
+            <line>Rest in peace, young <phrase type="profanity">nigga</phrase>, there's a heaven for
+                a G</line>
+            <line>Be a lie If I told you that I never thought of death</line>
+            <line>My <phrase type="profanity">niggas</phrase>, we the last ones left, but life goes
+                on</line>
+            <line>How many brothers fell victim to the streets?</line>
+            <line>Rest in peace, young <phrase type="profanity">nigga</phrase>, there's a heaven for
+                a G</line>
+            <line>Be a lie If I told you that I never thought of death</line>
+            <line>My <phrase type="profanity">niggas</phrase>, we the last ones left, but life goes
+                on</line>
+        </chorus>
 
-<verse>As I bail through the empty halls, breath stinkin' in my jaws
-Ring, ring, ring — quiet, y'all, incomin' call
-Plus this my homie from high school, he gettin' by
-It's time to bury another brother, nobody cry
-Life as a baller: alcohol and booty calls
-We used to do 'em as adolescents, do you recall?
-Raised as G's, loc'ed out, and blazed the weed
-Get on the roof, let's get smoked out, and blaze with me
-Two in the morning and we still high, <phrase type="profanity">assed</phrase> out
-Screamin', "Thug 'til I die!" before I passed out
-But now that you're gone, I'm in the zone
-Thinkin' I don't wanna die all alone, but now you gone
-And all I got left are stinkin' memories
-I love them <phrase type="profanity">niggas</phrase> to death, I'm drinkin' Hennessy
-While tryin' to make it last
-I drank a fifth for that ass when you passed, 'cause life goes on</verse>
+        <verse>
+            <line>As I bail through the empty halls, breath stinkin' in my jaws</line>
+            <line>Ring, ring, ring — quiet, y'all, incomin' call</line>
+            <line>Plus this my homie from high school, he gettin' by</line>
+            <line>It's time to bury another brother, nobody cry</line>
+            <line>Life as a baller: alcohol and booty calls</line>
+            <line>We used to do 'em as adolescents, do you recall?</line>
+            <line>Raised as G's, loc'ed out, and blazed the weed</line>
+            <line>Get on the roof, let's get smoked out, and blaze with me</line>
+            <line>Two in the morning and we still high, <phrase type="profanity">assed</phrase>
+                out</line>
+            <line>Screamin', "Thug 'til I die!" before I passed out</line>
+            <line>But now that you're gone, I'm in the zone</line>
+            <line>Thinkin' I don't wanna die all alone, but now you gone</line>
+            <line>And all I got left are stinkin' memories</line>
+            <line>I love them <phrase type="profanity">niggas</phrase> to death, I'm drinkin'
+                Hennessy</line>
+            <line>While tryin' to make it last</line>
+            <line>I drank a fifth for that ass when you passed, 'cause life goes on</line>
+        </verse>
 
-<chorus>How many brothers fell victim to the streets?
-Rest in peace, young <phrase type="profanity">nigga</phrase>, there's a heaven for a G
-Be a lie If I told you that I never thought of death
-My <phrase type="profanity">niggas</phrase>, we the last ones left, but life goes on
-How many brothers fell victim to the streets?
-Rest in peace, young <phrase type="profanity">nigga</phrase>, there's a heaven for a G
-Be a lie If I told you that I never thought of death
-My <phrase type="profanity">niggas</phrase>, we the last ones left, but life goes on</chorus>
+        <chorus>
+            <line>How many brothers fell victim to the streets?</line>
+            <line>Rest in peace, young <phrase type="profanity">nigga</phrase>, there's a heaven for
+                a G</line>
+            <line>Be a lie If I told you that I never thought of death</line>
+            <line>My <phrase type="profanity">niggas</phrase>, we the last ones left, but life goes
+                on</line>
+            <line>How many brothers fell victim to the streets?</line>
+            <line>Rest in peace, young <phrase type="profanity">nigga</phrase>, there's a heaven for
+                a G</line>
+            <line>Be a lie If I told you that I never thought of death</line>
+            <line>My <phrase type="profanity">niggas</phrase>, we the last ones left, but life goes
+                on</line>
+        </chorus>
 
-<verse>Yeah <phrase type="profanity">nigga</phrase>, I got the word it's hell
-You blew trial and the judge gave you 25 with an L
-Time to prepare to do fed time, won't see parole
-Imagine life as a convict that's gettin' old
-Plus with the drama, we're lookin' out for your baby's mama
-Takin' risks, while keepin' cheap tricks from gettin' on her
-Life in the hood is all good for nobody
-Remember gamin' on dumb hotties at yo' party
-Me and you, no truer two, while schemin' on hits
-And gettin' <phrase type="dt">tricks</phrase> that maybe we can slide into
-But now you buried — rest, <phrase type="profanity">nigga</phrase>, 'cause I ain't worried
-Eyes blurry, sayin' goodbye at the cemetery
-Though memories fade
-I got your name tatted on my arm so we both ball 'til my dyin' days
-Before I say goodbye
-Kato and Mental, rest in peace! Thug 'til I die!</verse>
+        <verse>
+            <line>Yeah <phrase type="profanity">nigga</phrase>, I got the word it's hell</line>
+            <line>You blew trial and the judge gave you 25 with an L</line>
+            <line>Time to prepare to do fed time, won't see parole</line>
+            <line>Imagine life as a convict that's gettin' old</line>
+            <line>Plus with the drama, we're lookin' out for your baby's mama</line>
+            <line>Takin' risks, while keepin' cheap tricks from gettin' on her</line>
+            <line>Life in the hood is all good for nobody</line>
+            <line>Remember gamin' on dumb hotties at yo' party</line>
+            <line>Me and you, no truer two, while schemin' on hits</line>
+            <line>And gettin' <phrase type="dt">tricks</phrase> that maybe we can slide into</line>
+            <line>But now you buried — rest, <phrase type="profanity">nigga</phrase>, 'cause I ain't
+                worried</line>
+            <line>Eyes blurry, sayin' goodbye at the cemetery</line>
+            <line>Though memories fade</line>
+            <line>I got your name tatted on my arm so we both ball 'til my dyin' days</line>
+            <line>Before I say goodbye</line>
+            <line>Kato and Mental, rest in peace! Thug 'til I die!</line>
+        </verse>
 
-<chorus>How many brothers fell victim to the streets?
-Rest in peace, young <phrase type="profanity">nigga</phrase>, there's a heaven for a G
-Be a lie If I told you that I never thought of death
-My <phrase type="profanity">niggas</phrase>, we the last ones left, but life goes on
-How many brothers fell victim to the streets?
-Rest in peace, young <phrase type="profanity">nigga</phrase>, there's a heaven for a G
-Be a lie If I told you that I never thought of death
-My <phrase type="profanity">niggas</phrase>, we the last ones left, but life goes on</chorus>
+        <chorus>
+            <line>How many brothers fell victim to the streets?</line>
+            <line>Rest in peace, young <phrase type="profanity">nigga</phrase>, there's a heaven for
+                a G</line>
+            <line>Be a lie If I told you that I never thought of death</line>
+            <line>My <phrase type="profanity">niggas</phrase>, we the last ones left, but life goes
+                on</line>
+            <line>How many brothers fell victim to the streets?</line>
+            <line>Rest in peace, young <phrase type="profanity">nigga</phrase>, there's a heaven for
+                a G</line>
+            <line>Be a lie If I told you that I never thought of death</line>
+            <line>My <phrase type="profanity">niggas</phrase>, we the last ones left, but life goes
+                on</line>
+        </chorus>
 
-<verse>Bury me smilin' with G's in my pocket
-Have a party at my funeral, let every rapper rock it
-Let the <phrase type="dt">hoes</phrase> that I used to know
-From way befo' kiss me from my head to my toe
-Give me a paper and a pen, so I can write about my life of sin
-A couple bottles of gin, in case I don't get in
-Tell all my people I'm a Ridah
-Nobody cries when we die, we Outlawz, let me ride
-Until I get free
-I live my life in the fast lane, got police chasin' me
-To my <phrase type="profanity">niggas</phrase> from old blocks, from old crews
-<phrase type="profanity">Niggas</phrase> that guided me through back in the old school
-Pour out some liquor, have a toast for the homies
-See, we both gotta die, but you chose to go before me
-And brothers miss you while you gone
-You left your <phrase type="profanity">nigga</phrase> on his own; how long we mourn? Life goes on
-</verse>
-<outro>Life goes on, homie
-Gone on, 'cause they passed away
-<phrase type="profanity">Niggas</phrase> doin' life
-<phrase type="profanity">Niggas</phrase> doin' 50 and 60 years and <phrase type="profanity">shit</phrase>
-I feel you, <phrase type="profanity">nigga</phrase>! Trust me, I feel you
-You know what I mean?
-Last year we poured out liquor for ya
-This year, <phrase type="profanity">nigga</phrase>, life goes on
-We're gonna clock now
-Get money, evade <phrase type="profanity">bitches</phrase>, evade tricks
-Give playa haters plenty of space
-And basically just represent for you, baby
-Next time you see your <phrase type="profanity">niggas</phrase>, we gon' be on top, <phrase type="profanity">nigga</phrase>
-You gon' be like, "Goddamn, them <phrase type="profanity">niggas</phrase> came up!"
-That's right, baby, life goes on
-And we up out this <phrase type="profanity">bitch</phrase>
-Hey, Kato! Mental!
-Y'all <phrase type="profanity">niggas</phrase> make sure it's poppin'
-When we get up there, man, don't front
-Life goes on
-Hold me no more, hold me no more
-Yes it do, yes it do, yes it do</outro></lyrics>
+        <verse>
+            <line>Bury me smilin' with G's in my pocket</line>
+            <line>Have a party at my funeral, let every rapper rock it</line>
+            <line>Let the <phrase type="dt">hoes</phrase> that I used to know</line>
+            <line>From way befo' kiss me from my head to my toe</line>
+            <line>Give me a paper and a pen, so I can write about my life of sin</line>
+            <line>A couple bottles of gin, in case I don't get in</line>
+            <line>Tell all my people I'm a Ridah</line>
+            <line>Nobody cries when we die, we Outlawz, let me ride</line>
+            <line>Until I get free</line>
+            <line>I live my life in the fast lane, got police chasin' me</line>
+            <line>To my <phrase type="profanity">niggas</phrase> from old blocks, from old
+                crews</line>
+            <line><phrase type="profanity">Niggas</phrase> that guided me through back in the old
+                school</line>
+            <line>Pour out some liquor, have a toast for the homies</line>
+            <line>See, we both gotta die, but you chose to go before me</line>
+            <line>And brothers miss you while you gone</line>
+            <line>You left your <phrase type="profanity">nigga</phrase> on his own; how long we
+                mourn? Life goes on</line>
+        </verse>
+
+        <outro>
+            <line>Life goes on, homie</line>
+            <line>Gone on, 'cause they passed away</line>
+            <line><phrase type="profanity">Niggas</phrase> doin' life</line>
+            <line><phrase type="profanity">Niggas</phrase> doin' 50 and 60 years and <phrase
+                    type="profanity">shit</phrase></line>
+            <line>I feel you, <phrase type="profanity">nigga</phrase>! Trust me, I feel you</line>
+            <line>You know what I mean?</line>
+            <line>Last year we poured out liquor for ya</line>
+            <line>This year, <phrase type="profanity">nigga</phrase>, life goes on</line>
+            <line>We're gonna clock now</line>
+            <line>Get money, evade <phrase type="profanity">bitches</phrase>, evade tricks</line>
+            <line>Give playa haters plenty of space</line>
+            <line>And basically just represent for you, baby</line>
+            <line>Next time you see your <phrase type="profanity">niggas</phrase>, we gon' be on
+                top, <phrase type="profanity">nigga</phrase></line>
+            <line>You gon' be like, "Goddamn, them <phrase type="profanity">niggas</phrase> came
+                up!"</line>
+            <line>That's right, baby, life goes on</line>
+            <line>And we up out this <phrase type="profanity">bitch</phrase></line>
+            <line>Hey, Kato! Mental!</line>
+            <line>Y'all <phrase type="profanity">niggas</phrase> make sure it's poppin'</line>
+            <line>When we get up there, man, don't front</line>
+            <line>Life goes on</line>
+            <line>Hold me no more, hold me no more</line>
+            <line>Yes it do, yes it do, yes it do</line>
+        </outro>
+    </lyrics>
 </song>

@@ -1,98 +1,143 @@
-<song><head><songTitle><line>Still Don't Give a Fuck</line></songTitle>
-<artist><line>Eminem</line></artist>
-<producer><line>Eminem and Bass Brothers</line></producer>
-<album><line>The Slim Shady LP</line></album>
-<certification><line>Diamond</line></certification></head>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>Still Don't Give a Fuck</songTitle>
+        <artist>Eminem</artist>
+        <producer>Eminem and Bass Brothers</producer>
+        <album>The Slim Shady LP</album>
+        <certification>Diamond</certification>
+    </head>
 
-<intro><line>A lot of people ask me, am I <phrase type="emotion">afraid</phrase> of death?</line>
-<line><phrase type="profanity">Hell</phrase> yeah, I'm <phrase type="emotion">afraid</phrase> of death</line>
-<line>I don't want to die yet</line>
-<line>A lot of people think that I worship the devil</line>
-<line>That I do all types of retarded <phrase type="profanity">shit</phrase></line>
-<line>Look, I can't change the way I think</line>
-<line>And I can't change the way I am</line>
-<line>But if I offended you, good!</line>
-<line>‘Cause I still don't give a <phrase type="profanity">fuck</phrase></line></intro>
+    <lyrics>
+        <intro>
+            <line>A lot of people ask me, am I <phrase type="emotion">afraid</phrase> of
+                death?</line>
+            <line><phrase type="profanity">Hell</phrase> yeah, I'm <phrase type="emotion"
+                    >afraid</phrase> of death</line>
+            <line>I don't want to die yet</line>
+            <line>A lot of people think that I worship the devil</line>
+            <line>That I do all types of retarded <phrase type="profanity">shit</phrase></line>
+            <line>Look, I can't change the way I think</line>
+            <line>And I can't change the way I am</line>
+            <line>But if I offended you, good!</line>
+            <line>‘Cause I still don't give a <phrase type="profanity">fuck</phrase></line>
+        </intro>
 
-<verse><line>I'm zonin' off of one joint, stoppin' a limo</line>
-<line>Hopped in the window, shoppin' a demo at gunpoint</line>
-<line>A lyricist without a clue, what year is this?</line>
-<line><phrase type="profanity">Fuck</phrase> a needle, here's a sword, body pierce with this!</line>
-<line>Livin' amok, never givin' a <phrase type="profanity">fuck</phrase></line>
-<line>Give me the keys, I'm drunk, and I've never driven a truck</line>
-<line>But I smoke dope in a cab</line>
-<line>I'll stab you with the sharpest knife I can grab</line>
-<line>Come back the next week and re-open your scab</line>
-<line>A killer instinct runs in the blood</line>
-<line>Emptyin' full clips and buryin' guns in the mud</line>
-<line>I've calmed down now, I was heavy once into drugs</line>
-<line>I could walk around straight for two months with a buzz</line>
-<line>My brain's gone, my soul's worn, and my spirit is torn</line>
-<line>The rest of my body's still bein' operated on</line>
-<line>I'm ducked the <phrase type="profanity">fuck</phrase> down while I'm writin' this rhyme</line>
-<line>‘Cause I'm probably gonna get struck with lightnin' this time</line></verse>
+        <verse>
+            <line>I'm zonin' off of one joint, stoppin' a limo</line>
+            <line>Hopped in the window, shoppin' a demo at gunpoint</line>
+            <line>A lyricist without a clue, what year is this?</line>
+            <line><phrase type="profanity">Fuck</phrase> a needle, here's a sword, body pierce with
+                this!</line>
+            <line>Livin' amok, never givin' a <phrase type="profanity">fuck</phrase></line>
+            <line>Give me the keys, I'm drunk, and I've never driven a truck</line>
+            <line>But I smoke dope in a cab</line>
+            <line>I'll stab you with the sharpest knife I can grab</line>
+            <line>Come back the next week and re-open your scab</line>
+            <line>A killer instinct runs in the blood</line>
+            <line>Emptyin' full clips and buryin' guns in the mud</line>
+            <line>I've calmed down now, I was heavy once into drugs</line>
+            <line>I could walk around straight for two months with a buzz</line>
+            <line>My brain's gone, my soul's worn, and my spirit is torn</line>
+            <line>The rest of my body's still bein' operated on</line>
+            <line>I'm ducked the <phrase type="profanity">fuck</phrase> down while I'm writin' this
+                rhyme</line>
+            <line>‘Cause I'm probably gonna get struck with lightnin' this time</line>
+        </verse>
 
-<line>[Hook]</line>
-<line>For all the weed that I've smoked – yo, this blunt's for you</line>
-<line>To all the people I've offended – yeah, <phrase type="profanity">fuck</phrase> you too!</line>
-<line>To all the friends I used to have – yo, I miss my past</line>
-<line>But the rest of you <phrase type="profanity">assholes</phrase> can kiss my <phrase type="profanity">ass</phrase></line>
-<line>For all the drugs that I've done – yo, I'm still gonna do</line>
-<line>To all the people I've offended – yeah, <phrase type="profanity">fuck</phrase> you too!</line>
-<line>For every time I reminisce – yo, I miss my past</line>
-<line>But I still don't give a <phrase type="profanity">fuck</phrase>, y'all can kiss my <phrase type="profanity">ass</phrase></line>
+        <chorus>
+            <line>For all the weed that I've smoked – yo, this blunt's for you</line>
+            <line>To all the people I've offended – yeah, <phrase type="profanity">fuck</phrase> you
+                too!</line>
+            <line>To all the friends I used to have – yo, I miss my past</line>
+            <line>But the rest of you <phrase type="profanity">assholes</phrase> can kiss my <phrase
+                    type="profanity">ass</phrase></line>
+            <line>For all the drugs that I've done – yo, I'm still gonna do</line>
+            <line>To all the people I've offended – yeah, <phrase type="profanity">fuck</phrase> you
+                too!</line>
+            <line>For every time I reminisce – yo, I miss my past</line>
+            <line>But I still don't give a <phrase type="profani
+            ty">fuck</phrase>,
+                y'all can kiss my <phrase type="profanity">ass</phrase></line>
+        </chorus>
 
-<verse><line>I walked into a gunfight with a knife to kill you</line>
-<line>And cut you so fast, when your blood spilled it was still blue</line>
-<line>I'll hang you till you dangle and chain you with both ankles</line>
-<line>And pull you apart from both angles</line>
-<line>I wanna crush your skull 'til your brains leaks out of your veins and bust open like broken water mains</line>
-<line>So tell Saddam not to bother with makin' another bomb</line>
-<line>‘Cause I'm crushin' the whole world in my palm</line>
-<line>Got your girl on my arm, and I'm armed with a firearm</line>
-<line>So big my entire arm is a giant firebomb</line>
-<line>Buy your mom a shirt with a Slim Shady iron-on</line>
-<line>And the pants to match ("Here, Momma, try 'em on!")</line>
-<line>I get imaginative with a mouth full of adjectives</line>
-<line>A brain full of adverbs, and a box full of laxatives</line>
-<line>(<phrase type="profanity">Shittin'</phrase> on rappers) Causing hospital accidents</line>
-<line>God, help me, before I commit some irresponsible acts again</line></verse>
+        <verse>
+            <line>I walked into a gunfight with a knife to kill you</line>
+            <line>And cut you so fast, when your blood spilled it was still blue</line>
+            <line>I'll hang you till you dangle and chain you with both ankles</line>
+            <line>And pull you apart from both angles</line>
+            <line>I wanna crush your skull 'til your brains leaks out of your veins and bust open
+                like broken water mains</line>
+            <line>So tell Saddam not to bother with makin' another bomb</line>
+            <line>‘Cause I'm crushin' the whole world in my palm</line>
+            <line>Got your girl on my arm, and I'm armed with a firearm</line>
+            <line>So big my entire arm is a giant firebomb</line>
+            <line>Buy your mom a shirt with a Slim Shady iron-on</line>
+            <line>And the pants to match ("Here, Momma, try 'em on!")</line>
+            <line>I get imaginative with a mouth full of adjectives</line>
+            <line>A brain full of adverbs, and a box full of laxatives</line>
+            <line>(<phrase type="profanity">Shittin'</phrase> on rappers) Causing hospital
+                accidents</line>
+            <line>God, help me, before I commit some irresponsible acts again</line>
+        </verse>
 
-<line>[Hook]</line>
-<line>For all the weed that I've smoked – yo, this blunt's for you</line>
-<line>To all the people I've offended – yeah, <phrase type="profanity">fuck</phrase> you too!</line>
-<line>To all the friends I used to have – yo, I miss my past</line>
-<line>But the rest of you <phrase type="profanity">assholes</phrase> can kiss my <phrase type="profanity">ass</phrase></line>
-<line>For all the drugs that I've done – yo, I'm still gonna do</line>
-<line>To all the people I've offended – yeah, <phrase type="profanity">fuck</phrase> you too!</line>
-<line>For every time I reminisce – yo, I miss my past</line>
-<line>But I still don't give a <phrase type="profanity">fuck</phrase>, y'all can kiss my <phrase type="profanity">ass</phrase></line>
+        <chorus>
+            <line>For all the weed that I've smoked – yo, this blunt's for you</line>
+            <line>To all the people I've offended – yeah, <phrase type="profanity">fuck</phrase> you
+                too!</line>
+            <line>To all the friends I used to have – yo, I miss my past</line>
+            <line>But the rest of you <phrase type="profanity">assholes</phrase> can kiss my <phrase
+                    type="profanity">ass</phrase></line>
+            <line>For all the drugs that I've done – yo, I'm still gonna do</line>
+            <line>To all the people I've offended – yeah, <phrase type="profanity">fuck</phrase> you
+                too!</line>
+            <line>For every time I reminisce – yo, I miss my past</line>
+            <line>But I still don't give a <phrase type="profani
+                ty">fuck</phrase>,
+                y'all can kiss my <phrase type="profanity">ass</phrase></line>
+        </chorus>
 
-<verse><line>I wanted an album so rugged nobody could touch it</line>
-<lifeEvent><line>Spent a million a track and went over my budget</line></lifeEvent>
-<line>Now how in the <phrase type="profanity">fuck</phrase> am I supposed to get out of debt?</line>
-<line>I can't rap anymore, I just murdered the alphabet</line>
-<line>Drug sickness got me doin' some bugged twitches</line>
-<line>I'm withdrawin' from crack so bad my blood itches</line>
-<line>I don't rap to get the women—<phrase type="profanity">fuck</phrase> <phrase type="dt">bitches</phrase>!</line>
-<line>Give me a fat <phrase type="dt">slut</phrase> that cooks and does dishes</line>
-<line>Never ran with a clique, I'm a posse</line>
-<line>Kamikaze, strappin' a <phrase type="profanity">motherfuckin'</phrase> bomb across me</line>
-<line>From the second I was born my momma lost me</line>
-<line>I'm a cross between Manson, Esham and Ozzy</line>
-<line>I don't know why the <phrase type="profanity">fuck</phrase> I'm here in the first place</line>
-<line>My worst day on this earth was my first birthday</line>
-<line>Retarded? What did that nurse say?</line>
-<line>Brain damage? <phrase type="profanity">Fuck</phrase>! I was born during an earthquake</line></verse>
+        <verse>
+            <line>I wanted an album so rugged nobody could touch it</line>
+            <line><phrase type="lifeEvent">Spent a million a track and went over my
+                budget</phrase></line>
+            <line>Now how in the <phrase type="profanity">fuck</phrase> am I supposed to get out of
+                debt?</line>
+            <line>I can't rap anymore, I just murdered the alphabet</line>
+            <line>Drug sickness got me doin' some bugged twitches</line>
+            <line>I'm withdrawin' from crack so bad my blood itches</line>
+            <line>I don't rap to get the women—<phrase type="profanity">fuck</phrase>
+                <phrase type="dt">bitches</phrase>!</line>
+            <line>Give me a fat <phrase type="dt">slut</phrase> that cooks and does dishes</line>
+            <line>Never ran with a clique, I'm a posse</line>
+            <line>Kamikaze, strappin' a <phrase type="profanity">motherfuckin'</phrase> bomb across
+                me</line>
+            <line>From the second I was born my momma lost me</line>
+            <line>I'm a cross between Manson, Esham and Ozzy</line>
+            <line>I don't know why the <phrase type="profanity">fuck</phrase> I'm here in the first
+                place</line>
+            <line>My worst day on this earth was my first birthday</line>
+            <line>Retarded? What did that nurse say?</line>
+            <line>Brain damage? <phrase type="profanity">Fuck</phrase>! I was born during an
+                earthquake</line>
+        </verse>
 
-<line>[Hook]</line>
-<line>For all the weed that I've smoked – yo, this blunt's for you</line>
-<line>To all the people I've offended – yeah, <phrase type="profanity">fuck</phrase> you too!</line>
-<line>To all the friends I used to have – yo, I miss my past</line>
-<line>But the rest of you <phrase type="profanity">assholes</phrase> can kiss my <phrase type="profanity">ass</phrase></line>
-<line>For all the drugs that I've done – yo, I'm still gonna do</line>
-<line>To all the people I've offended – yeah, <phrase type="profanity">fuck</phrase> you too!</line>
-<line>For every time I reminisce – yo, I miss my past</line>
-<line>But I still don't give a <phrase type="profanity">fuck</phrase>, y'all can kiss my <phrase type="profanity">ass</phrase></line>
+        <chorus>
+            <line>For all the weed that I've smoked – yo, this blunt's for you</line>
+            <line>To all the people I've offended – yeah, <phrase type="profanity">fuck</phrase> you
+                too!</line>
+            <line>To all the friends I used to have – yo, I miss my past</line>
+            <line>But the rest of you <phrase type="profanity">assholes</phrase> can kiss my <phrase
+                    type="profanity">ass</phrase></line>
+            <line>For all the drugs that I've done – yo, I'm still gonna do</line>
+            <line>To all the people I've offended – yeah, <phrase type="profanity">fuck</phrase> you
+                too!</line>
+            <line>For every time I reminisce – yo, I miss my past</line>
+            <line>But I still don't give a <phrase type="profani
+                    ty"
+                    >fuck</phrase>, y'all can kiss my <phrase type="profanity">ass</phrase></line>
+        </chorus>
+    </lyrics>
 
 </song>

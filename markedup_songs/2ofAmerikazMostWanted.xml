@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <song>
     <head>
         <songTitle>2 Of Amerikaz Most Wanted</songTitle>
@@ -91,57 +92,108 @@
         <verse>
             <singer>2Pac:</singer>
             <line>Now follow as we ride</line>
-            <line><profanity>Motherfuck</profanity> the rest, two of the best from the West
-                side</line>
+            <line><phrase type="profanity">Motherfuck</phrase> the rest, two of the best from the
+                West side</line>
             <line>And I can make you famous</line>
-            <line><profanity>Niggas</profanity> been dyin' for years, so how could they blame
-                us?</line>
-            <line>I live in <emotion>fear</emotion> of a felony</line>
-            <line>I never stop bailin' these <profanity>motherfuckin'</profanity> G's</line>
+            <line><phrase type="profanity">Niggas</phrase> been dyin' for years, so how could they
+                blame us?</line>
+            <line>I live in <phrase type="emotion">fear</phrase> of a felony</line>
+            <line>I never stop bailin' these <phrase type="profanity">motherfuckin'</phrase>
+                G's</line>
             <line>If you got it, better flaunt it</line>
             <line>Another warrant for two of America's most wanted</line>
         </verse>
 
-        <chorus>[Daz Dillinger (2Pac):] Ain't nothin' but a gangsta party Ain't nothin' but a
-            gangsta party (Nothin' but a gangsta party) Ain't nothin' but a gangsta party (Nothin'
-            but a gangsta party Ain't nothin' but a <profanity>motherfuckin'</profanity> gangsta
-            party) Ain't nothin' but a gangsta party (Nothin' but a gangsta party Ain't nothin' but
-            a <profanity>motherfuckin'</profanity> gangsta party) Ain't nothin' but a gangsta
-            party</chorus>
+        <chorus>
+            <featuredSinger>Daz Dillinger</featuredSinger>
+            <singer>2Pac:</singer>
+            <line>Ain't nothin' but a gangsta party</line>
+            <line>Ain't nothin' but a gangsta party</line>
+            <line>(Nothin' but a gangsta party)</line>
+            <line>Ain't nothin' but a gangsta party</line>
+            <line>(Nothin' but a gangsta party</line>
+            <line>Ain't nothin' but a <phrase type="profanity">motherfuckin'</phrase> gangsta
+                party)</line>
+            <line>Ain't nothin' but a gangsta party</line>
+            <line>(Nothin' but a gangsta party</line>
+            <line>Ain't nothin' but a <phrase type="profanity">motherfuckin'</phrase> gangsta
+                party)</line>
+            <line>Ain't nothin' but a gangsta party</line>
+        </chorus>
 
-        <verse><singer>[2Pac:]</singer> Now give me fifty feet Defeat is not my destiny, release me
-            to the streets And keep whatever's left of me <emotion>Jealousy</emotion> is misery,
-            sufferin' is <emotion>grief</emotion> Better be prepared when you cowards
-                <profanity>fuck</profanity> with me I bust and flee, these
-                <profanity>niggas</profanity> must be crazy, what? There ain't no mercy,
-                <profanity>motherfuckers</profanity> who can't fade the thugs You thought it was,
-            but it wasn't, now disappear Bow down in the presence of a boss player</verse>
+        <verse>
+            <singer>2Pac:</singer>
+            <line>Now give me fifty feet</line>
+            <line>Defeat is not my destiny, release me to the streets</line>
+            <line>And keep whatever's left of me</line>
+            <line><phrase type="emotion">Jealousy</phrase> is misery, sufferin' is <phrase
+                    type="emotion">grief</phrase></line>
+            <line>Better be prepared when you cowards <phrase type="profanity">fuck</phrase> with
+                me</line>
+            <line>I bust and flee, these <phrase type="profanity">niggas</phrase> must be crazy,
+                what?</line>
+            <line>There ain't no mercy, <phrase type="profanity">motherfuckers</phrase> who can't
+                fade the thugs</line>
+            <line>You thought it was, but it wasn't, now disappear</line>
+            <line>Bow down in the presence of a boss player</line>
+        </verse>
 
-        <verse><featuredSinger>[Snoop Dogg:]</featuredSinger> It's like Cuz/Blood gang-bangin'
-            Everybody in the party doin' dope-slangin' You gotta have papers in this world You might
-            get your first snatch before your eyes swirl You doin' your job every day And then you
-            work so hard 'til your hair turns gray Let me tell you about life and about the way it
-            is You see, we live by the gun, so we die by the guns, kids</verse>
+        <verse>
+            <featuredSinger>Snoop Dogg:</featuredSinger>
+            <line>It's like Cuz/Blood gang-bangin'</line>
+            <line>Everybody in the party doin' dope-slangin'</line>
+            <line>You gotta have papers in this world</line>
+            <line>You might get your first snatch before your eyes swirl</line>
+            <line>You doin' your job every day</line>
+            <line>And then you work so hard 'til your hair turns gray</line>
+            <line>Let me tell you about life and about the way it is</line>
+            <line>You see, we live by the gun, so we die by the guns, kids</line>
+        </verse>
 
-        <verse><singer>[2Pac:]</singer> They tell me not to roll with my glock So now I got a
-            throw-away Floatin' in the black Benz, tryin' to do a show a day They wonder how I live
-            with five shots <profanity>Niggas</profanity> is hard to kill on my block Schemes for
-            currency and dough-related Affiliated with the hustlers, so we made it No answers to
-            questions, I'm tryin' to get up on it My <profanity>nigga</profanity> Dogg with me,
-            eternally the most wanted</verse>
+        <verse>
+            <singer>2Pac:</singer>
+            <line>They tell me not to roll with my glock</line>
+            <line>So now I got a throw-away</line>
+            <line>Floatin' in the black Benz, tryin' to do a show a day</line>
+            <line>They wonder how I live with five shots</line>
+            <line><phrase type="profanity">Niggas</phrase> is hard to kill on my block</line>
+            <line>Schemes for currency and dough-related</line>
+            <line>Affiliated with the hustlers, so we made it</line>
+            <line>No answers to questions, I'm tryin' to get up on it</line>
+            <line>My <phrase type="profanity">nigga</phrase> Dogg with me, eternally the most
+                wanted</line>
+        </verse>
 
-        <chorus>[Daz Dillinger (2Pac):] Ain't nothin' but a gangsta party Ain't nothin' but a
-            gangsta party Ain't nothin' but a gangsta party Ain't nothin' but a gangsta party
-            (Nothin' but a gangsta party It ain't nothin' but a <profanity>motherfuckin'</profanity>
-            gangsta party) Ain't nothin' but a gangsta party (Nothin' but a gangsta party It ain't
-            nothin' but a <profanity>motherfuckin'</profanity> gangsta party) Ain't nothin' but a
-            gangsta party (Nothin' but a gangsta party It ain't nothin' but a
-                <profanity>motherfuckin'</profanity> gangsta party) Ain't nothin' but a gangsta
-            party (Nothin' but a gangsta party It ain't nothin' but a<profanity>
-                motherfuckin'</profanity> gangsta party) Ain't nothin' but a gangsta party</chorus>
+        <chorus>
+            <featuredSinger>Daz Dillinger</featuredSinger>
+            <singer>2Pac:</singer>
+            <line>Ain't nothin' but a gangsta party</line>
+            <line>Ain't nothin' but a gangsta party</line>
+            <line>Ain't nothin' but a gangsta party</line>
+            <line>Ain't nothin' but a gangsta party</line>
+            <line>(Nothin' but a gangsta party</line>
+            <line>It ain't nothin' but a <phrase type="profanity">motherfuckin'</phrase> gangsta
+                party)</line>
+            <line>Ain't nothin' but a gangsta party</line>
+            <line>(Nothin' but a gangsta party</line>
+            <line>It ain't nothin' but a <phrase type="profanity">motherfuckin'</phrase> gangsta
+                party)</line>
+            <line>Ain't nothin' but a gangsta party</line>
+            <line>(Nothin' but a gangsta party</line>
+            <line>It ain't nothin' but a <phrase type="profanity">motherfuckin'</phrase> gangsta
+                party)</line>
+            <line>Ain't nothin' but a gangsta party</line>
+            <line>(Nothin' but a gangsta party</line>
+            <line>It ain't nothin' but a<phrase type="profanity"> motherfuckin'</phrase> gangsta
+                party)</line>
+            <line>Ain't nothin' but a gangsta party</line>
+        </chorus>
 
-        <outro><singer>[2Pac:]</singer>
-            <profanity>Biatch!</profanity> Where you at? Where you at? Ain't nothin' but a gangsta
-            party Yeah, Death Row</outro>
+        <outro>
+            <singer>2Pac:</singer>
+            <line><phrase type="profanity">Biatch!</phrase> Where you at? Where you at?</line>
+            <line>Ain't nothin' but a gangsta party</line>
+            <line>Yeah, Death Row</line>
+        </outro>
     </lyrics>
 </song>

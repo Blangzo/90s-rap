@@ -1,118 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song><title>"California Love"</title>
-(feat. Dr. Dre, Roger Troutman)
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>"California Love"</songTitle>
+        <artist>2Pac</artist>
+        <featuredArtist>Dr. Dre</featuredArtist>
+        <featuredArtist>Roger Troutman</featuredArtist>
+        <producer>Dr. Dre</producer>
+        <album>All Eyez on Me</album>
+        <certification>Platinum</certification>
+    </head>
 
-<featuredSinger p="Troutman">[Roger Troutman:]</featuredSinger>
-<chorus>California love
-California knows how to party
-California knows how to party
-In the city of L.A
-In the city of good ol' Watts
-In the city, the city of Compton
-We keep it rockin'</chorus>
+    <lyrics>
 
-<verse><featuredSinger p="Dre">[Dr. Dre:]</featuredSinger>
-Now let me welcome everybody to the wild, wild west
-A state that's untouchable like Eliot Ness
-The track hits your eardrum like a slug to your chest
-Pack a vest for your Jimmy in the city of sex
-We in that sunshine state with the <profanity>bomb-ass</profanity> hemp beat
-The state where you never find a dance floor empty
-And pimps be on a mission for them greens
-Lean mean money-making-machines serving fiends
-I been in the game for 10 years making rap tunes
-Ever since honeys was wearing Sassoon
-Now it's '95 and they clock me and watch me
-Diamonds shining, looking like I robbed Liberace
-It's all good, from Diego to the Bay
-Your city is the bomb if your city making pay
-Throw up a finger if you feel the same way
-Dre putting it down for Californ-i-a</verse>
+        <chorus>
+            <featuredSinger>Roger Troutman</featuredSinger>
+            <line>California love</line>
+            <line>California knows how to party</line>
+            <line>California knows how to party</line>
+            <line>In the city of L.A</line>
+            <line>In the city of good ol' Watts</line>
+            <line>In the city, the city of Compton</line>
+            <line>We keep it rockin'</line>
+        </chorus>
 
-<chorus><featuredSinger p="Troutman">[Roger Troutman:]</featuredSinger>
-California knows how to party
-California knows how to party (Yes, they do)
-In the city of L.A
-In the city of good ol' Watts
-In the city, the city of Compton
-We keep it rockin'</chorus>
+        <verse>
+            <featuredSinger>Dr. Dre</featuredSinger>
+            <line>Now let me welcome everybody to the wild, wild west</line>
+            <line>A state that's untouchable like Eliot Ness</line>
+            <line>The track hits your eardrum like a slug to your chest</line>
+            <line>Pack a vest for your Jimmy in the city of sex</line>
+            <line>We in that sunshine state with the <phrase type="profanity">bomb-ass</phrase> hemp
+                beat</line>
+            <line>The state where you never find a dance floor empty</line>
+            <line>And pimps be on a mission for them greens</line>
+            <line>Lean mean money-making-machines serving fiends</line>
+            <line>I been in the game for 10 years making rap tunes</line>
+            <line>Ever since honeys was wearing Sassoon</line>
+            <line>Now it's '95 and they clock me and watch me</line>
+            <line>Diamonds shining, looking like I robbed Liberace</line>
+            <line>It's all good, from Diego to the Bay</line>
+            <line>Your city is the bomb if your city making pay</line>
+            <line>Throw up a finger if you feel the same way</line>
+            <line>Dre putting it down for Californ-i-a</line>
+        </verse>
 
-<featuredSinger p="Troutman">[Roger Troutman:]</featuredSinger>
-Shake, shake it, baby
-Shake, shake it, mama
-Shake it Cali, shake it shake it baby
-Shake it, shake it, shake it, shake it
+        <chorus>
+            <featuredSinger>Roger Troutman</featuredSinger>
+            <line>California knows how to party</line>
+            <line>California knows how to party (Yes, they do)</line>
+            <line>In the city of L.A</line>
+            <line>In the city of good ol' Watts</line>
+            <line>In the city, the city of Compton</line>
+            <line>We keep it rockin'</line>
+        </chorus>
 
-<verse><singer>[2Pac:]</singer>
-Out on bail, fresh out of jail, California dreaming
-Soon as I step on the scene, I'm hearing hoochies screaming
-Fiending for money and alcohol
-The life of a Westside player where cowards die and the strong ball
-Only in Cali where we riot not rally to live and die
-In L.A. we wearing Chucks not Ballys (yeah, that's right)
-Dressed in Locs and Khaki suits, and ride is what we do
-Flossing, but have caution: we collide with other crews
-Famous because we program
-Worldwide, let them recognize from Long Beach to Rosecrans
-Bumping and grinding like a slow jam, it's Westside
-So you know the row won't bow down to no man
-Say what you say, but give me that bomb beat from Dre
-Let me serenade the streets of L.A
-From Oakland to Sac-town, the Bay Area and back down
-Cali is where they put their mack down
-Give me love!</verse>
+        <verse>
+            <singer>2Pac</singer>
+            <line>Out on bail, fresh out of jail, California dreaming</line>
+            <line>Soon as I step on the scene, I'm hearing hoochies screaming</line>
+            <line>Fiending for money and alcohol</line>
+            <line>The life of a Westside player where cowards die and the strong ball</line>
+            <line>Only in Cali where we riot not rally to live and die</line>
+            <line>In L.A. we wearing Chucks not Ballys (yeah, that's right)</line>
+            <line>Dressed in Locs and Khaki suits, and ride is what we do</line>
+            <line>Flossing, but have caution: we collide with other crews</line>
+            <line>Famous because we program</line>
+            <line>Worldwide, let them recognize from Long Beach to Rosecrans</line>
+            <line>Bumping and grinding like a slow jam, it's Westside</line>
+            <line>So you know the row won't bow down to no man</line>
+            <line>Say what you say, but give me that bomb beat from Dre</line>
+            <line>Let me serenade the streets of L.A</line>
+            <line>From Oakland to Sac-town, the Bay Area and back down</line>
+            <line>Cali is where they put their mack down</line>
+            <line>Give me love!</line>
+        </verse>
 
-<chorus><featuredSinger>[Roger Troutman:]</featuredSinger>
-California knows how to party
-California knows how to party (Yes, they do)
-In the city of L.A
-In the city of good ol' Watts
-In the city, the city of Compton
-We keep it rockin'
-</chorus>
-[Dr. Dre:] South Central
-[2Pac:] Uh, that's right
-[Dr. Dre:] Now make it shake
+        <chorus>
+            <featuredSinger>Roger Troutman</featuredSinger>
+            <line>California knows how to party</line>
+            <line>California knows how to party (Yes, they do)</line>
+            <line>In the city of L.A</line>
+            <line>In the city of good ol' Watts</line>
+            <line>In the city, the city of Compton</line>
+            <line>We keep it rockin'</line>
+        </chorus>
 
-<outro><featuredSinger p="Troutman">[Roger Troutman:]</featuredSinger>
-Shake, shake it, baby
-Shake, shake it, mama
-Shake it Cali, shake it shake it baby
-Shake it, shake it, shake it, shake it
+        <verse>
+            <featuredSinger>Dr. Dre</featuredSinger>
+            <line>South Central</line>
+        </verse>
 
-<featuredSinger p="Dre">[Dr. Dre:]</featuredSinger>
-Shake it Cali
-Uh, uh, West Coast
-Uh, yeah, uh, uh, Long Beach in the house
-Uh, yeah, Oaktown, Oakland definitely in the house
-Frisco, Frisco
+        <verse>
+            <singer>2Pac</singer>
+            <line>Uh, that's right</line>
+        </verse>
 
-<singer>[2Pac:]</singer>
-And you know L.A. up in here
+        <verse>
+            <featuredSinger>Dr. Dre</featuredSinger>
+            <line>Now make it shake</line>
+        </verse>
 
-<featuredSinger p="Dre">[Dr. Dre:]</featuredSinger>
-Pasadena where you at?
-Yeah, Inglewood
-Inglewood always up to no good
+        <chorus>
+            <featuredSinger>Roger Troutman</featuredSinger>
+            <line>Shake, shake it, baby</line>
+            <line>Shake, shake it, mama</line>
+            <line>Shake it Cali, shake it shake it baby</line>
+            <line>Shake it, shake it, shake it, shake it</line>
+        </chorus>
 
-<singer>[2Pac:]</singer>
-Even Hollywood trying to get a piece, baby
+        <verse>
+            <featuredSinger>Dr. Dre</featuredSinger>
+            <line>Shake it Cali</line>
+            <line>Uh, uh, West Coast</line>
+            <line>Uh, yeah, uh, uh, Long Beach in the house</line>
+            <line>Uh, yeah, Oaktown, Oakland definitely in the house</line>
+            <line>Frisco, Frisco</line>
+        </verse>
 
-<featuredSinger p="Dre">[Dr. Dre:]</featuredSinger>
-Sacramento, Sacramento where you at?
+        <verse>
+            <singer>2Pac</singer>
+            <line>And you know L.A. up in here</line>
+        </verse>
 
-<singer>[2Pac:]</singer>
-Throw it up ya'll, throw it up, throw it up!
-I can't see ya
-Let's show these fools how we do it over on this West Side
-Cause you and I know it's the best side
-Yeah, that's right
-West coast, west coast</outro></song>
+        <verse>
+            <featuredSinger>Dr. Dre</featuredSinger>
+            <line>Pasadena where you at?</line>
+            <line>Yeah, Inglewood</line>
+            <line>Inglewood always up to no good</line>
+        </verse>
 
+        <verse>
+            <singer>2Pac</singer>
+            <line>Even Hollywood trying to get a piece, baby</line>
+        </verse>
 
+        <verse>
+            <featuredSinger>Dr. Dre</featuredSinger>
+            <line>Sacramento, Sacramento where you at?</line>
+        </verse>
 
-
-
-
-
-
+        <verse>
+            <singer>2Pac</singer>
+            <line>Throw it up ya'll, throw it up, throw it up!</line>
+            <line>I can't see ya</line>
+            <line>Let's show these fools how we do it over on this West Side</line>
+            <line>Cause you and I know it's the best side</line>
+            <line>Yeah, that's right</line>
+            <line>West coast, west coast</line>
+        </verse>
+    </lyrics>
+</song>

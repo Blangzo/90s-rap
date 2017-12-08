@@ -1,113 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song><head><songTitle>Tha' Lunatic</songTitle>
-<singer>2Pac</singer>
-<featuredSinger>Featuring Stretch</featuredSinger>
-<producer>Produced by The Underground Railroad</producer>
-<album>2Pacalypse Now</album>
-<certification>Gold</certification></head>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>Tha' Lunatic</songTitle>
+        <artist>2Pac</artist>
+        <featuredArtist>Stretch</featuredArtist>
+        <producer>The Underground Railroad</producer>
+        <album>2Pacalypse Now</album>
+        <certification>Gold</certification>
+    </head>
 
-<lyrics><singer>[2Pac]</singer>
-Oh <phrase type="profanity">shit</phrase>, jumped on my man's dick
-Heard he had a twelve inch, now the <phrase type="profanity">bitch</phrase> is lovesick
-Who's to blame, the guy or the groupie
-Heard I was down with D.U., now she wants to do me
-Oooh-wee! This is the life
-New <phrase type="profanity">bitch</phrase> every night, never tripped off a wife
-It ain't right, but it's cool how they come quick
-Don't try to flip with the lip cause I run <phrase type="profanity">shit</phrase>
-Hip hip, hooray for the AK
-Spray when I lay competition, what a great day
-Make pay, next is the wet sex
-Hexed with the vex now they wreck with the complex
-I'm set, wonder what I tote, check
-Bloody as a Kotex, snappin' <phrase type="profanity">motherfuckers'</phrase> necks
-Revenge so sweet when it comes from
-<phrase type="profanity">Niggas</phrase> get done with the drum, watch my foes run
-<phrase type="profanity">Nigga</phrase> keeps comin when they can't slip
-Full of that <phrase type="profanity">shit</phrase>, another hit from tha' lunatic
+    <lyrics>
+        <verse>
+            <singer>[2Pac]</singer>
+            <line>Oh <phrase type="profanity">shit</phrase>, jumped on my man's dick</line>
+            <line>Heard he had a twelve inch, now the <phrase type="profanity">bitch</phrase> is
+                lovesick</line>
+            <line>Who's to blame, the guy or the groupie</line>
+            <line>Heard I was down with D.U., now she wants to do me</line>
+            <line>Oooh-wee! This is the life</line>
+            <line>New <phrase type="profanity">bitch</phrase> every night, never tripped off a
+                wife</line>
+            <line>It ain't right, but it's cool how they come quick</line>
+            <line>Don't try to flip with the lip cause I run <phrase type="profanity"
+                >shit</phrase></line>
+            <line>Hip hip, hooray for the AK</line>
+            <line>Spray when I lay competition, what a great day</line>
+            <line>Make pay, next is the wet sex</line>
+            <line>Hexed with the vex now they wreck with the complex</line>
+            <line>I'm set, wonder what I tote, check</line>
+            <line>Bloody as a Kotex, snappin' <phrase type="profanity">motherfuckers'</phrase>
+                necks</line>
+            <line>Revenge so sweet when it comes from</line>
+            <line><phrase type="profanity">Niggas</phrase> get done with the drum, watch my foes
+                run</line>
+            <line><phrase type="profanity">Nigga</phrase> keeps comin when they can't slip</line>
+            <line>Full of that <phrase type="profanity">shit</phrase>, another hit from tha'
+                lunatic</line>
+        </verse>
 
-<chorus><featuredSinger>[Stretch]</featuredSinger>
-Yeah, <phrase type="profanity">fuck</phrase> that God! Word up
-Blowin' <phrase type="profanity">niggas</phrase> out the <phrase type="profanity">motherfuckin'</phrase> frame, you know what I'm sayin'?
-Constantly, <phrase type="profanity">fuck</phrase> that trick, we ain't havin' it
-</chorus>
-<verse><featuredSinger>[2Pac]</featuredSinger>
-Leave me the <phrase type="profanity">fuck</phrase> alone, you get none of this
-It's suicidal, you lose your title like Doug-las
-Cause I'm nothin' nice and, I'm icin' like Tyson
-I'm grippin' the mic and my DJ is slicin'
-I'm tired of <phrase type="profanity">motherfuckers</phrase> steppin' to me with the same old
-Tryin' to do me like Nintendo
-How the <phrase type="profanity">fuck</phrase> you think I ever got this far?
-By bootin' <phrase type="profanity">motherfuckers</phrase> like a shootin' star
-Cause I'm out to show that I'm a dope MC
-Think crack had you fiendin', wait'll they get a load of me
-<phrase type="profanity">Bitches</phrase> on my dick like a <phrase type="profanity">motherfuckin'</phrase> condom
-<phrase type="profanity">Niggas</phrase> wanna flip, let 'em step, and I'll bomb 'em
-See somethin' you want, why don't you come and get it
-And then get waxed and taxed, like the government
-Then I leave you sittin' there, wonder where your money went
-While your <phrase type="profanity">bitch</phrase> is callin' me, tellin' me to come again
-<phrase type="profanity">Nigga</phrase> I'm loc'ed, when I smoke, from the indo
-But we can be friends though, after you get broke like a window
-That's what you provoked, and now you're smoked out
-Lookin' like a <phrase type="profanity">bitch</phrase>, cause your whole <phrase type="profanity">fuckin'</phrase> posse, broke out
-Punk <phrase type="profanity">motherfucker</phrase> couldn't roll on
-He couldn't hold on, game is too strong, <phrase type="profanity">nigga</phrase>
-Leave me the <phrase type="profanity">fuck</phrase> alone, you get none of this
-Feel the wrath, and revenge of tha' lunatic</verse>
+        <chorus>
+            <featuredSinger>Stretch</featuredSinger>
+            <line>Yeah, <phrase type="profanity">fuck</phrase> that God! Word up</line>
+            <line>Blowin' <phrase type="profanity">niggas</phrase> out the <phrase type="profanity"
+                    >motherfuckin'</phrase> frame, you know what I'm sayin'?</line>
+            <line>Constantly, <phrase type="profanity">fuck</phrase> that trick, we ain't havin'
+                it</line>
+        </chorus>
 
-<verse><featuredSinger>[Stretch]</featuredSinger>
-Yeah Tu', tell 'em <phrase type="profanity">motherfuckers</phrase>, word up
-We ain't havin' it, none of that <phrase type="profanity">shit</phrase>!
-<phrase type="profanity">Bitch ass niggas</phrase>, <phrase type="profanity">niggas</phrase> can't <phrase type="profanity">fuck</phrase> with us Tu', word up
-'91, we takin' this whole <phrase type="profanity">motherfucker</phrase> over
-<phrase type="profanity">Niggas</phrase> got problems in '91, '92, and '93
-And all that other <phrase type="profanity">shit</phrase>, word up</verse>
+        <verse>
+            <featuredSinger>2Pac</featuredSinger>
+            <line>Leave me the <phrase type="profanity">fuck</phrase> alone, you get none of
+                this</line>
+            <line>It's suicidal, you lose your title like Doug-las</line>
+            <line>Cause I'm nothin' nice and, I'm icin' like Tyson</line>
+            <line>I'm grippin' the mic and my DJ is slicin'</line>
+            <line>I'm tired of <phrase type="profanity">motherfuckers</phrase> steppin' to me with
+                the same old</line>
+            <line>Tryin' to do me like Nintendo</line>
+            <line>How the <phrase type="profanity">fuck</phrase> you think I ever got this
+                far?</line>
+            <line>By bootin' <phrase type="profanity">motherfuckers</phrase> like a shootin'
+                star</line>
+            <line>Cause I'm out to show that I'm a dope MC</line>
+            <line>Think crack had you fiendin', wait'll they get a load of me</line>
+            <line><phrase type="profanity">Bitches</phrase> on my dick like a <phrase
+                    type="profanity">motherfuckin'</phrase> condom</line>
+            <line><phrase type="profanity">Niggas</phrase> wanna flip, let 'em step, and I'll bomb
+                'em</line>
+            <line>See somethin' you want, why don't you come and get it</line>
+            <line>And then get waxed and taxed, like the government</line>
+            <line>Then I leave you sittin' there, wonder where your money went</line>
+            <line>While your <phrase type="profanity">bitch</phrase> is callin' me, tellin' me to
+                come again</line>
+            <line><phrase type="profanity">Nigga</phrase> I'm loc'ed, when I smoke, from the
+                indo</line>
+            <line>But we can be friends though, after you get broke like a window</line>
+            <line>That's what you provoked, and now you're smoked out</line>
+            <line>Lookin' like a <phrase type="profanity">bitch</phrase>, cause your whole <phrase
+                    type="profanity">fuckin'</phrase> posse, broke out</line>
+            <line>Punk <phrase type="profanity">motherfucker</phrase> couldn't roll on</line>
+            <line>He couldn't hold on, game is too strong, <phrase type="profanity"
+                >nigga</phrase></line>
+            <line>Leave me the <phrase type="profanity">fuck</phrase> alone, you get none of
+                this</line>
+            <line>Feel the wrath, and revenge of tha' lunatic</line>
+        </verse>
 
-<verse><singer>[2Pac]</singer>
-Recognize game when it smacks you, <phrase type="profanity">bitch</phrase> I'm back to rip
-Puttin' this on the map with this mackin' <phrase type="profanity">shit</phrase>
-Time will tell if it's made well
-Well I raise <phrase type="profanity">hell</phrase> and excel cause it pays well
-Jordan couldn't dunk it any harder, pump it any farther
-I'm funky, that's word to the father
-Act like you know 'fore I thump the bolo
-Thought you was a pimp, now you're simpin' for my solo
-Oh no, not another new jack, swearin' that he's ruthless
-Ducked and now he's <phrase type="profanity">fucked</phrase> and left toothless
-I can hear the <emotion>fear</emotion> in your flow, you ain't prepared
-You're scared and you're bound to go
-It's somethin', I guess I let the beat keep bumpin'
-Stop trippin' off these <phrase type="profanity">niggas</phrase> cause they ain't about nuttin'
-Or should I say naythin'
-Punk put my tape in, <phrase type="profanity">fuck</phrase> all the fake-in
-I'm sick of the <phrase type="profanity">bullshit</phrase>
-Come equipped and get ready to rip
-Or get the dick of tha' lunatic</verse>
+        <verse>
+            <featuredSinger>Stretch</featuredSinger>
+            <line>Yeah Tu', tell 'em <phrase type="profanity">motherfuckers</phrase>, word up</line>
+            <line>We ain't havin' it, none of that <phrase type="profanity">shit</phrase>!</line>
+            <line><phrase type="profanity">Bitch ass niggas</phrase>, <phrase type="profanity"
+                    >niggas</phrase> can't <phrase type="profanity">fuck</phrase> with us Tu', word
+                up</line>
+            <line>'91, we takin' this whole <phrase type="profanity">motherfucker</phrase>
+                over</line>
+            <line><phrase type="profanity">Niggas</phrase> got problems in '91, '92, and '93</line>
+            <line>And all that other <phrase type="profanity">shit</phrase>, word up</line>
+        </verse>
 
-<chorus><featuredSinger>[Stretch]</featuredSinger>
-Ah yeah, <phrase type="profanity">fuck</phrase> that, you know what I'm sayin'?
-(The <phrase type="profanity">motherfuckin'</phrase> lunatic)
-Yes Tu'!
-Tell them <phrase type="profanity">niggas</phrase> what time it is, 'kna'm sayin'?
-(Punk <phrase type="profanity">motherfuckers</phrase>, get the dick of the lunatic)
-<phrase type="profanity">Niggas</phrase> can't <phrase type="profanity">fuck</phrase> with us, word up
-<phrase type="profanity">Bitch ass niggas</phrase>, <phrase type="profanity">fuck</phrase> 'em</chorus>
+        <verse>
+            <singer>2Pac</singer>
+            <line>Recognize game when it smacks you, <phrase type="profanity">bitch</phrase> I'm
+                back to rip</line>
+            <line>Puttin' this on the map with this mackin' <phrase type="profanity"
+                >shit</phrase></line>
+            <line>Time will tell if it's made well</line>
+            <line>Well I raise <phrase type="profanity">hell</phrase> and excel cause it pays
+                well</line>
+            <line>Jordan couldn't dunk it any harder, pump it any farther</line>
+            <line>I'm funky, that's word to the father</line>
+            <line>Act like you know 'fore I thump the bolo</line>
+            <line>Thought you was a pimp, now you're simpin' for my solo</line>
+            <line>Oh no, not another new jack, swearin' that he's ruthless</line>
+            <line>Ducked and now he's <phrase type="profanity">fucked</phrase> and left
+                toothless</line>
+            <line>I can hear the <phrase type="emotion">fear</phrase> in your flow, you ain't prepared</line>
+            <line>You're scared and you're bound to go</line>
+            <line>It's somethin', I guess I let the beat keep bumpin'</line>
+            <line>Stop trippin' off these <phrase type="profanity">niggas</phrase> cause they ain't
+                about nuttin'</line>
+            <line>Or should I say naythin'</line>
+            <line>Punk put my tape in, <phrase type="profanity">fuck</phrase> all the fake-in</line>
+            <line>I'm sick of the <phrase type="profanity">bullshit</phrase></line>
+            <line>Come equipped and get ready to rip</line>
+            <line>Or get the dick of tha' lunatic</line>
+        </verse>
 
-<verse><featuredSinger>[2Pac]</featuredSinger>
-<phrase type="profanity">Fuck</phrase> all them <phrase type="profanity">niggas</phrase>
-I'm tellin' these <phrase type="profanity">niggas</phrase> that they ain't got
-Naythin' on a <phrase type="profanity">nigga</phrase> like me
-We squashin' these punk <phrase type="profanity">motherfuckers</phrase> in '91
-'92, '93, and so on
-So let the beat float on
-While I spray these punk <phrase type="profanity">bitches</phrase>
-With these dope <phrase type="profanity">ass</phrase> lyrics
-Thanks to Poppa for supplyin' the dank
-Now it's money in the bank
-And all y'all <phrase type="profanity">niggas shit</phrase> stank
-Compared to this shit
-<phrase type="profanity">Fuck</phrase> y'all punk <phrase type="profanity">bitches</phrase>!
-Tha' Lunatic *echoes*</verse></lyrics>
+        <chorus>
+            <featuredSinger>Stretch</featuredSinger>
+            <line>Ah yeah, <phrase type="profanity">fuck</phrase> that, you know what I'm
+                sayin'?</line>
+            <line>(The <phrase type="profanity">motherfuckin'</phrase> lunatic)</line>
+            <line>Yes Tu'!</line>
+            <line>Tell them <phrase type="profanity">niggas</phrase> what time it is, 'kna'm
+                sayin'?</line>
+            <line>(Punk <phrase type="profanity">motherfuckers</phrase>, get the dick of the
+                lunatic)</line>
+            <line><phrase type="profanity">Niggas</phrase> can't <phrase type="profanity"
+                    >fuck</phrase> with us, word up</line>
+            <line><phrase type="profanity">Bitch ass niggas</phrase>, <phrase type="profanity"
+                    >fuck</phrase> 'em</line>
+        </chorus>
+
+        <verse>
+            <featuredSinger>2Pac</featuredSinger>
+            <line><phrase type="profanity">Fuck</phrase> all them <phrase type="profanity"
+                    >niggas</phrase></line>
+            <line>I'm tellin' these <phrase type="profanity">niggas</phrase> that they ain't
+                got</line>
+            <line>Naythin' on a <phrase type="profanity">nigga</phrase> like me</line>
+            <line>We squashin' these punk <phrase type="profanity">motherfuckers</phrase> in
+                '91</line>
+            <line>'92, '93, and so on</line>
+            <line>So let the beat float on</line>
+            <line>While I spray these punk <phrase type="profanity">bitches</phrase></line>
+            <line>With these dope <phrase type="profanity">ass</phrase> lyrics</line>
+            <line>Thanks to Poppa for supplyin' the dank</line>
+            <line>Now it's money in the bank</line>
+            <line>And all y'all <phrase type="profanity">niggas shit</phrase> stank</line>
+            <line>Compared to this shit</line>
+            <line><phrase type="profanity">Fuck</phrase> y'all punk <phrase type="profanity"
+                    >bitches</phrase>!</line>
+            <line>Tha' Lunatic *echoes*</line>
+        </verse>
+    </lyrics>
 </song>

@@ -11,11 +11,9 @@
 
     <xsl:template match="/">
         <html>
-            <link rel="stylesheet" type="text/css" href="Ho_11-3_XSLT7.css"/>
             <head>
                 <title>90s-Rap Project Song Lyrics</title>
-                <!-- only a few songs have perfect markup so I used those -->
-                <!-- this is just the song display. It can be linked to a toc, but Monica and I agreed she would do the toc for xslt7 and I would do the songs-->
+                <link rel="stylesheet" type="text/css" href="Ho_11-3_XSLT7.css"/>
             </head>
             <body>
                 <h1>90s-Rap Project Song Lyrics</h1>
@@ -23,19 +21,13 @@
                 <hr/>
                 <!-- body -->
                 <div id="main">
-                    <xsl:apply-templates select="$scoll//head"/>                   
+                    <xsl:apply-templates select="$scoll//head"/>
                 </div>
             </body>
         </html>
     </xsl:template>
     
-    <!-- here, I chose to break things up just to simplify things -->
-    <!--<xsl:template match="song">
-        <xsl:apply-templates/>
-        <xsl:apply-templates select="head"/>
-        <xsl:apply-templates select="lyrics"/>
-    </xsl:template>-->
-    
+    <!-- here, I chose to break things up just to simplify things -->    
     
     <xsl:template match="head">
         <h3><xsl:text>Song Title: </xsl:text><xsl:apply-templates select="//songTitle"/></h3>

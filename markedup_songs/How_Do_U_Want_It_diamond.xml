@@ -1,127 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song><head><songTitle>How Do U Want It</songTitle>
-<singer>2Pac</singer>
-<featuredSingers>K-Ci and JoJo</featuredSingers>
-<producers>Dalvin DeGrate, 2Pac and Johnny J</producers>
-<album>All Eyez on Me</album>
-<certification>Diamond</certification></head>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>How Do U Want It</songTitle>
+        <artist>2Pac</artist>
+        <featuredArtist>K-Ci</featuredArtist>
+        <featuredArtist>JoJo</featuredArtist>
+        <producer>Dalvin DeGrate</producer>
+        <producer>2Pac</producer>
+        <producer>Johnny J</producer>
+        <album>All Eyez on Me</album>
+        <certification>Diamond</certification>
+    </head>
 
-<lyrics><chorus><featuredSingers>[K-Ci and JoJo]</featuredSingers>
-How do you want it?
-How do you feel?
-Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game
-Livin' in the fast lane, I'm for real
-How do you want it yeah?
-How do you feel?
-Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game
-Livin' in the fast lane, I'm for real</chorus>
+    <lyrics>
+        <chorus>
+            <featuredSinger>K-Ci</featuredSinger>
+            <featuredSinger>JoJo</featuredSinger>
+            <line>How do you want it?</line>
+            <line>How do you feel?</line>
+            <line>Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game</line>
+            <line>Livin' in the fast lane, I'm for real</line>
+            <line>How do you want it yeah?</line>
+            <line>How do you feel?</line>
+            <line>Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game</line>
+            <line>Livin' in the fast lane, I'm for real</line>
+        </chorus>
 
-<verse><singer>[2Pac]</singer>
-I love the way you activate your hips and push your <phrase type="profanity">ass</phrase> out
-Got a <phrase type="profanity">nigga</phrase> wantin' it so bad, I'm about to pass out
-Wanna dig you, and I can't even lie about it
-Baby, just alleviate your clothes, time to fly up out it
-Catch you at a club, oh <phrase type="profanity">shit</phrase>, you got me fiendin'
-Body talkin' <phrase type="profanity">shit</phrase> to me, but I can't comprehend the meanin'
-Now, if you wanna roll with me, then here's your chance
-Doin' eighty on the freeway, police, catch me if you can
-Forgive me, I'm a rider, still I'm just a simple man
-All I want is money, <phrase type="profanity">fuck</phrase> the fame, I'm a simple man
-Mr. International, player with the passport
-Just like Aladdin, <phrase type="profanity">bitch</phrase>, get you anything you ask for
-It's either him or me; Champagne, Hennessy
-A favorite of my homies when we floss on our enemies
-Witness as we creep to a low speed, peep what a <phrase type="dt">hoe</phrase> need
-Puff some mo' weed, funk, ya don't need
-Approachin' hoochies with a passion, been a long day
-But I've been driven by attraction in a strong way
-Your body is bangin', baby, I love it when you flaunt it
-Time to give it to daddy, <phrase type="profanity">nigga</phrase>, now tell me how you want it</verse>
+        <verse>
+            <singer>2Pac</singer>
+            <line>I love the way you activate your hips and push your <phrase type="profanity">ass</phrase> out</line>
+            <line>Got a <phrase type="profanity">nigga</phrase> wantin' it so bad, I'm about to pass out</line>
+            <line>Wanna dig you, and I can't even lie about it</line>
+            <line>Baby, just alleviate your clothes, time to fly up out it</line>
+            <line>Catch you at a club, oh <phrase type="profanity">shit</phrase>, you got me fiendin'</line>
+            <line>Body talkin' <phrase type="profanity">shit</phrase> to me, but I can't comprehend the meanin'</line>
+            <line>Now, if you wanna roll with me, then here's your chance</line>
+            <line>Doin' eighty on the freeway, police, catch me if you can</line>
+            <line>Forgive me, I'm a rider, still I'm just a simple man</line>
+            <line>All I want is money, <phrase type="profanity">fuck</phrase> the fame, I'm a simple man</line>
+            <line>Mr. International, player with the passport</line>
+            <line>Just like Aladdin, <phrase type="profanity">bitch</phrase>, get you anything you ask for</line>
+            <line>It's either him or me; Champagne, Hennessy</line>
+            <line>A favorite of my homies when we floss on our enemies</line>
+            <line>Witness as we creep to a low speed, peep what a <phrase type="dt">ho</phrase> need</line>
+            <line>Puff some mo' weed, funk, ya don't need</line>
+            <line>Approachin' hoochies with a passion, been a long day</line>
+            <line>But I've been driven by attraction in a strong way</line>
+            <line>Your body is bangin', baby, I love it when you flaunt it</line>
+            <line>Time to give it to daddy, <phrase type="profanity">nigga</phrase>, now tell me how you want it</line>
+        </verse>
 
-<chorus><featuredSingers>[K-Ci and JoJo]</featuredSingers>
-How do you want it?
-How does it feel?
-Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game
-Livin' in the fast lane, I'm for real
-How do you want it?
-How do you feel?
-Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game
-Livin' in the fast lane, I'm for real</chorus>
+        <chorus>
+            <featuredSinger>K-Ci</featuredSinger>
+            <featuredSinger>JoJo</featuredSinger>
+            <line>How do you want it?</line>
+            <line>How do you feel?</line>
+            <line>Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game</line>
+            <line>Livin' in the fast lane, I'm for real</line>
+            <line>How do you want it yeah?</line>
+            <line>How do you feel?</line>
+            <line>Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game</line>
+            <line>Livin' in the fast lane, I'm for real</line>
+        </chorus>
 
-<singer>[2Pac]</singer>
-Tell me is it cool to <phrase type="profanity">fuck</phrase>?
-Did you think I come to talk? Am I a fool or what?
-Positions on the floor, it's like erotic
-Ironic, 'cause I'm somewhat psychotic
-I'm hittin' switches on <phrase type="profanity">bitches</phrase>
-Like I been fixed with hydraulics
-Up and down like a roller coaster
-I'm up inside ya, I ain't quittin' 'til the show is over
-'Cause I'm a rider, in and out just like a robbery
-I'll probably be a <phrase type="dt">freak</phrase> and let you get on top of me
-Get her rockin' these, nights full of Alize
-A livin' legend you ain't heard about
-These <phrase type="profanity">niggas</phrase> play these Cali days
-C. Delores Tucker, you's a <phrase type="profanity">motherfucker</phrase>
-Instead of tryin' to help a <phrase type="profanity">nigga</phrase>, you destroy a brother
-Worse than the others; Bill Clinton, Mister Bob Dole
-You're too old to understand the way the game's told
-You're lame so I gotta hit you with the hot facts
-Once I'm released, I'm makin' millions, <phrase type="profanity">nigga</phrase>, top that
-They wanna censor me; they'd rather see me in a cell
-Livin' in hell, only a few of us'll live to tell
-Now everybody talkin' about us, I could give a <phrase type="profanity">fuck</phrase>
-I'd be the first one to bomb and cuss
-<phrase type="profanity">Nigga</phrase>, tell me how you want it
+        <verse>
+            <singer>2Pac</singer>
+            <line>Tell me is it cool to <phrase type="profanity">fuck</phrase>?</line>
+            <line>Did you think I come to talk? Am I a fool or what?</line>
+            <line>Positions on the floor, it's like erotic</line>
+            <line>Ironic, 'cause I'm somewhat psychotic</line>
+            <line>I'm hittin' switches on <phrase type="profanity">bitches</phrase></line>
+            <line>Like I been fixed with hydraulics</line>
+            <line>Up and down like a roller coaster</line>
+            <line>I'm up inside ya, I ain't quittin' 'til the show is over</line>
+            <line>'Cause I'm a rider, in and out just like a robbery</line>
+            <line>I'll probably be a freak and let you get on top of me</line>
+            <line>Get her rockin' these, nights full of Alize</line>
+            <line>A livin' legend you ain't heard about</line>
+            <line>These <phrase type="profanity">niggas</phrase> play these Cali days</line>
+            <line>C. Delores Tucker, you's a <phrase type="profanity">motherfucker</phrase></line>
+            <line>Instead of tryin' to help a <phrase type="profanity">nigga</phrase>, you destroy a brother</line>
+            <line>Worse than the others; Bill Clinton, Mister Bob Dole</line>
+            <line>You're too old to understand the way the game's told</line>
+            <line>You're lame so I gotta hit you with the hot facts</line>
+            <line>Once I'm released, I'm makin' millions, <phrase type="profanity">nigga</phrase>, top that</line>
+            <line>They wanna censor me; they'd rather see me in a cell</line>
+            <line>Livin' in hell, only a few of us'll live to tell</line>
+            <line>Now everybody talkin' about us, I could give a <phrase type="profanity">fuck</phrase></line>
+            <line>I'd be the first one to bomb and cuss</line>
+            <line><phrase type="profanity">nigga</phrase>, tell me how you want it</line>
+        </verse>
 
-[Chorus: K-Ci and JoJo]
-How do you want it?
-How do you feel?
-Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game
-Livin' in the fast lane, I'm for real
-How do you want it?
-How do you feel?
-Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game
-Livin' in the fast lane, I'm for real
+        <chorus>
+            <featuredSinger>K-Ci</featuredSinger>
+            <featuredSinger>JoJo</featuredSinger>
+            <line>How do you want it?</line>
+            <line>How do you feel?</line>
+            <line>Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game</line>
+            <line>Livin' in the fast lane, I'm for real</line>
+            <line>How do you want it yeah?</line>
+            <line>How do you feel?</line>
+            <line>Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game</line>
+            <line>Livin' in the fast lane, I'm for real</line>
+        </chorus>
 
-<phrase type="profanity">[2Pac]</phrase>
-Raised as a youth, tell the truth
-I got the scoop on how to get a bulletproof
-Because I jumped from the roof before I was a teenager
-Mobile phone, Skypager, game rules, I'm livin' major
-My adversaries is lookin' worried
-They paranoid of gettin' buried
-One of us gon' see the cemetery
-My only hope to survive if I wish to stay alive
-Gettin' high, see the demons in my eyes, before I die
-I wanna live my life and ball, make a couple million
-And then I'm chillin', fade 'em all
-These taxes got me crossed up and people tryin' to sue me
-Media is in my business and they actin' like they know me
-But I'ma mash out and peel out
-I’m with a clique that’s quick to whip that <phrase type="profanity">fuckin'</phrase> steel out
-Yeah <phrase type="profanity">nigga</phrase>, it's some new <phrase type="profanity">shit</phrase> so better get up on it
-When you see me, tell a <phrase type="profanity">nigga</phrase> how you want it
-How do you want it?
+        <verse>
+            <singer>2Pac</singer>
+            <line>Raised as a youth, tell the truth</line>
+            <line>I got the scoop on how to get a bulletproof</line>
+            <line>Because I jumped from the roof before I was a teenager</line>
+            <line>Mobile phone, Skypager, game rules, I'm livin' major</line>
+            <line>My adversaries is lookin' worried</line>
+            <line>They paranoid of gettin' buried</line>
+            <line>One of us gon' see the cemetery</line>
+            <line>My only hope to survive if I wish to stay alive</line>
+            <line>Gettin' high, see the demons in my eyes, before I die</line>
+            <line>I wanna live my life and ball, make a couple million</line>
+            <line>And then I'm chillin', fade 'em all</line>
+            <line>These taxes got me crossed up and people tryin' to sue me</line>
+            <line>Media is in my business and they actin' like they know me</line>
+            <line>But I'ma mash out and peel out</line>
+            <line>I’m with a clique that’s quick to whip that <phrase type="profanity">fuckin'</phrase> steel out</line>
+            <line>Yeah <phrase type="profanity">nigga</phrase>, it's some new <phrase type="profanity">shit</phrase> so better get up on it</line>
+            <line>When you see me, tell a <phrase type="profanity">nigga</phrase> how you want it</line>
+            <line>How do you want it?</line>
+        </verse>
 
-<featuredSinger>[K-Ci and JoJo]</featuredSinger>
-How do you want it?
-How do you feel?
-Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game
-Livin' in the fast lane, I'm for real
-How do you want it?
-How do you feel?
-Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game
-Livin' in the fast lane, I'm for real
-How do you want it?
-How do you feel?
-Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game
-Livin' in the fast lane, I'm for real
-How do you want it?
-How do you feel?
-Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game
-Livin' in the fast lane, I'm for real
+        <chorus>
+            <featuredSinger>K-Ci</featuredSinger>
+            <featuredSinger>JoJo</featuredSinger>
+            <line>How do you want it?</line>
+            <line>How do you feel?</line>
+            <line>Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game</line>
+            <line>Livin' in the fast lane, I'm for real</line>
+            <line>How do you want it?</line>
+            <line>How do you feel?</line>
+            <line>Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game</line>
+            <line>Livin' in the fast lane, I'm for real</line>
+            <line>How do you want it?</line>
+            <line>How do you feel?</line>
+            <line>Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game</line>
+            <line>Livin' in the fast lane, I'm for real</line>
+            <line>How do you want it?</line>
+            <line>How do you feel?</line>
+            <line>Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game</line>
+            <line>Livin' in the fast lane, I'm for real</line>
+        </chorus>
 
-<outro><singer>[2Pac]</singer>
-Me and my <phrase type="profanity">Nigga</phrase> Johnny J...yeah we out</outro></lyrics></song>
+        <verse>
+            <singer>2Pac</singer>
+            <line>Me and my <phrase type="profanity">nigga</phrase> Johnny J...yeah we out</line>
+        </verse>
 
+        <chorus>
+            <featuredSinger>K-Ci</featuredSinger>
+            <featuredSinger>JoJo</featuredSinger>
+            <line>How do you want it?</line>
+            <line>How do you feel?</line>
+            <line>Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game</line>
+            <line>Livin' in the fast lane, I'm for real</line>
+            <line>How do you want it yeah?</line>
+            <line>How do you feel?</line>
+            <line>Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game</line>
+            <line>Livin' in the fast lane, I'm for real</line>
+        </chorus>
+
+        <outro>
+            <featuredSinger>K-Ci</featuredSinger>
+            <featuredSinger>JoJo</featuredSinger>
+            <line>How do you want it?</line>
+            <line>How do you feel?</line>
+            <line>Comin' up as a <phrase type="profanity">nigga</phrase> in the cash game</line>
+            <line>Livin' in the fast lane, I'm for real</line>
+        </outro>
+    </lyrics>
+</song>

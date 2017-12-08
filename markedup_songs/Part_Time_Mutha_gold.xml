@@ -1,89 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song><head><songTitle>Part Time Mutha</songTitle>
-<singer>2Pac</singer>
-<featuredSinger>Featuring Angelique</featuredSinger>
-<producer>The Underground Railroad</producer>
-<album>2Pacalypse Now</album>
-<certification>Gold</certification></head>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>Part Time Mutha</songTitle>
+        <artist>2Pac</artist>
+        <featuredArtist> Angelique</featuredArtist>
+        <producer>The Underground Railroad</producer>
+        <album>2Pacalypse Now</album>
+        <certification>Gold</certification>
+    </head>
 
 
 
-[2Pac and Poppi]
-<chorus>She's a part time mutha</chorus>
-<singer>
-[2Pac]</singer>
-<verse>Meet Cindi
-She's twenty-two, lives right on the dope track
-Used to be fat now weighs less than a Tic Tac
-Now what's that say about this big epidemic
-This hypocritical world and the people in it
-Now speakin' of, in it Cindi loved to get buckwild
-<phrase type="profanity">Fuck</phrase> with a smile single file she'll bust enough styles
-That would be cool, if she was your lover
-But <phrase type="profanity">fuck</phrase> that, Cindi was my dope fiend mother
-Welfare checks never stepped through the front door
-Cause moms would run to the dopeman once more
-All those days, had me fiendin' for a hot meal
-Now I'm a crook; got steel, I do not feel
-So don't even trip, when I flip with my thirty-eight
-Revenge is a <phrase type="profanity">bitch</phrase> and my hit shake the murder rate
-Word to the mother, I'm touched
-When moms come by, <phrase type="profanity">niggas</phrase> hush or get rushed
-Maybe one day she'll recover
-But what will it take, to shake, or break
-My part time mutha
-I gotta live with a part time</verse>
+    <lyrics>
+        <chorus>
+            <singer>2Pac</singer>
+            <featuredSinger>Poppi</featuredSinger>
+            <line>She's a part time mutha</line>
+        </chorus>
 
-<chorus>She's a part time mutha</chorus>
+        <verse>
+            <singer> [2Pac]</singer>
+            <line>Meet Cindi</line>
+            <line>She's twenty-two, lives right on the dope track</line>
+            <line>Used to be fat now weighs less than a Tic Tac</line>
+            <line>Now what's that say about this big epidemic</line>
+            <line>This hypocritical world and the people in it</line>
+            <line>Now speakin' of, in it Cindi loved to get buckwild</line>
+            <line><phrase type="profanity">Fuck</phrase> with a smile single file she'll bust enough
+                styles</line>
+            <line>That would be cool, if she was your lover</line>
+            <line>But <phrase type="profanity">fuck</phrase> that, Cindi was my dope fiend
+                mother</line>
+            <line>Welfare checks never stepped through the front door</line>
+            <line>Cause moms would run to the dopeman once more</line>
+            <line>All those days, had me fiendin' for a hot meal</line>
+            <line>Now I'm a crook; got steel, I do not feel</line>
+            <line>So don't even trip, when I flip with my thirty-eight</line>
+            <line>Revenge is a <phrase type="profanity">bitch</phrase> and my hit shake the murder
+                rate</line>
+            <line>Word to the mother, I'm touched</line>
+            <line>When moms come by, <phrase type="profanity">niggas</phrase> hush or get
+                rushed</line>
+            <line>Maybe one day she'll recover</line>
+            <line>But what will it take, to shake, or break</line>
+            <line>My part time mutha</line>
+            <line>I gotta live with a part time</line>
+        </verse>
 
-<verse><featuredSinger>[Angelique]</featuredSinger>
-I grew up in a home where no-one liked me
-<phrase type="lifeEvent">Moms would hit the pipe, every night, she would fight me</phrase>
-Poppa was a nasty old man, like the rest
-<phrase type="lifeEvent">He's feelin' on my chest, with his hand in my dress</phrase>
-Just another pest and yes I was nervous
-Was this a test? I just don't deserve this
-I wanna tell mom, but would she listen
-She's bound to be <phrase type="profanity">bitchin'</phrase> if she hasn't got a fix in, so
-Now I lay me down to sleep, Lord don't let him rape me
-If he does my soul to keep, don't let the devil take me
-Can't concentrate I contemplate in my classroom
-<phrase type="lifeEvent">Thinkin' how my step dad raped me in the bathroom</phrase>
-<phrase type="lifeEvent">Every day I make class and yet I'm missin' periods</phrase>
-The thought of pregnancy is in my head and now I'm <emotion>fearin'</emotion> it
-I gotta tell mom before she sees me
-<phrase type="lifeEvent">I told her how he treated me and she didn't believe me</phrase>
-Callin' me a slut cause my butt's kinda big so
-Still that ain't no way to be talkin' to your kids though
-I can't believe the way he caught her
-Got her believin' him and dissin' her own daughter
-Time for me to break and find another
-That's when I discovered
-The ways of the days of a part time mutha
-</verse>
-<singer>[2Pac]</singer>
-<verse>I gotta live with a part time</verse>
-<chorus>
-She's a part time mutha</chorus>
-<verse><singer>
-[Pac]</singer>
-I rush to tend her, talked as I touch her
-She blushed, the clothes came off and I bust her
-I'm up now, ready to get drunk on the block
-Here, take a cab, thanks a lot for the cock
-She's gone and I'm thinkin' that my game's so strong
-Pat myself on the back and move on
-Is this just how it is <phrase type="profanity">hell</phrase> no
-<phrase type="lifeEvent">Cause she came back with the kid and yo</phrase>
-I been payin' ever since
-The clothes the food the cars and, oh, the rent
-All of my time gets spent at the workplace
-No time to kiss her got me this in the first place
-So, I do the dishes and clean the floor
-When I sleep I can't dream no more
-Oh no, now I'm a part time mutha
-And I change the diapers and clean the <phrase type="profanity">shit</phrase>
-The tables are turned I can't take this
-Oh no, now I'm a part time mutha</verse>
+        <chorus>
+            <line>She's a part time mutha</line>
+        </chorus>
 
-<chorus>She's a part time mutha</chorus></song>
+        <verse>
+            <featuredSinger>Angelique</featuredSinger>
+            <line>I grew up in a home where no-one liked me</line>
+            <line><phrase type="lifeEvent">Moms would hit the pipe, every night, she would fight
+                    me</phrase></line>
+            <line>Poppa was a nasty old man, like the rest</line>
+            <line><phrase type="lifeEvent">He's feelin' on my chest, with his hand in my
+                    dress</phrase></line>
+            <line>Just another pest and yes I was nervous</line>
+            <line>Was this a test? I just don't deserve this</line>
+            <line>I wanna tell mom, but would she listen</line>
+            <line>She's bound to be <phrase type="profanity">bitchin'</phrase> if she hasn't got a
+                fix in, so</line>
+            <line>Now I lay me down to sleep, Lord don't let him rape me</line>
+            <line>If he does my soul to keep, don't let the devil take me</line>
+            <line>Can't concentrate I contemplate in my classroom</line>
+            <line><phrase type="lifeEvent">Thinkin' how my step dad raped me in the
+                    bathroom</phrase></line>
+            <line><phrase type="lifeEvent">Every day I make class and yet I'm missin'
+                    periods</phrase></line>
+            <line>The thought of pregnancy is in my head and now I'm <phrase type="emotion">fearin'</phrase>
+                it</line>
+            <line>I gotta tell mom before she sees me</line>
+            <line><phrase type="lifeEvent">I told her how he treated me and she didn't believe
+                    me</phrase></line>
+            <line>Callin' me a slut cause my butt's kinda big so</line>
+            <line>Still that ain't no way to be talkin' to your kids though</line>
+            <line>I can't believe the way he caught her</line>
+            <line>Got her believin' him and dissin' her own daughter</line>
+            <line>Time for me to break and find another</line>
+            <line>That's when I discovered</line>
+            <line>The ways of the days of a part time mutha</line>
+        </verse>
+
+        <verse>
+            <singer>[2Pac]</singer>
+            <line>I gotta live with a part time</line>
+        </verse>
+
+        <chorus>
+            <line>She's a part time mutha</line>
+        </chorus>
+
+        <verse>
+            <singer>2Pac</singer>
+            <line>I rush to tend her, talked as I touch her</line>
+            <line>She blushed, the clothes came off and I bust her</line>
+            <line>I'm up now, ready to get drunk on the block</line>
+            <line>Here, take a cab, thanks a lot for the cock</line>
+            <line>She's gone and I'm thinkin' that my game's so strong</line>
+            <line>Pat myself on the back and move on</line>
+            <line>Is this just how it is <phrase type="profanity">hell</phrase> no</line>
+            <line><phrase type="lifeEvent">Cause she came back with the kid and yo</phrase></line>
+            <line>I been payin' ever since</line>
+            <line>The clothes the food the cars and, oh, the rent</line>
+            <line>All of my time gets spent at the workplace</line>
+            <line>No time to kiss her got me this in the first place</line>
+            <line>So, I do the dishes and clean the floor</line>
+            <line>When I sleep I can't dream no more</line>
+            <line>Oh no, now I'm a part time mutha</line>
+            <line>And I change the diapers and clean the <phrase type="profanity"
+                >shit</phrase></line>
+            <line>The tables are turned I can't take this</line>
+            <line>Oh no, now I'm a part time mutha</line>
+        </verse>
+
+        <chorus>
+            <line>She's a part time mutha</line>
+        </chorus>
+    </lyrics>
+</song>

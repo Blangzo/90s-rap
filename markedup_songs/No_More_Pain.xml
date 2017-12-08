@@ -1,130 +1,196 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song><head><songTitle>No More Pain</songTitle>
-<singer>2Pac</singer>
-<producers>Timbaland and DeVante Swing</producers>
-<album>All Eyez on Me</album>
-<certification>Diamond</certification></head>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>No More Pain</songTitle>
+        <artist>2Pac</artist>
+        <producer>Timbaland</producer>
+        <producer>DeVante Swing</producer>
+        <album>All Eyez on Me</album>
+        <certification>Diamond</certification>
+    </head>
 
-<lyrics><intro>Hey DeVante
-<phrase type="profanity">Nigga</phrase>, don'tcha know we're gonna sow up every <phrase type="profanity">bitch</phrase> in the country
-Me and you, up in the same <phrase type="profanity">motherfuckin'</phrase> room
-On the same level
-This <phrase type="profanity">shit</phrase> here, hahahaha
-Please, no more pain
-That's right <phrase type="profanity">nigga</phrase>
-Hey drop that <phrase type="profanity">shit</phrase> boy</intro>
+    <lyrics>
+        <intro>
+            <line>Hey DeVante</line>
+            <line><phrase type="profanity">Nigga</phrase>, don'tcha know we're gonna sow up every
+                    <phrase type="profanity">bitch</phrase> in the country</line>
+            <line>Me and you, up in the same <phrase type="profanity">motherfuckin'</phrase>
+                room</line>
+            <line>On the same level</line>
+            <line>This <phrase type="profanity">shit</phrase> here, hahahaha</line>
+            <line>Please, no more pain</line>
+            <line>That's right <phrase type="profanity">nigga</phrase></line>
+            <line>Hey drop that <phrase type="profanity">shit</phrase> boy</line>
+        </intro>
 
-<verse>My adversaries cry like <phrase type="dt">hoes</phrase> fully eradicate my foes
-My lyrics explode on contact, gamin' you <phrase type="dt">hoes</phrase>
-Who else but Mama's only son, <phrase type="profanity">fuck</phrase> the phony <phrase type="profanity">niggas</phrase> I'm the one
-Say my name, watch <phrase type="profanity">bitches</phrase> come
-Now fire when ready, stay watchin' our figure
-Increase speed, make you <phrase type="profanity">motherfuckers</phrase> bleed from your mouth quicker
-Plus all these <phrase type="profanity">niggas</phrase> that you run with, be on some dumb <phrase type="profanity">shit</phrase>
-Trickin' on <phrase type="dt">hoes</phrase>, I ain't the one <phrase type="profanity">bitch</phrase>
-Holla my name and witness game official, it's so sick
-Have every single <phrase type="profanity">bitch</phrase> that came witchu, on my dick
-Plus this alcohol increases the chance to be deceased
-I'm movin' you stupid <phrase type="profanity">bitches</phrase>, vicious telekinesis
-Am I reachin' your brain? <phrase type="profanity">Nigga</phrase> how can I explain?
-How vicious this Thug <phrase type="profanity">motherfucker</phrase> came
-When I die, I want to be a living legend, say my name
-Affiliated with this <phrase type="profanity">motherfuckin'</phrase> game, with no more pain</verse>
+        <verse>
+            <line>My adversaries cry like <phrase type="dt">hoes</phrase> fully eradicate my
+                foes</line>
+            <line>My lyrics explode on contact, gamin' you <phrase type="dt">hoes</phrase></line>
+            <line>Who else but Mama's only son, <phrase type="profanity">fuck</phrase> the phony
+                    <phrase type="profanity">niggas</phrase> I'm the one</line>
+            <line>Say my name, watch <phrase type="profanity">bitches</phrase> come</line>
+            <line>Now fire when ready, stay watchin' our figure</line>
+            <line>Increase speed, make you <phrase type="profanity">motherfuckers</phrase> bleed
+                from your mouth quicker</line>
+            <line>Plus all these <phrase type="profanity">niggas</phrase> that you run with, be on
+                some dumb <phrase type="profanity">shit</phrase></line>
+            <line>Trickin' on <phrase type="dt">hoes</phrase>, I ain't the one <phrase
+                    type="profanity">bitch</phrase></line>
+            <line>Holla my name and witness game official, it's so sick</line>
+            <line>Have every single <phrase type="profanity">bitch</phrase> that came witchu, on my
+                dick</line>
+            <line>Plus this alcohol increases the chance to be deceased</line>
+            <line>I'm movin' you stupid <phrase type="profanity">bitches</phrase>, vicious
+                telekinesis</line>
+            <line>Am I reachin' your brain? <phrase type="profanity">Nigga</phrase> how can I
+                explain?</line>
+            <line>How vicious this Thug <phrase type="profanity">motherfucker</phrase> came</line>
+            <line>When I die, I want to be a living legend, say my name</line>
+            <line>Affiliated with this <phrase type="profanity">motherfuckin'</phrase> game, with no
+                more pain</line>
+        </verse>
 
-<chorus>I came to bring the pain, hardcore to the brain
-Let's go inside my astral plane (no more pain)
-I came to bring the pain, hardcore to the brain
-Let's go inside my astral plane (no more pain)
-I came to bring the pain, hardcore to the brain
-Let's go inside my astral plane (no more pain)
-I came to bring the pain, hardcore to the brain
-Let's go inside my astral plane (no more pain)</chorus>
+        <chorus>
+            <line>I came to bring the pain, hardcore to the brain</line>
+            <line>Let's go inside my astral plane (no more pain)</line>
+            <line>I came to bring the pain, hardcore to the brain</line>
+            <line>Let's go inside my astral plane (no more pain)</line>
+            <line>I came to bring the pain, hardcore to the brain</line>
+            <line>Let's go inside my astral plane (no more pain)</line>
+            <line>I came to bring the pain, hardcore to the brain</line>
+            <line>Let's go inside my astral plane (no more pain)</line>
+        </chorus>
 
-<verse>Line up my adversaries, blast on sight
-And <phrase type="profanity">fuck</phrase> your boyfriend <phrase type="profanity">bitch</phrase>, I want some <phrase type="profanity">ass</phrase> tonight You know my steelo, Alize and Cristal, weed
-Sure you heard of all the freaky <phrase type="profanity">shit</phrase> they say about me, huh
-Plus all you busters is <phrase type="emotion">jealous</phrase>, pull your gun out and blast
-I dare you <phrase type="profanity">niggas</phrase> to open fire, I'll murder that <phrase type="profanity">ass</phrase>
-And disappear before the, cops come runnin'
-My Glock's spittin' rounds, <phrase type="profanity">niggas</phrase> fallin' down clutchin' they stomach
-It's Westside, Death Row, Thug <phrase type="profanity">niggas</phrase> on the rise
-Busters shot me five times, real <phrase type="profanity">niggas</phrase> don't die
-Can ya hear me?, laced with this game, I know you fear me
-Spit the secret to war, so cowards fear me
-My only <phrase type="emotion">fear</phrase> of death is reincarnation
-Heart of a solider with a brain to teach your whole nation
-And feelin' no more pain</verse>
+        <verse>
+            <line>Line up my adversaries, blast on sight</line>
+            <line>And <phrase type="profanity">fuck</phrase> your boyfriend <phrase type="profanity"
+                    >bitch</phrase>, I want some <phrase type="profanity">ass</phrase> tonight You
+                know my steelo, Alize and Cristal, weed</line>
+            <line>Sure you heard of all the freaky <phrase type="profanity">shit</phrase> they say
+                about me, huh</line>
+            <line>Plus all you busters is <phrase type="emotion">jealous</phrase>, pull your gun out
+                and blast</line>
+            <line>I dare you <phrase type="profanity">niggas</phrase> to open fire, I'll murder that
+                    <phrase type="profanity">ass</phrase></line>
+            <line>And disappear before the, cops come runnin'</line>
+            <line>My Glock's spittin' rounds, <phrase type="profanity">niggas</phrase> fallin' down
+                clutchin' they stomach</line>
+            <line>It's Westside, Death Row, Thug <phrase type="profanity">niggas</phrase> on the
+                rise</line>
+            <line>Busters shot me five times, real <phrase type="profanity">niggas</phrase> don't
+                die</line>
+            <line>Can ya hear me?, laced with this game, I know you fear me</line>
+            <line>Spit the secret to war, so cowards fear me</line>
+            <line>My only <phrase type="emotion">fear</phrase> of death is reincarnation</line>
+            <line>Heart of a solider with a brain to teach your whole nation</line>
+            <line>And feelin' no more pain</line>
+        </verse>
 
-<chorus>I came to bring the pain, hardcore to the brain
-Let's go inside my astral plane (no more pain)
-I came to bring the pain, hardcore to the brain
-Let's go inside my astral plane (yeah <phrase type="profanity">nigga</phrase>, no more pain)
-I came to bring the pain, hardcore to the brain (what, what <phrase type="profanity">nigga</phrase>)
-Let's go inside my astral plane (no more pain)
-I came to bring the pain, hardcore to the brain
-Let's go inside my astral plane (no more pain)
-I came to bring the pain, hardcore to the brain (no pain <phrase type="profanity">nigga</phrase>)
-Let's go inside my astral plane (no pain)</chorus>
+        <chorus>
+            <line>I came to bring the pain, hardcore to the brain</line>
+            <line>Let's go inside my astral plane (no more pain)</line>
+            <line>I came to bring the pain, hardcore to the brain</line>
+            <line>Let's go inside my astral plane (yeah <phrase type="profanity">nigga</phrase>, no
+                more pain)</line>
+            <line>I came to bring the pain, hardcore to the brain (what, what <phrase
+                    type="profanity">nigga</phrase>)</line>
+            <line>Let's go inside my astral plane (no more pain)</line>
+            <line>I came to bring the pain, hardcore to the brain</line>
+            <line>Let's go inside my astral plane (no more pain)</line>
+            <line>I came to bring the pain, hardcore to the brain (no pain <phrase type="profanity"
+                    >nigga</phrase>)</line>
+            <line>Let's go inside my astral plane (no pain)</line>
+        </chorus>
 
-<verse>Bury me that's what they all say
-It's time to make a killin', sure to make a million with DeVante
-<phrase type="profanity">Bitch</phrase> I know you want me, what your mouth say?, now, watch your eyes
-You don't wanna get with me, that's a lie
-I got my hands on your hips, no time to <phrase type="profanity">bullshit</phrase>
-Freaky <phrase type="profanity">bitch</phrase>, come give me kiss
-Tell them <phrase type="profanity">niggas</phrase> from other areas, brothers from here
-So obsessed with this money makin' it ain't nothin' we <phrase type="emotion">fear</phrase>
-Now they label me a troublemaker, cause I'm a ridah
-Death to you playa haters, don't let me find ya
-Mama made me rugged, Baptize the public
-Now you all thugs, <phrase type="profanity">nigga</phrase> don't you love it
-It's similar to multiple gunshots, retaliation is a must
-Wasn't too sure what you facin' so watch the guns bust
-You <phrase type="profanity">niggas'll</phrase> bleed, <phrase type="profanity">fuckin'</phrase> with me you'll be deceased
-Never restin' in peace, <phrase type="profanity">nigga</phrase>
-With no more pain</verse>
+        <verse>
+            <line>Bury me that's what they all say</line>
+            <line>It's time to make a killin', sure to make a million with DeVante</line>
+            <line><phrase type="profanity">Bitch</phrase> I know you want me, what your mouth say?,
+                now, watch your eyes</line>
+            <line>You don't wanna get with me, that's a lie</line>
+            <line>I got my hands on your hips, no time to <phrase type="profanity"
+                >bullshit</phrase></line>
+            <line>Freaky <phrase type="profanity">bitch</phrase>, come give me kiss</line>
+            <line>Tell them <phrase type="profanity">niggas</phrase> from other areas, brothers from
+                here</line>
+            <line>So obsessed with this money makin' it ain't nothin' we <phrase type="emotion"
+                    >fear</phrase></line>
+            <line>Now they label me a troublemaker, cause I'm a ridah</line>
+            <line>Death to you playa haters, don't let me find ya</line>
+            <line>Mama made me rugged, Baptize the public</line>
+            <line>Now you all thugs, <phrase type="profanity">nigga</phrase> don't you love
+                it</line>
+            <line>It's similar to multiple gunshots, retaliation is a must</line>
+            <line>Wasn't too sure what you facin' so watch the guns bust</line>
+            <line>You <phrase type="profanity">niggas'll</phrase> bleed, <phrase type="profanity"
+                    >fuckin'</phrase> with me you'll be deceased</line>
+            <line>Never restin' in peace, <phrase type="profanity">nigga</phrase></line>
+            <line>With no more pain</line>
+        </verse>
 
-<chorus>I came to bring the pain, hardcore to the brain
-Let's go inside my astral plane
-I came to bring the pain, hardcore to the brain
-Let's go inside my astral plane</chorus>
+        <chorus>
+            <line>I came to bring the pain, hardcore to the brain</line>
+            <line>Let's go inside my astral plane</line>
+            <line>I came to bring the pain, hardcore to the brain</line>
+            <line>Let's go inside my astral plane</line>
+        </chorus>
 
-<verse>Hahahahaha, yeah <phrase type="profanity">nigga</phrase>, yeah! Hahahaha
-No more pain
-It's just like that <phrase type="profanity">nigga</phrase>, like that yeah
-No more pain
-<phrase type="profanity">Motherfuckers</phrase> can't handle that shit
-Much too much for these <phrase type="profanity">bitches</phrase>
-No more pain
-Feel me <phrase type="profanity">nigga</phrase>? Feel me?
-How you figure you can <phrase type="profanity">fuck</phrase> with me?
-Fully automatic type <phrase type="profanity">shit</phrase>
-No more pain
-Coward <phrase type="profanity">ass</phrase> <phrase type="profanity">niggas</phrase>, cowards
-Come put your mouth on this pistol <phrase type="profanity">nigga</phrase>
-Come put your mouth on the pistol, no more pain
-Close your eyes <phrase type="profanity">nigga</phrase>, do it
-Die in the dark, no more pain
-Death Row, so what you <phrase type="profanity">motherfuckers</phrase> do?
-Hey that's DeVante droppin' that beat like that BEYATCH
-In case you wonderin'
-And <phrase type="emotion">jealous</phrase> <phrase type="profanity">niggas</phrase>, hahaha, see y'all <phrase type="profanity">niggas</phrase>
-    <phrase type="profanity">Motherfuckin'</phrase> <phrase type="profanity">niggas</phrase> are <phrase type="profanity">shit</phrase>
-Hey
-Westsiiiiiide! Death to everybody that ain't down with me
-That's on, feel me? Hahaha
-Oh yeah, to the cowards, you know who you are, it's still Bad Boy Killa
-Just feel that, Thug Life, <phrase type="profanity">shit</phrase> don't stop
-Fat <phrase type="profanity">motherfuckers</phrase> got Downs Syndrome, <phrase type="profanity">motherfuckers</phrase>
-Weak <phrase type="profanity">ass</phrase> <phrase type="profanity">niggas</phrase>, dancers turned <phrase type="profanity">fuckin'</phrase> CEOs
-Put your mouth on this pistol <phrase type="profanity">nigga</phrase>
-Put your mouth on the pistol!
-Hahahaha, yeah <phrase type="profanity">nigga</phrase> no more pain
-Prison ain't changed me <phrase type="profanity">nigga</phrase>, it made me worse
-Feel me <phrase type="profanity">nigga</phrase>, haha
-No more pain
-Hey DeVante I'm givin' these <phrase type="profanity">motherfuckers</phrase> choices
-<phrase type="profanity">Niggas</phrase> can roll with us, or they can be rolled up under us
-That's on you <phrase type="profanity">nigga</phrase>, what you wanna do?
-Last year we was lettin' these <phrase type="profanity">niggas</phrase> kick up dust
-This year you <phrase type="profanity">motherfuckers</phrase> gonna be dust</verse></lyrics></song>
+        <verse>
+            <line>Hahahahaha, yeah <phrase type="profanity">nigga</phrase>, yeah! Hahahaha</line>
+            <line>No more pain</line>
+            <line>It's just like that <phrase type="profanity">nigga</phrase>, like that yeah</line>
+            <line>No more pain</line>
+            <line><phrase type="profanity">Motherfuckers</phrase> can't handle that shit</line>
+            <line>Much too much for these <phrase type="profanity">bitches</phrase></line>
+            <line>No more pain</line>
+            <line>Feel me <phrase type="profanity">nigga</phrase>? Feel me?</line>
+            <line>How you figure you can <phrase type="profanity">fuck</phrase> with me?</line>
+            <line>Fully automatic type <phrase type="profanity">shit</phrase></line>
+            <line>No more pain</line>
+            <line>Coward <phrase type="profanity">ass</phrase>
+                <phrase type="profanity">niggas</phrase>, cowards</line>
+            <line>Come put your mouth on this pistol <phrase type="profanity">nigga</phrase></line>
+            <line>Come put your mouth on the pistol, no more pain</line>
+            <line>Close your eyes <phrase type="profanity">nigga</phrase>, do it</line>
+            <line>Die in the dark, no more pain</line>
+            <line>Death Row, so what you <phrase type="profanity">motherfuckers</phrase> do?</line>
+            <line>Hey that's DeVante droppin' that beat like that BEYATCH</line>
+            <line>In case you wonderin'</line>
+            <line>And <phrase type="emotion">jealous</phrase>
+                <phrase type="profanity">niggas</phrase>, hahaha, see y'all <phrase type="profanity"
+                    >niggas</phrase></line>
+            <line>
+                <phrase type="profanity">Motherfuckin'</phrase>
+                <phrase type="profanity">niggas</phrase> are <phrase type="profanity"
+                >shit</phrase></line>
+            <line>Hey</line>
+            <line>Westsiiiiiide! Death to everybody that ain't down with me</line>
+            <line>That's on, feel me? Hahaha</line>
+            <line>Oh yeah, to the cowards, you know who you are, it's still Bad Boy Killa</line>
+            <line>Just feel that, Thug Life, <phrase type="profanity">shit</phrase> don't
+                stop</line>
+            <line>Fat <phrase type="profanity">motherfuckers</phrase> got Downs Syndrome, <phrase
+                    type="profanity">motherfuckers</phrase></line>
+            <line>Weak <phrase type="profanity">ass</phrase>
+                <phrase type="profanity">niggas</phrase>, dancers turned <phrase type="profanity"
+                    >fuckin'</phrase> CEOs</line>
+            <line>Put your mouth on this pistol <phrase type="profanity">nigga</phrase></line>
+            <line>Put your mouth on the pistol!</line>
+            <line>Hahahaha, yeah <phrase type="profanity">nigga</phrase> no more pain</line>
+            <line>Prison ain't changed me <phrase type="profanity">nigga</phrase>, it made me
+                worse</line>
+            <line>Feel me <phrase type="profanity">nigga</phrase>, haha</line>
+            <line>No more pain</line>
+            <line>Hey DeVante I'm givin' these <phrase type="profanity">motherfuckers</phrase>
+                choices</line>
+            <line><phrase type="profanity">Niggas</phrase> can roll with us, or they can be rolled
+                up under us</line>
+            <line>That's on you <phrase type="profanity">nigga</phrase>, what you wanna do?</line>
+            <line>Last year we was lettin' these <phrase type="profanity">niggas</phrase> kick up
+                dust</line>
+            <line>This year you <phrase type="profanity">motherfuckers</phrase> gonna be dust</line>
+        </verse>
+    </lyrics>
+</song>

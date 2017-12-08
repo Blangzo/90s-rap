@@ -1,122 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song><head><songTitle>Soulja's Story</songTitle>
-<singer>2Pac</singer>
-<producer>The Underground Railroad</producer>
-<album>2Pacalypse Now</album>
-<certification>Gold</certification></head>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>Young Black Male</songTitle>
+        <artist>2Pac</artist>
+        <producer>The Underground Railroad</producer>
+        <album>2Pacalypse Now</album>
+        <certification>Gold</certification>
+    </head>
 
-<lyrics><intro>
-<artist>2Pac and 2Pac as "Soulja"</artist>
-<line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</line>
-<line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</line>
-<line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</line>
-<line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</line>
-<line>They cuttin' off welfare...</line>
-<line>They think crime is rising now</line>
-<line>You got whites killing blacks</line>
-<line>Cops killing blacks, and blacks killing blacks</line>
-<line>Shit just gon' get worse</line>
-<line>They just gon' become souljas</line>
-<line>Straight souljas</line>
-</intro>
+    <lyrics>
+        <intro>
+            <singer>2Pac</singer>
+            <featuredSinger>Ice Cube</featuredSinger>
+            <line>Hard like an erection</line>
+            <line>Young black male</line>
+            <line>Hard like an erection</line>
+            <line>Ain't <phrase type="profanity">shit</phrase> to fool with</line>
+            <line>Hard like an erection</line>
+            <line>Young black male</line>
+            <line>Hard like an erection</line>
+            <line>Ain't <phrase type="profanity">shit</phrase> to fool with</line>
+            <line>Yes, <phrase type="profanity">niggas</phrase>! Yes, <phrase type="profanity">niggas</phrase>! Yes, <phrase type="profanity">niggas</phrase>!</line>
+            <line>Go, <phrase type="profanity">nigga</phrase>, go!</line>
+            <line>Hard like an erection</line>
+            <line>Young black male</line>
+            <line>Hard like an erection</line>
+            <line>Ain't <phrase type="profanity">shit</phrase> to fool with</line>
+            <line>Hard like an erection</line>
+            <line>Young black male</line>
+            <line>Hard like an erection</line>
+            <line>Ain't <phrase type="profanity">shit</phrase> to fool with</line>
+        </intro>
 
-<chorus>[Hook]
-<line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</line>
-<line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</line>
-<line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</line>
-<line>All you wanted to be, a soulja, a soulja</line>
-    <line>All you wanted to be, a soulja, like me</line></chorus>
+        <verse>
+            <singer>2Pac</singer>
+            <line>Young black male</line>
+            <line>I try to effect by kicking the facts</line>
+            <line>And stacking much mail</line>
+            <line>I'm packing a gat 'cause guys wanna jack</line>
+            <line>And <phrase type="profanity">fuck</phrase> going to jail</line>
+            <line>'Cause I ain't a crook, despite how I look</line>
+            <line>I don't sell yayo</line>
+            <line>They judging a brother like covers on books</line>
+            <line>Follow me into a flow</line>
+            <line>I'm sure you know, which way to go</line>
+            <line>I'm hitting 'em out of the doors</line>
+            <line>So slip on the slope, let's skip on the flow</line>
+            <line>I'm <phrase type="profanity">fucking</phrase> the <phrase type="dt">sluts</phrase> and <phrase type="dt">hoes</phrase></line>
+            <line>The bigger the butts the tighter the clothes</line>
+            <line>The gimminy jimminy grows</line>
+            <line>Then whaddaya know, it's off with some clothes</line>
+            <line>Rowd when the crowd says <phrase type="dt">ho</phrase></line>
+            <line>That let's me know, they know I can flow</line>
+            <line>Love when they come to my shows</line>
+            <line>I get up and go with skins before</line>
+            <line>When I'm collecting my dough</line>
+            <line>I never respect, the one that I back</line>
+            <line>The quicker the <phrase type="profanity">nigga</phrase> can rap</line>
+            <line>The bigger the check</line>
+            <line>Now watch how they sweat</line>
+            <line>What kind of style is that?</line>
+            <line>The style of a mack, and ready to jack</line>
+            <line>I rendered up piles of black</line>
+            <line>The wacker the pack, the fatter the smack</line>
+            <line>I hate it when real <phrase type="profanity">niggas</phrase> bust</line>
+            <line>They hate when I cuss, they threaten to bust</line>
+            <line>I had enough of the fuss</line>
+            <line>I bust what I bust and cuss when I must</line>
+            <line>They gave me a charge for sales</line>
+            <line>For selling the tales... of young black males</line>
+        </verse>
 
-<verse><singer>2Pac as "Soulja"</singer>
-<line>Crack done took a part of my family tree</line>
-<line><phrase type="lifeEvent">My momma's on the shit, my daddy split and moms is steady blaming me</phrase></line>
-<line>Is it my fault, just cause I'm a young black male?</line>
-<line>Cops sweat me as if my destiny is makin' crack sales</line>
-<line>Only fifteen and got problems</line>
-<line>Cops on my tail, so I bail 'til I dodge 'em</line>
-<line><phrase type="lifeEvent">They finally pull me over and I laugh</phrase></line>
-    <line><phrase type="history">Remember Rodney King?"</phrase> and I blast on his punk ass</line>
-<line>Now I got a murder case...</line>
-<line>You speak of heaven punk? I never heard of the place</line>
-<line>Wanted to come up fast, got a Uz' and a black mask</line>
-<line>Ducking <phrase type="profanity">fuckin'</phrase> Task, now who's the <phrase type="profanity">jackass</phrase>?</line>
-<line>Keep my <phrase type="profanity">shit</phrase> cocked, cause the cops got a Glock too</line>
-<line>What the <phrase type="profanity">fuck</phrase> would you do? Drop them or let 'em drop you?</line>
-<line>I chose droppin' the cop</line>
-<line>I got me a Glock, and a Glock for the <phrase type="profanity">niggas</phrase> on my block</line>
-<line><phrase type="lifeEvent">Momma tried to stab me, I moved out</phrase></line>
-<line><phrase type="lifeEvent">Sold a pound a weed, made G's, bought a new house</phrase></line>
-<line>I'm only seventeen, I'm the new king</line>
-<line>Got me a crew, bought 'em jewels, and a Uz'-thick</line>
-<line>But all good things don't last</line>
-<line>Task came fast, and busted my black <phrase type="profanity">ass</phrase></line>
-<line>Coolin' in the pen, where the good's kept</line>
-<line>Now my little brother wants to follow in my footsteps</line>
-<line>A soulja</line>
-</verse>
-
-    <chorus><line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</line>
-<line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</line>
-<line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</line>
-<line>All you wanted to be, a soulja, a soulja</line>
-        <line>All you wanted to be, a soulja, like me</line></chorus>
-
-<verse><artist>2Pac</artist> as the younger brother]
-<line>Buck, buck -<phrase type="profanity">niggas</phrase> get <phrase type="profanity">fucked</phrase>, don't step to this</line>
-<line>Quiet as kept I'm blessed on a quest with a death wish</line>
-<line>Tell 'em to come and test, and arrest, <phrase type="profanity">nigga</phrase> it's hectic</line>
-<line>Here's the anorexic, I'm makin' it to an exit</line>
-<line>Walking through the streets on the black tip</line>
-<line>Packed with several gats, cause I'm on some pay 'em back shit</line>
-<line><phrase type="profanity">Niggas</phrase> don't wanna try me, brother you'll get shot down</line>
-<line>Now I'm king of the block, since my bigger brother's locked down</line>
-<line>I'm hot now, so many punk police have got shot down</line>
-<line>Other coppers see me on the block, and they jock now</line>
-<line>That's what I call a kingpin</line>
-<line><phrase type="lifeEvent">Send my brother what he needs and some weed up to Sing-Sing</phrase></line>
-<line>Tellin' him just be ready set</line>
-<line>Pack ya <phrase type="profanity">shit</phrase> up quick; and when I hit, be prepared to jet</line>
-<line><phrase type="profanity">Niggas</phrase> from the block on the boat now</line>
-<line>Every single one got a gun, that'll smoke - pow!</line>
-<line>These punks about to get hit by the best</line>
-<line>I'm wearin' double vest... so aim at my <phrase type="profanity">fuckin'</phrase> chest</line>
-<line>I'll be makin' straight dome calls</line>
-<line>Touch the button on the wall, you'll be pickin' up your own balls</line>
-<line>I can still hear my mother shout</line>
-<line>"Hit the pen <phrase type="profanity">nigga</phrase> -- break your bigger brother out"</line>
-<line>I got a message for the warden</line>
-<line>I'm comin' for ya <phrase type="profanity">ass</phrase>, as fast as Flash Gordon</line>
-<line>We get surrounded in the mess hall, yes y'all</line>
-<line>A crazy <phrase type="profanity">motherfucker</phrase> making death calls</line>
-<line>Just bring me my brother and we leavin'</line>
-<line>For every minute you stall, one of y'all bleedin'</line>
-<line>They brought my brother in a jiffy</line>
-<line>I took a cop, just in case things got tricky</line>
-<line>And just as we was walkin' out (BANG!)</line>
-<line><phrase type="lifeEvent">I caught a bullet in the head, the screams never left my mouth</phrase></line>
-    <line><phrase type="lifeEvent">My brother caught a bullet too</phrase></line>
-<line>I think he gon' pull through, he deserve to</line>
-<line>The fast life ain't everything they told ya</line>
-    <line>Never get much older, following the tracks of a soulja</line></verse>
-
-<outro>[Outro]
-<line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</line>
-<line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</line>
-<line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</line>
-<line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</line>
-<line>Straight soulja, 1993, and forward</line>
-</outro></lyrics></song>
+        <outro>
+            <line>Yes, <phrase type="profanity">nigga</phrase>, <phrase type="profanity">N-I-G-G-A</phrase>, <phrase type="profanity">niggas</phrase></line>
+            <line>Ay, <phrase type="profanity">nigga</phrase>, you can't handle that <phrase type="profanity">shit</phrase>!</line>
+            <line>Pass that man!</line>
+            <line>Hit that <phrase type="profanity">shit</phrase>, that's the <phrase type="profanity">shit</phrase>!</line>
+            <line>It smells like skunk, skunk smells like that <phrase type="profanity">nigga</phrase>, momma</line>
+            <line>We ain't nuttin' but some low down dirty <phrase type="profanity">niggas</phrase></line>
+            <line>Keep it real, <phrase type="profanity">nigga</phrase>! Fuck you, <phrase type="profanity">nigga</phrase>!</line>
+            <line>You ain't giving me near a dime on this real <phrase type="profanity">motherfucker</phrase></line>
+            <line><phrase type="profanity">fuck</phrase> St. Ides, it's an Old E thing, baby</line>
+            <line>Strictly some of that Hennessy</line>
+            <line>Can I drink with you, fellas? Can I get it on it?</line>
+            <line><phrase type="profanity">fuck</phrase> you, capo. You ain't in, baby</line>
+            <line>I tell you what! You guys are not gonna be talking</line>
+            <line>All that <phrase type="profanity">shit</phrase>, when I come back, OK?</line>
+            <line>We gonna say who the big mouth, when I come back</line>
+            <line>Young black male!</line>
+        </outro>
+    </lyrics>
+</song>

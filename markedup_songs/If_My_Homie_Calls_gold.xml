@@ -1,81 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song><head><songTitle>If My Homie Calls</songTitle>
-<singer>2Pac</singer>
-<producer>Produced by Big D The Impossible</producer>
-<album>2Pacalypse Now</album>
-<certification>Gold</certification></head>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>If My Homie Calls</songTitle>
+        <artist>2Pac</artist>
+        <producer>Big D The Impossible</producer>
+        <album>2Pacalypse Now</album>
+        <certification>Gold</certification>
+    </head>
 
-<lyrics><verse>Ever since you was a pee-wee, down by my knee with a wee-wee
-We been coochie-coo all through school, you and me, G
-Back in the days we played practical jokes on
-Everybody smoked with they locs and they yokes on
-<phrase type="lifeEvent">All through high school, girls by the dozens
-Saying we cousins, knowing that we wasn't</phrase>
-But like the old saying goes
-Times goes on, and everybody grows
-Grew apart, had to part, went our own ways
-You chose the dope game, my microphone pays
-In many ways we were paid in the old days
-So far away from the crazies with AK's
-And though I been around clowning with the Underground
-I'm still down with my homies from the hometown
-And if you need, need anything at all
-I drop it all for y'all, if my homies call
-</verse>
+    <lyrics>
+        <verse>
+            <line>Ever since you was a pee-wee, down by my knee with a wee-wee</line>
+            <line>We been coochie-coo all through school, you and me, G</line>
+            <line>Back in the days we played practical jokes on</line>
+            <line>Everybody smoked with they locs and they yokes on</line>
+            <line><phrase type="lifeEvent">All through high school, girls by the
+                dozens</phrase></line>
+            <line><phrase type="lifeEvent">Saying we cousins, knowing that we wasn't</phrase></line>
+            <line>But like the old saying goes</line>
+            <line>Times goes on, and everybody grows</line>
+            <line>Grew apart, had to part, went our own ways</line>
+            <line>You chose the dope game, my microphone pays</line>
+            <line>In many ways we were paid in the old days</line>
+            <line>So far away from the crazies with AK's</line>
+            <line>And though I been around clowning with the Underground</line>
+            <line>I'm still down with my homies from the hometown</line>
+            <line>And if you need, need anything at all</line>
+            <line>I drop it all for y'all, if my homies call</line>
+        </verse>
 
-<chorus>"If you ever need a place to stay"
-“Well, alright, y'all”
-“Brothers and sisters”
-</chorus>
+        <chorus>
+            <line>"If you ever need a place to stay"</line>
+            <line>“Well, alright, y'all”</line>
+            <line>“Brothers and sisters”</line>
+        </chorus>
 
-<verse>It's a shame, you chose the dope game
-Now you slang 'caine on the streets with no name
-It was plain that your aim was mo' 'caine
-You got game now you run with no shame
-I chose rapping tracks to make stacks
-In fact I travel the map with raps that spray cats
-But now I don't wanna down my homie
-No matter how low you go, you're not lowly
-And I, hear that you made a few enemies
-But when you need a friend you can depend on me, call
-If you need my assistance, there'll be no resistance
-I'll be there in an instant
-Who am I to judge another brother, only on his cover
-I'd be no different than the other
-H-to-the-O-to-the-M-to-the-I-to-the-E
-I'm down to the E-N-D
-Cause it's a fall in no time at all
-I'm down for y'all, when my homies call
-Word, if my homies call</verse>
+        <verse>
+            <line>It's a shame, you chose the dope game</line>
+            <line>Now you slang 'caine on the streets with no name</line>
+            <line>It was plain that your aim was mo' 'caine</line>
+            <line>You got game now you run with no shame</line>
+            <line>I chose rapping tracks to make stacks</line>
+            <line>In fact I travel the map with raps that spray cats</line>
+            <line>But now I don't wanna down my homie</line>
+            <line>No matter how low you go, you're not lowly</line>
+            <line>And I, hear that you made a few enemies</line>
+            <line>But when you need a friend you can depend on me, call</line>
+            <line>If you need my assistance, there'll be no resistance</line>
+            <line>I'll be there in an instant</line>
+            <line>Who am I to judge another brother, only on his cover</line>
+            <line>I'd be no different than the other</line>
+            <line>H-to-the-O-to-the-M-to-the-I-to-the-E</line>
+            <line>I'm down to the E-N-D</line>
+            <line>Cause it's a fall in no time at all</line>
+            <line>I'm down for y'all, when my homies call</line>
+            <line>Word, if my homies call</line>
+        </verse>
 
-<verse>"If you ever need a place to stay"
-“Well, alright, y'all”
-“Brothers and sisters”</verse>
+        <chorus>
+            <line>"If you ever need a place to stay"</line>
+            <line>“Well, alright, y'all”</line>
+            <line>“Brothers and sisters”</line>
+        </chorus>
 
-<verse>Well, it's ninety-one and I'm living kinda swell now
-But I hear that you're going through some hell, pal
-But life making records ain't easy
-It ain't what I expected, it's hectic, it's sleazy
-But I guess that the streets is harder
-Trying to survive in the life of a young godfather
-My homies is making it elsewhere
-Striving, working nine to five with no health care
-We both had dreams of being great
-But his deferred and blurred and changed in shape
-It's fate, it wasn't my choice to make
-To be great, I'm giving it all it takes
-Trying to shake, the crates and fakes and snakes
-I gotta take my place or fall from grace
-The foolish way, the pace is quick and great
-Smiling face to hide the trace of hate
-But my homie would never do me wrong
-<phrase type="lifeEvent">That's why I wrote this song, if you ever need me, it's on</phrase>
-No matter who the foe they must fall
-Us against them all I'm down to brawl if my homies call</verse>
+        <verse>
+            <line>Well, it's ninety-one and I'm living kinda swell now</line>
+            <line>But I hear that you're going through some hell, pal</line>
+            <line>But life making records ain't easy</line>
+            <line>It ain't what I expected, it's hectic, it's sleazy</line>
+            <line>But I guess that the streets is harder</line>
+            <line>Trying to survive in the life of a young godfather</line>
+            <line>My homies is making it elsewhere</line>
+            <line>Striving, working nine to five with no health care</line>
+            <line>We both had dreams of being great</line>
+            <line>But his deferred and blurred and changed in shape</line>
+            <line>It's fate, it wasn't my choice to make</line>
+            <line>To be great, I'm giving it all it takes</line>
+            <line>Trying to shake, the crates and fakes and snakes</line>
+            <line>I gotta take my place or fall from grace</line>
+            <line>The foolish way, the pace is quick and great</line>
+            <line>Smiling face to hide the trace of hate</line>
+            <line>But my homie would never do me wrong</line>
+            <line><phrase type="lifeEvent">That's why I wrote this song, if you ever need me, it's
+                    on</phrase></line>
+            <line>No matter who the foe they must fall</line>
+            <line>Us against them all I'm down to brawl if my homies call</line>
+        </verse>
 
-<chorus>"If you ever need a place to stay"
-“Well, alright, y'all”
-“Brothers and sisters”</chorus>
-</lyrics>
-
+        <chorus>
+            <line>"If you ever need a place to stay"</line>
+            <line>“Well, alright, y'all”</line>
+            <line>“Brothers and sisters”</line>
+        </chorus>
+    </lyrics>
 </song>

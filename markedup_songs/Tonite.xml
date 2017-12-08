@@ -1,91 +1,111 @@
-<song><head><songTitle><line>Tonite</line></songTitle>
-<artist><line>Eminem</line></artist>
-<producer><line>Jeff Bass and Mr. Porter</line></producer>
-<album><line>Infinite</line></album>
-<certification><line>Gold</line></certification></head>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>Tonite</songTitle>
+        <artist>Eminem</artist>
+        <producer>Jeff Bass and Mr. Porter</producer>
+        <album>Infinite</album>
+        <certification>Gold</certification>
+    </head>
 
 
-<lyrics><verse><line>I'm gettin' mad love, I'm snugglin' hugs</line>
-<line>Strugglin' thugs, smugglin' drugs</line>
-<line>Jugglin' jobs, guzzlin' jugs</line>
-<line>So here's a toast to federal checks</line>
-<line>Hetero sex, unaffordable medical debts</line>
-<line>We travel in packs, unravelin' facts</line>
-<line>And gravel in cracks to find babblin' max, gafflin' tracks</line>
-<line>I grapple an axe for them bafflin' acts</line>
-<line>Of mysterious stab-in-the-backs who dabble in wax</line>
-<line>Stealin' my art when I sculpt it</line>
-<line>The culprit that stole <phrase type="profanity">shit'll</phrase> end up with his skull split</line>
-<line>Then I buried the hatchet, I carry the fat <phrase type="profanity">shit</phrase></line>
-<line>Butterfingers is here when it's necessary to scratch it</line>
-<line>Baby, all I wanna do is swallow one or two</line>
-<line>Smoke a little bit and follow one of you</line>
-<line>Back home when the party ends</line>
-<line>So tonight I'm droppin' naughty hints</line>
-<line>To the finest women in the audience</line></verse>
+    <lyrics>
+        <verse>
+            <line>I'm gettin' mad love, I'm snugglin' hugs</line>
+            <line>Strugglin' thugs, smugglin' drugs</line>
+            <line>Jugglin' jobs, guzzlin' jugs</line>
+            <line>So here's a toast to federal checks</line>
+            <line>Hetero sex, unaffordable medical debts</line>
+            <line>We travel in packs, unravelin' facts</line>
+            <line>And gravel in cracks to find babblin' max, gafflin' tracks</line>
+            <line>I grapple an axe for them bafflin' acts</line>
+            <line>Of mysterious stab-in-the-backs who dabble in wax</line>
+            <line>Stealin' my art when I sculpt it</line>
+            <line>The culprit that stole <phrase type="profanity">shit'll</phrase> end up with his
+                skull split</line>
+            <line>Then I buried the hatchet, I carry the fat <phrase type="profanity"
+                >shit</phrase></line>
+            <line>Butterfingers is here when it's necessary to scratch it</line>
+            <line>Baby, all I wanna do is swallow one or two</line>
+            <line>Smoke a little bit and follow one of you</line>
+            <line>Back home when the party ends</line>
+            <line>So tonight I'm droppin' naughty hints</line>
+            <line>To the finest women in the audience</line>
+        </verse>
 
-<chorus><line>’Cause we came here to do this tonight</line>
-<line>We don't wanna fight</line>
-<line>We don't want no one feelin' uptight</line>
-<line>’Cause we came here to do this tonight</line>
-<line>’Til the morning light</line>
-<line>Hope that everyone's feelin' alright</line></chorus>
+        <chorus>
+            <line>’Cause we came here to do this tonight</line>
+            <line>We don't wanna fight</line>
+            <line>We don't want no one feelin' uptight</line>
+            <line>’Cause we came here to do this tonight</line>
+            <line>’Til the morning light</line>
+            <line>Hope that everyone's feelin' alright</line>
+        </chorus>
 
-<verse><line>Ayo, biters are like tarantulas, vandalous</line>
-<line>Livin' as scandalous as a television evangelist</line>
-<line>But I can handle this; I'm the rhyme biter, crime fighter</line>
-<line>Caped crusader, takin' care of undeservin' lime lighters</line>
-<line>I think we live in era meant for me</line>
-<line>Experimentally I found a way to spread the terror mentally</line>
-<line>When I stumbled upon this resolution</line>
-<line>By usin' a special fusion</line>
-<line>Of chemical solution for this fresh illusion</line>
-<line>You couldn't see me with binoculars</line>
-<line>I'm armed like an octopus</line>
-<line>Step on stage and you'll get socked and pushed</line>
-<line>Talkin' that junk like you had Black Bart at your back</line>
-<line>Come to battle me and you get smacked hard as you act</line>
-<line>When I rep-a-resent it, and will have a referee in it</line>
-<line>Every minute, so when I win it you never resent it</line>
-<line>I'm forever demented</line>
-<line>Come up with funk, I'll never be scented</line>
-<line>You got the point when I cleverly sent it</line></verse>
+        <verse>
+            <line>Ayo, biters are like tarantulas, vandalous</line>
+            <line>Livin' as scandalous as a television evangelist</line>
+            <line>But I can handle this; I'm the rhyme biter, crime fighter</line>
+            <line>Caped crusader, takin' care of undeservin' lime lighters</line>
+            <line>I think we live in era meant for me</line>
+            <line>Experimentally I found a way to spread the terror mentally</line>
+            <line>When I stumbled upon this resolution</line>
+            <line>By usin' a special fusion</line>
+            <line>Of chemical solution for this fresh illusion</line>
+            <line>You couldn't see me with binoculars</line>
+            <line>I'm armed like an octopus</line>
+            <line>Step on stage and you'll get socked and pushed</line>
+            <line>Talkin' that junk like you had Black Bart at your back</line>
+            <line>Come to battle me and you get smacked hard as you act</line>
+            <line>When I rep-a-resent it, and will have a referee in it</line>
+            <line>Every minute, so when I win it you never resent it</line>
+            <line>I'm forever demented</line>
+            <line>Come up with funk, I'll never be scented</line>
+            <line>You got the point when I cleverly sent it</line>
+        </verse>
 
-<chorus><line>’Cause we came here to do this tonight</line>
-<line>We don't wanna fight</line>
-<line>We don't want no one feelin' uptight</line>
-<line>’Cause we came here to do this tonight</line>
-<line>’Til the morning light</line>
-<line>Hope that everyone's feelin' alright</line></chorus>
+        <chorus>
+            <line>’Cause we came here to do this tonight</line>
+            <line>We don't wanna fight</line>
+            <line>We don't want no one feelin' uptight</line>
+            <line>’Cause we came here to do this tonight</line>
+            <line>’Til the morning light</line>
+            <line>Hope that everyone's feelin' alright</line>
+        </chorus>
 
-<verse>
-<line>Eminem is headed skyward</line>
-<line>For those who thought that I would</line>
-<line>Make you bored and treat you like a piece of plywood</line>
-<line>I've got miracle lyrical capability all in me</line>
-<line>With the agility to escape a killer bee colony</line>
-<line>So get your cameras and capture how miraculous</line>
-<line>I rap for all you Draculas</line>
-<line>And showed you all how wack you was</line>
-<line>I meant it as a diss</line>
-<line>‘Cause you don't posses the pizazz of this</line>
-<line>I'm hazardous enough already as it is</line>
-<line>Without you addin' fuel to the fire; I'm cruel to the liar</line>
-<line>Who fails to recognize my reign and hail rule to the sire</line>
-<phrase type="lifeEvent"><line>Clinical studies show that I'm cynical</line></phrase>
-<line>There's no one who's identical</line>
-<line>To my fresh and authentic flow</line>
-<line>I'm sure the party people can agree</line>
-<line>That I'm enchantin' rhythm romantically</line>
-<line>Freakin' vocals so frantically</line>
-<line>So throw your hands up in the atmosphere</line>
-<line>And let them know the only party that was phat was here</line></verse>
+        <verse>
+            <line>Eminem is headed skyward</line>
+            <line>For those who thought that I would</line>
+            <line>Make you bored and treat you like a piece of plywood</line>
+            <line>I've got miracle lyrical capability all in me</line>
+            <line>With the agility to escape a killer bee colony</line>
+            <line>So get your cameras and capture how miraculous</line>
+            <line>I rap for all you Draculas</line>
+            <line>And showed you all how wack you was</line>
+            <line>I meant it as a diss</line>
+            <line>‘Cause you don't posses the pizazz of this</line>
+            <line>I'm hazardous enough already as it is</line>
+            <line>Without you addin' fuel to the fire; I'm cruel to the liar</line>
+            <line>Who fails to recognize my reign and hail rule to the sire</line>
+            <phrase type="lifeEvent"><line>Clinical studies show that I'm cynical</line>
+            </phrase>
+            <line>There's no one who's identical</line>
+            <line>To my fresh and authentic flow</line>
+            <line>I'm sure the party people can agree</line>
+            <line>That I'm enchantin' rhythm romantically</line>
+            <line>Freakin' vocals so frantically</line>
+            <line>So throw your hands up in the atmosphere</line>
+            <line>And let them know the only party that was phat was here</line>
+        </verse>
 
-<chorus><line>’Cause we came here to do this tonight</line>
-<line>We don't wanna fight</line>
-<line>We don't want no one feelin' uptight</line>
-<line>’Cause we came here to do this tonight</line>
-<line>’Til the morning light</line>
-<line>Hope that everyone's feelin' alright</line></chorus></lyrics>
+        <chorus><line>’Cause we came here to do this tonight</line>
+            <line>We don't wanna fight</line>
+            <line>We don't want no one feelin' uptight</line>
+            <line>’Cause we came here to do this tonight</line>
+            <line>’Til the morning light</line>
+            <line>Hope that everyone's feelin' alright</line>
+        </chorus>
+    </lyrics>
 
 </song>

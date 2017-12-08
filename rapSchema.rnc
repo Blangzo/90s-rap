@@ -21,7 +21,7 @@ chorus = element chorus {mixed{(line | singer | featuredSinger)*}}
 outro = element outro {mixed{(line | singer | featuredSinger)*}}
 
 line = element line {mixed{phrase*}}
-phrase = element phrase {mixed{type*}}
+phrase = element phrase {mixed{(type | phrase)*}}
 
 type = attribute type {text}
 

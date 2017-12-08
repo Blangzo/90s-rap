@@ -1,115 +1,145 @@
-<song><head><songTitle><line>Never 2 Far</line></songTitle>
-<artist><line>Eminem</line></artist>
-<producer><line>Jeff Bass and Mr. Porter</line></producer>
-<album><line>Infinite</line></album>
-<certification><line>Gold</line></certification>
-</head>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>Never 2 Far</songTitle>
+        <artist>Eminem</artist>
+        <producer>Jeff Bass and Mr. Porter</producer>
+        <album>Infinite</album>
+        <certification>Gold</certification>
+    </head>
 
-<lyrics><verse><line>[Intro: <artist>Eminem</artist> and <producer>Denaun Porter</producer>]</line>
-<line>Denaun, what up, man?</line>
-<line>What up, dawg?</line>
-<line>You alright?</line>
-<line>Chillin', cold as hell</line>
-<line>Yes, it is. Hey, bus didn't come here, didn't he?</line>
-<line>No. Hey look, you got 15 cent?</line>
-<line>Nah, I got just enough to get on the bus, I'm broke</line>
-<line>We gotta go to the store. Alright, man?</line>
-<line>Quick, ‘cause I'm short</line>
-<line>Yeah, we gonna have enough time to go to the store?</line>
-<line>Nah, look</line>
-<line>You should just, how much you got there?</line>
-<line>I only got 75, I'm sure I got a dollar, know what I mean?</line>
-<line>Just throw it in there, they ain't gonna know. You know what? Aye look, I'm sick of takin' this <phrase type="profanity">damn</phrase> bus everywhere, man</line>
-<line>You gotta make some moves or somethin'</line>
-<line>I know, look, I'm tryna get rich</line>
-<line>I got a baby on the way, I don't even got a car. You know what I'm sayin'?</line>
-<line>I still stay with my moms, 21 and still with my moms</line>
-<line>Yeah, look, hey, we gotta make some hit records or somethin', you know what I'm sayin'?</line>
-<line>‘Cause I'm tired of bein' broke</line></verse>
+    <lyrics>
+        <verse>
+            <singer>Eminem</singer>
+            <featuredSinger>Denaun Porter</featuredSinger>
+            <line>Denaun, what up, man?</line>
+            <line>What up, dawg?</line>
+            <line>You alright?</line>
+            <line>Chillin', cold as hell</line>
+            <line>Yes, it is. Hey, bus didn't come here, didn't he?</line>
+            <line>No. Hey look, you got 15 cent?</line>
+            <line>Nah, I got just enough to get on the bus, I'm broke</line>
+            <line>We gotta go to the store. Alright, man?</line>
+            <line>Quick, ‘cause I'm short</line>
+            <line>Yeah, we gonna have enough time to go to the store?</line>
+            <line>Nah, look</line>
+            <line>You should just, how much you got there?</line>
+            <line>I only got 75, I'm sure I got a dollar, know what I mean?</line>
+            <line>Just throw it in there, they ain't gonna know. You know what? Aye look, I'm sick
+                of takin' this <phrase type="profanity">damn</phrase> bus everywhere, man</line>
+            <line>You gotta make some moves or somethin'</line>
+            <line>I know, look, I'm tryna get rich</line>
+            <line>I got a baby on the way, I don't even got a car. You know what I'm sayin'?</line>
+            <line>I still stay with my moms, 21 and still with my moms</line>
+            <line>Yeah, look, hey, we gotta make some hit records or somethin', you know what I'm
+                sayin'?</line>
+            <line>‘Cause I'm tired of bein' broke</line>
+        </verse>
 
-<verse><line>[Verse 1: <artist>Eminem</artist>]</line>
-<line>‘Cause all I do is yearn a life without a concern</line>
-<line>And dream of havin' a turn to earn money to burn</line>
-<line>Mappin' out my strategies to get rich, huh</line>
-<line>My desire is like a scratch that needs to get itched, huh</line>
-<line>‘Cause, man, I live in the D, this <phrase type="profanity">shit</phrase> ain't given for free</line>
-<line>Nothin' is different to me, so what else is there to see?</line>
-<line>I'll be the prisoner to flee from all of this misery</line>
-<line>I'm not wishin' to be another fish in the sea</line>
-<line>But just an MC, so listen to me for this and agree</line>
-<line>You're missin' the key, you ain't even in the vicinity</line>
-<line>Unconditionally, my aspects to cash checks</line>
-<line>My objects were never to swab decks</line>
-<line>It's up to you, the decision is yours</line>
-<line>If what you vision is tours, or a missionless course</line>
-<line>When your <phrase type="profanity">shit</phrase> is in the stores, ‘cause you can be a star</line></verse>
+        <verse>
+            <singer>Eminem</singer>
+            <line>‘Cause all I do is yearn a life without a concern</line>
+            <line>And dream of havin' a turn to earn money to burn</line>
+            <line>Mappin' out my strategies to get rich, huh</line>
+            <line>My desire is like a scratch that needs to get itched, huh</line>
+            <line>‘Cause, man, I live in the D, this <phrase type="profanity">shit</phrase> ain't
+                given for free</line>
+            <line>Nothin' is different to me, so what else is there to see?</line>
+            <line>I'll be the prisoner to flee from all of this misery</line>
+            <line>I'm not wishin' to be another fish in the sea</line>
+            <line>But just an MC, so listen to me for this and agree</line>
+            <line>You're missin' the key, you ain't even in the vicinity</line>
+            <line>Unconditionally, my aspects to cash checks</line>
+            <line>My objects were never to swab decks</line>
+            <line>It's up to you, the decision is yours</line>
+            <line>If what you vision is tours, or a missionless course</line>
+            <line>When your <phrase type="profanity">shit</phrase> is in the stores, ‘cause you can
+                be a star</line>
+        </verse>
 
-<chorus><line>[Hook: <artist>Eminem</artist>]</line>
-<line>No matter wherever you are</line>
-<line>You're never too far from revenue par</line>
-<line>‘Cause you can be king</line>
-<line>You can rule the world, you can do anything</line>
-<line>It's on you, baby, ‘cause you can be a star</line>
-<line>No matter wherever you are</line>
-<line>You're never too far from revenue par</line>
-<line>‘Cause you can be king</line>
-<line>You can rule the world, you can do anything</line>
-<line>It's on you, baby, ‘cause you can be a star</line>
-<line>No matter wherever you are</line>
-<line>You're never too far from revenue, huh</line></chorus>
+        <chorus>
+            <singer>Eminem</singer>
+            <line>No matter wherever you are</line>
+            <line>You're never too far from revenue par</line>
+            <line>‘Cause you can be king</line>
+            <line>You can rule the world, you can do anything</line>
+            <line>It's on you, baby, ‘cause you can be a star</line>
+            <line>No matter wherever you are</line>
+            <line>You're never too far from revenue par</line>
+            <line>‘Cause you can be king</line>
+            <line>You can rule the world, you can do anything</line>
+            <line>It's on you, baby, ‘cause you can be a star</line>
+            <line>No matter wherever you are</line>
+            <line>You're never too far from revenue, huh</line>
+        </chorus>
 
-<verse><line>[Interlude: <artist>Eminem</artist> and <producer>Denaun</producer>]</line>
-<line>Em: You know what I'm sayin'? See what I'm talkin' about, man? ‘Cause that's it. Yeah.</line>
-<line>A million dollars ain't even that far away, man.</line>
-<line>De: Yo, we got to get the money, man!</line>
-<line>I can't be broke for the rest of my life!</line>
-<line>Em: Yeah, I hear what your sayin'. Look, there's got to be somethin' better, you know what I'm sayin'?</line>
-<line>De: I can't live like this for the rest of my life, man.</line>
-<line>Bummin' rides everywhere I go.</line>
-<line>Em: Yeah, what's up with Lexus's and Land Cruisers?</line></verse>
+        <verse>
+            <singer>Eminem</singer>
+            <featuredSinger>Denaun</featuredSinger>
+            <line>Em: You know what I'm sayin'? See what I'm talkin' about, man? ‘Cause that's it.
+                Yeah.</line>
+            <line>A million dollars ain't even that far away, man.</line>
+            <line>De: Yo, we got to get the money, man!</line>
+            <line>I can't be broke for the rest of my life!</line>
+            <line>Em: Yeah, I hear what your sayin'. Look, there's got to be somethin' better, you
+                know what I'm sayin'?</line>
+            <line>De: I can't live like this for the rest of my life, man.</line>
+            <line>Bummin' rides everywhere I go.</line>
+            <line>Em: Yeah, what's up with Lexus's and Land Cruisers?</line>
+        </verse>
 
-<verse><line>[Verse 2: <artist>Eminem</artist>]</line>
-<line>Yo, I'm not about to chance it and dismiss handlin' business</line>
-<line>I'm cancelin' Christmas to gamble and risk this</line>
-<line>Financial interest is the matter at hand</line>
-<line>I got an adequate plan for stab at a grand</line>
-<line>I grab what I can and do what I must</line>
-<line>Pursue what I lust, it's true that I just</line>
-<line>Choose the few that I trust</line>
-<line>Them's the people that I still got</line>
-<line><phrase type="profanity">Fuck</phrase> with gangsta Philpot, get your grill shot</line>
-<line>The 5 Ela for life: my man Thyme</line>
-<line>Proof, Kyu and Denaun, we move through in the nine</line>
-<line>My crew's true and divine, we never fronted</line>
-<line>We just wanted to be funded, and live to be a hundred</line>
-<line>Instead of hunted or bein' wanted as fugitives</line>
-<line>It's all about a man plannin' what his future is</line>
-<line>What he can do for his to be a star</line></verse>
+        <verse>
+            <singer>Eminem</singer>
+            <line>Yo, I'm not about to chance it and dismiss handlin' business</line>
+            <line>I'm cancelin' Christmas to gamble and risk this</line>
+            <line>Financial interest is the matter at hand</line>
+            <line>I got an adequate plan for stab at a grand</line>
+            <line>I grab what I can and do what I must</line>
+            <line>Pursue what I lust, it's true that I just</line>
+            <line>Choose the few that I trust</line>
+            <line>Them's the people that I still got</line>
+            <line><phrase type="profanity">Fuck</phrase> with gangsta Philpot, get your grill
+                shot</line>
+            <line>The 5 Ela for life: my man Thyme</line>
+            <line>Proof, Kyu and Denaun, we move through in the nine</line>
+            <line>My crew's true and divine, we never fronted</line>
+            <line>We just wanted to be funded, and live to be a hundred</line>
+            <line>Instead of hunted or bein' wanted as fugitives</line>
+            <line>It's all about a man plannin' what his future is</line>
+            <line>What he can do for his to be a star</line>
+        </verse>
 
-<chorus><line>[Hook: <artist>Eminem</artist>]</line>
-<line>No matter wherever you are</line>
-<line>You're never too far from revenue par</line>
-<line>‘Cause you can be king</line>
-<line>You can rule the world, you can do anything</line>
-<line>It's on you, baby, ‘cause you can be a star</line>
-<line>No matter wherever you are</line>
-<line>You're never too far from revenue par</line>
-<line>‘Cause you can be king</line>
-<line>You can rule the world, you can do anything</line>
-<line>It's on you, baby, ‘cause you can be a star</line>
-<line>No matter wherever you are</line>
-<line>You're never too far from revenue, huh</line></chorus>
+        <chorus>
+            <singer>Eminem</singer>
+            <line>No matter wherever you are</line>
+            <line>You're never too far from revenue par</line>
+            <line>‘Cause you can be king</line>
+            <line>You can rule the world, you can do anything</line>
+            <line>It's on you, baby, ‘cause you can be a star</line>
+            <line>No matter wherever you are</line>
+            <line>You're never too far from revenue par</line>
+            <line>‘Cause you can be king</line>
+            <line>You can rule the world, you can do anything</line>
+            <line>It's on you, baby, ‘cause you can be a star</line>
+            <line>No matter wherever you are</line>
+            <line>You're never too far from revenue, huh</line>
+        </chorus>
 
-<outro><line>[Outro: <artist>Eminem</artist> and <producer>Denaun</producer>]</line>
-<line>Em: That's what I'm talkin' about.</line>
-<line>I'm not tryna be the player, I'm tryna be the mayor.</line>
-<line>I want to be president.</line>
-<line>De: Yo, forgot that president, man.</line>
-<line>I'm tryna be king, makin' dead presidents.</line>
-<line>You know what I'm sayin'?</line>
-<line>Gettin' money any time I want, ownin' my own businesses and all that. You know what I'm sayin'?</line>
-<line>Em: Yeah, I'm tryna be a millionaire, man.</line>
-<line>De: Hahaha, but don't all, you know?</line>
-<line>You only live once, '96, baby</line></outro>
-</lyrics>
+        <outro>
+            <singer>Eminem</singer>
+            <featuredSinger>Denaun</featuredSinger>
+            <line>Em: That's what I'm talkin' about.</line>
+            <line>I'm not tryna be the player, I'm tryna be the mayor.</line>
+            <line>I want to be president.</line>
+            <line>De: Yo, forgot that president, man.</line>
+            <line>I'm tryna be king, makin' dead presidents.</line>
+            <line>You know what I'm sayin'?</line>
+            <line>Gettin' money any time I want, ownin' my own businesses and all that. You know
+                what I'm sayin'?</line>
+            <line>Em: Yeah, I'm tryna be a millionaire, man.</line>
+            <line>De: Hahaha, but don't all, you know?</line>
+            <line>You only live once, '96, baby</line>
+        </outro>
+    </lyrics>
 </song>

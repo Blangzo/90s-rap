@@ -1,110 +1,148 @@
-<song><head><songTitle><line>Just Don't Give a Fuck</line></songTitle>
-<artist><line>Eminem</line></artist>
-<producer><line>Bass Brothers and Eminem</line></producer>
-<album><line>Slim Shady EP</line></album>
-<certification><line>Diamond</line></certification></head>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>Just Don't Give a Fuck</songTitle>
+        <artist>Eminem</artist>
+        <producer>Bass Brothers</producer>
+        <producer>Eminem</producer>
+        <album>Slim Shady EP</album>
+        <certification>Diamond</certification>
+    </head>
 
-<lyrics><intro><line>Woah, uh get your hands in the air</line>
-<line>And get to clapping 'em and, like, back and forth</line>
-<line>Because this is what you thought it wasn't</line>
-<line>It be's the brothers representin' the Dirty Dozen</line>
-<line>I be the F-R-O the double G</line>
-<line>And check out my man, he goes by the name of um, er…</line></intro>
+    <lyrics>
+        <intro>
+            <line>Woah, uh get your hands in the air</line>
+            <line>And get to clapping 'em and, like, back and forth</line>
+            <line>Because this is what you thought it wasn't</line>
+            <line>It be's the brothers representin' the Dirty Dozen</line>
+            <line>I be the F-R-O the double G</line>
+            <line>And check out my man, he goes by the name of um, er…</line>
+        </intro>
 
-<line>[Verse 1: Eminem]</line>
-<line>Slim Shady, brain dead like Jim Brady</line>
-<line>I'm an M-80, you little like that Kim lady</line>
-<line>I'm buzzin', Dirty Dozen, naughty rotten rhymer</line>
-<line>Cursin' at you playas worse than Marty Schottenheimer</line>
-<line>You wacker than the <phrase type="profanity">motherfucker</phrase> you bit your style from</line>
-<line>You ain't gon' sell two copies if you press a double album</line>
-<line>Admit it, <phrase type="profanity">fuck</phrase> it, while we comin' out in the open</line>
-<line>I'm doin' acid, crack, smack, coke and smokin' dope then</line>
-<line>My name is Marshall Mathers, I'm an alcoholic (hi, Marshall)</line>
-<line>I have a disease, and they don't know what to call it</line>
-<line>Better hide your wallet, ‘cause I'm comin' up quick to strip yo' cash</line>
-<line>Bought a ticket to yo' concert just to come and whip yo' <phrase type="profanity">ass</phrase></line>
-<line>Bitch, I'm comin' out swingin', so fast it'll make yo' eyes spin</line>
-<line>You gettin' knocked the <phrase type="profanity">fuck</phrase> out like Mike Tyson</line>
-<line>The proof is in the pudding, just ask DeShaun Holton</line>
-<line>I'll slit your <phrase type="profanity">motherfuckin'</phrase> throat worse than Ron Goldman</line>
+        <verse>
+            <singer>Eminem</singer>
+            <line>Slim Shady, brain dead like Jim Brady</line>
+            <line>I'm an M-80, you little like that Kim lady</line>
+            <line>I'm buzzin', Dirty Dozen, naughty rotten rhymer</line>
+            <line>Cursin' at you playas worse than Marty Schottenheimer</line>
+            <line>You wacker than the <phrase type="profanity">motherfucker</phrase> you bit your
+                style from</line>
+            <line>You ain't gon' sell two copies if you press a double album</line>
+            <line>Admit it, <phrase type="profanity">fuck</phrase> it, while we comin' out in the
+                open</line>
+            <line>I'm doin' acid, crack, smack, coke and smokin' dope then</line>
+            <line>My name is Marshall Mathers, I'm an alcoholic (hi, Marshall)</line>
+            <line>I have a disease, and they don't know what to call it</line>
+            <line>Better hide your wallet, ‘cause I'm comin' up quick to strip yo' cash</line>
+            <line>Bought a ticket to yo' concert just to come and whip yo' <phrase type="profanity"
+                    >ass</phrase></line>
+            <line>Bitch, I'm comin' out swingin', so fast it'll make yo' eyes spin</line>
+            <line>You gettin' knocked the <phrase type="profanity">fuck</phrase> out like Mike
+                Tyson</line>
+            <line>The proof is in the pudding, just ask DeShaun Holton</line>
+            <line>I'll slit your <phrase type="profanity">motherfuckin'</phrase> throat worse than
+                Ron Goldman</line>
+        </verse>
 
-<chorus><line>So when you see me on yo' block with two Glocks</line>
-<line>Screamin', "<phrase type="profanity">Fuck</phrase> the world!" like 2Pac</line>
-<line>I just don't give a <phrase type="profanity">fuck</phrase></line>
-<line>Talkin' that <phrase type="profanity">shit</phrase> behind my back</line>
-<line>Dirty mackin', tellin' your boys that I'm on crack</line>
-<line>I just don't give a <phrase type="profanity">fuck</phrase></line>
-<line>So put my tape back on the rack</line>
-<line>Go run and tell your friends my <phrase type="profanity">shit</phrase> is wack</line>
-<line>I just don't give a <phrase type="profanity">fuck</phrase></line>
-<line>But see me on the street and duck</line>
-<line>‘Cause you gon' get stuck, stole, and snuffed</line>
-<line>‘Cause I just don't give a <phrase type="profanity">fuck</phrase></line></chorus>
+        <chorus>
+            <line>So when you see me on yo' block with two Glocks</line>
+            <line>Screamin', "<phrase type="profanity">Fuck</phrase> the world!" like 2Pac</line>
+            <line>I just don't give a <phrase type="profanity">fuck</phrase></line>
+            <line>Talkin' that <phrase type="profanity">shit</phrase> behind my back</line>
+            <line>Dirty mackin', tellin' your boys that I'm on crack</line>
+            <line>I just don't give a <phrase type="profanity">fuck</phrase></line>
+            <line>So put my tape back on the rack</line>
+            <line>Go run and tell your friends my <phrase type="profanity">shit</phrase> is
+                wack</line>
+            <line>I just don't give a <phrase type="profanity">fuck</phrase></line>
+            <line>But see me on the street and duck</line>
+            <line>‘Cause you gon' get stuck, stole, and snuffed</line>
+            <line>‘Cause I just don't give a <phrase type="profanity">fuck</phrase></line>
+        </chorus>
 
-<verse><line>I'm nicer than Pete, but I'm on a search to crush a milkbone</line>
-<line>I'm everlastin', I melt vanilla ice like silicone</line>
-<line>I'm ill enough to just straight up diss you for no reason</line>
-<line>I'm colder than snow season when it's 20 below freezin'</line>
-<line>Flavor with no seasonin', this is the sneak preview</line>
-<line>I'll diss your magazine and still won't get a weak review</line>
-<line>I'll make your <phrase type="dt">freak</phrase> leave you, smell the Folgers crystals</line>
-<line>This is lyrical combat—gentlemen, hold your pistols!</line>
-<line>But I form like Voltron and blast you with my shoulder missiles</line>
-<line>Slim Shady; Eminem was the old initials (bye bye!)</line>
-<line>Extortion, snortin', supportin' abortion</line>
-<line>Pathological liar, blowin' shit out of proportion</line>
-<line>The looniest, zaniest, spontaneous, sporadic</line>
-<line>Impulsive thinker, compulsive drinker, addict</line>
-<line>Half animal, half man</line>
-<line>Dumpin' yo' dead body inside of a <phrase type="profanity">fuckin'</phrase> trash can</line>
-<line>With more holes than an afghan</line></verse>
+        <verse>
+            <line>I'm nicer than Pete, but I'm on a search to crush a milkbone</line>
+            <line>I'm everlastin', I melt vanilla ice like silicone</line>
+            <line>I'm ill enough to just straight up diss you for no reason</line>
+            <line>I'm colder than snow season when it's 20 below freezin'</line>
+            <line>Flavor with no seasonin', this is the sneak preview</line>
+            <line>I'll diss your magazine and still won't get a weak review</line>
+            <line>I'll make your <phrase type="dt">freak</phrase> leave you, smell the Folgers
+                crystals</line>
+            <line>This is lyrical combat—gentlemen, hold your pistols!</line>
+            <line>But I form like Voltron and blast you with my shoulder missiles</line>
+            <line>Slim Shady; Eminem was the old initials (bye bye!)</line>
+            <line>Extortion, snortin', supportin' abortion</line>
+            <line>Pathological liar, blowin' shit out of proportion</line>
+            <line>The looniest, zaniest, spontaneous, sporadic</line>
+            <line>Impulsive thinker, compulsive drinker, addict</line>
+            <line>Half animal, half man</line>
+            <line>Dumpin' yo' dead body inside of a <phrase type="profanity">fuckin'</phrase> trash
+                can</line>
+            <line>With more holes than an afghan</line>
+        </verse>
 
-<chorus><line>So when you see me on yo' block with two Glocks</line>
-<line>Screamin', "<phrase type="profanity">Fuck</phrase> the world!" like 2Pac</line>
-<line>I just don't give a <phrase type="profanity">fuck</phrase></line>
-<line>Talkin' that <phrase type="profanity">shit</phrase> behind my back</line>
-<line>Dirty mackin', tellin' your boys that I'm on crack</line>
-<line>I just don't give a <phrase type="profanity">fuck</phrase></line>
-<line>So put my tape back on the rack</line>
-<line>Go run and tell your friends my <phrase type="profanity">shit</phrase> is wack</line>
-<line>I just don't give a <phrase type="profanity">fuck</phrase></line>
-<line>But see me on the street and duck</line>
-<line>‘Cause you finna get stuck, stole, and snuffed</line>
-<line>I just don't give a <phrase type="profanity">fuck</phrase></line></chorus>
+        <chorus>
+            <line>So when you see me on yo' block with two Glocks</line>
+            <line>Screamin', "<phrase type="profanity">Fuck</phrase> the world!" like 2Pac</line>
+            <line>I just don't give a <phrase type="profanity">fuck</phrase></line>
+            <line>Talkin' that <phrase type="profanity">shit</phrase> behind my back</line>
+            <line>Dirty mackin', tellin' your boys that I'm on crack</line>
+            <line>I just don't give a <phrase type="profanity">fuck</phrase></line>
+            <line>So put my tape back on the rack</line>
+            <line>Go run and tell your friends my <phrase type="profanity">shit</phrase> is
+                wack</line>
+            <line>I just don't give a <phrase type="profanity">fuck</phrase></line>
+            <line>But see me on the street and duck</line>
+            <line>‘Cause you finna get stuck, stole, and snuffed</line>
+            <line>I just don't give a <phrase type="profanity">fuck</phrase></line>
+        </chorus>
 
-<verse><line>Somebody, let me out this limousine! I'm a caged demon</line>
-<line>On stage screamin' like Rage Against the Machine</line>
-<line>I'm convinced I'm a fiend</line>
-<line>Shootin' up while this record is spinnin'</line>
-<line>Clinically brain-dead, I don't need a second opinion</line>
-<line><phrase type="profanity">Fuck</phrase> droppin' a jewel, I'm flippin' a sacred treasure</line>
-<line>I'll bite yo' <phrase type="profanity">motherfuckin'</phrase> style, just to make it fresher</line>
-<line>I can't take the pressure, I'm sick of <phrase type="dt">bitches</phrase></line>
-<line>Sick of naggin' bosses <phrase type="profanity">bitchin'</phrase> while I'm washin' dishes</line>
-<line>In school I never said much, too busy havin' a headrush</line>
-<line>Doin' too much rush had my face flushed like red blush</line>
-<line>Then I went to Jim Beam, that's when my face grayed</line>
-<line>Went to gym in 8th grade, raped the women's swim team</line>
-<line>Don't take me for a joke, I'm no comedian</line>
-<line>Too many mental problems got me snortin' coke and smokin' weed again</line>
-<line>I'm goin' up over the curb, drivin' on the median</line>
-<line>Finally made it home, but I don't got the key to get in</line></verse>
+        <verse>
+            <line>Somebody, let me out this limousine! I'm a caged demon</line>
+            <line>On stage screamin' like Rage Against the Machine</line>
+            <line>I'm convinced I'm a fiend</line>
+            <line>Shootin' up while this record is spinnin'</line>
+            <line>Clinically brain-dead, I don't need a second opinion</line>
+            <line><phrase type="profanity">Fuck</phrase> droppin' a jewel, I'm flippin' a sacred
+                treasure</line>
+            <line>I'll bite yo' <phrase type="profanity">motherfuckin'</phrase> style, just to make
+                it fresher</line>
+            <line>I can't take the pressure, I'm sick of <phrase type="dt">bitches</phrase></line>
+            <line>Sick of naggin' bosses <phrase type="profanity">bitchin'</phrase> while I'm
+                washin' dishes</line>
+            <line>In school I never said much, too busy havin' a headrush</line>
+            <line>Doin' too much rush had my face flushed like red blush</line>
+            <line>Then I went to Jim Beam, that's when my face grayed</line>
+            <line>Went to gym in 8th grade, raped the women's swim team</line>
+            <line>Don't take me for a joke, I'm no comedian</line>
+            <line>Too many mental problems got me snortin' coke and smokin' weed again</line>
+            <line>I'm goin' up over the curb, drivin' on the median</line>
+            <line>Finally made it home, but I don't got the key to get in</line>
+        </verse>
 
-<chorus><line>So when you see me on yo' block with two Glocks</line>
-<line>Screamin', "<phrase type="profanity">Fuck</phrase> the world!" like 2Pac</line>
-<line>I just don't give a <phrase type="profanity">fuck</phrase></line>
-<line>Talkin' that <phrase type="profanity">shit</phrase> behind my back</line>
-<line>Dirty mackin', tellin' your boys that I'm on crack</line>
-<line>I just don't give a <phrase type="profanity">fuck</phrase></line>
-<line>So put my tape back on the rack</line>
-<line>Go run and tell your friends my <phrase type="profanity">shit</phrase> is wack</line>
-<line>I just don't give a <phrase type="profanity">fuck</phrase></line>
-<line>But see me on the street and duck</line>
-<line>‘Cause you finna get stuck, stole, and snuffed</line>
-<line>I just don't give a <phrase type="profanity">fuck</phrase></line></chorus>
+        <chorus>
+            <line>So when you see me on yo' block with two Glocks</line>
+            <line>Screamin', "<phrase type="profanity">Fuck</phrase> the world!" like 2Pac</line>
+            <line>I just don't give a <phrase type="profanity">fuck</phrase></line>
+            <line>Talkin' that <phrase type="profanity">shit</phrase> behind my back</line>
+            <line>Dirty mackin', tellin' your boys that I'm on crack</line>
+            <line>I just don't give a <phrase type="profanity">fuck</phrase></line>
+            <line>So put my tape back on the rack</line>
+            <line>Go run and tell your friends my <phrase type="profanity">shit</phrase> is
+                wack</line>
+            <line>I just don't give a <phrase type="profanity">fuck</phrase></line>
+            <line>But see me on the street and duck</line>
+            <line>‘Cause you finna get stuck, stole, and snuffed</line>
+            <line>I just don't give a <phrase type="profanity">fuck</phrase></line>
+        </chorus>
 
-<outro><line><phrase type="profanity">Shit</phrase>, <phrase type="profanity">fuck</phrase> everybody!</line>
-<line>Outsidaz, Pacewon, Young Zee</line>
-<line><phrase type="profanity">(Fuck</phrase> the entire world!) DU</line></outro></lyrics>
+        <outro>
+            <line><phrase type="profanity">Shit</phrase>, <phrase type="profanity">fuck</phrase>
+                everybody!</line>
+            <line>Outsidaz, Pacewon, Young Zee</line>
+            <line><phrase type="profanity">(Fuck</phrase> the entire world!) DU</line>
+        </outro>
+    </lyrics>
 </song>

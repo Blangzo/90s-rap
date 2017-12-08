@@ -1,103 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song><head><songTitle>Skandalouz</songTitle>
-<singer>2Pac</singer>
-<featuredSinger>Nate Dogg</featuredSinger>
-<producers>2Pac and Daz Dillinger</producers>
-<album>All Eyez on Me</album>
-<certification>Diamond</certification></head>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>Skandalouz</songTitle>
+        <artist>2Pac</artist>
+        <featuredArtist>Nate Dogg</featuredArtist>
+        <producer>2Pac</producer>
+        <producer>Daz Dillinger</producer>
+        <album>All Eyez on Me</album>
+        <certification>Diamond</certification>
+    </head>
 
-<lyrics>[<singer>2Pac</singer> and <featuredSinger>Nate Dogg</featuredSinger>]
-Hey Nate, you know you got the vocals on this <phrase type="profanity">motherfucker</phrase>
-We finna talk about these scandalous <phrase type="profanity">hoes</phrase>
-I can talk about scandalous <phrase type="profanity">bitches</phrase>
-I know you can!
-I know you that's why we finna do it
-Daz on the beat
-Hey Daz, <phrase type="profanity">nigga</phrase> stop <phrase type="profanity">fuckin'</phrase> around with the piano <phrase type="profanity">nigga</phrase>
-Just drop that <phrase type="profanity">shit</phrase> like uhh, this here
+    <lyrics>
+        <intro>
+            <singer>2Pac</singer>
+            <featuredSinger>Nate Dogg</featuredSinger>] <line>Hey Nate, you know you got the vocals
+                on this <phrase type="profanity">motherfucker</phrase></line>
+            <line>We finna talk about these scandalous <phrase type="profanity">hoes</phrase></line>
+            <line>I can talk about scandalous <phrase type="profanity">bitches</phrase></line>
+            <line>I know you can!</line>
+            <line>I know you that's why we finna do it</line>
+            <line>Daz on the beat</line>
+            <line>Hey Daz, <phrase type="profanity">nigga</phrase> stop <phrase type="profanity"
+                    >fuckin'</phrase> around with the piano <phrase type="profanity"
+                >nigga</phrase></line>
+            <line>Just drop that <phrase type="profanity">shit</phrase> like uhh, this here</line>
+        </intro>
 
-<verse><singer>[2Pac]</singer>
-I met you through my homie now you act like you don't know me
-So disappointed 'cause baby that shit was so phoney
-It's not for me, you see no lovin' from my closest homies
-Woulda paid you no mind, but baby you was all up on me
-While you proceed with precision, you had the table hosed
-No, I ain't mad at you baby, go 'head and play them fools
-They chose not to listen, so now he stuck inside his house
-And can't leave without his bitch permission
-The mission's to be a playa, my alias is Boss
-Drop a top on these jealous niggas, playa let me floss
-Y'all don't wanna see me in pain
-I'll leave that ass like Toni Braxton, never breathin' again
-It's scandalous, I never liked your back stabbin' ass, triiick
-Used to watch you money grabbin', who you baggin' beeyitch?
-Ready to bust, in the city you don't know who to trust
-But bitches lookin' scandalous</verse>
+        <verse>
+            <singer>2Pac</singer>
+            <line>I met you through my homie now you act like you don't know me</line>
+            <line>So disappointed 'cause baby that shit was so phoney</line>
+            <line>It's not for me, you see no lovin' from my closest homies</line>
+            <line>Woulda paid you no mind, but baby you was all up on me</line>
+            <line>While you proceed with precision, you had the table hosed</line>
+            <line>No, I ain't mad at you baby, go 'head and play them fools</line>
+            <line>They chose not to listen, so now he stuck inside his house</line>
+            <line>And can't leave without his bitch permission</line>
+            <line>The mission's to be a playa, my alias is Boss</line>
+            <line>Drop a top on these jealous niggas, playa let me floss</line>
+            <line>Y'all don't wanna see me in pain</line>
+            <line>I'll leave that ass like Toni Braxton, never breathin' again</line>
+            <line>It's scandalous, I never liked your back stabbin' ass, triiick</line>
+            <line>Used to watch you money grabbin', who you baggin' beeyitch?</line>
+            <line>Ready to bust, in the city you don't know who to trust</line>
+            <line>But bitches lookin' scandalous</line>
+        </verse>
 
-<chorus><featuredSinger>[Nate Dogg]</featuredSinger>
-Scandalous!, she's so scandalous, she's so scandalous
-She's so scandalous!, she's so scandalous, she's so scandalous
-Scandalous!, she's so scandalous, she's so scandalous
-She's so scandalous!, she's so scandalous, she's so scandalous</chorus>
+        <chorus>
+            <featuredSinger>Nate Dogg</featuredSinger>
+            <line>Scandalous!, she's so scandalous, she's so scandalous</line>
+            <line>She's so scandalous!, she's so scandalous, she's so scandalous</line>
+            <line>Scandalous!, she's so scandalous, she's so scandalous</line>
+            <line>She's so scandalous!, she's so scandalous, she's so scandalous</line>
+        </chorus>
 
-<verse><singer>[2Pac]</singer>
-How's it hangin'? 'Cause baby from the back the <phrase type="profanity">shit</phrase> is bangin'
-I've been stressing in this ghetto game, trying to do my thang
-Won't be no <phrase type="profanity">bullshit</phrase>, no <phrase type="profanity">ass-kissin'</phrase>
-This <phrase type="profanity">bitch'll</phrase> have ya wakin' up with all your cash missin'
-I'm askin', as if I'm qualified to analyze
-You're lookin' at a <phrase type="profanity">bitch</phrase> who specialize in tellin' lies
-She got a body make a <phrase type="profanity">motherfucker</phrase> fantasize
-Her face ain't never shed a tear through them scandalous eyes
-My sister precious in poverty
-Plus I knew she was a <phrase type="dt">freak</phrase> <phrase type="profanity">bitch</phrase> so why should it bother me?
-I'd probably be sprung, addicted to the heat of her tongue
-And though I don't where we're goin', she's makin' me come
-I've been trained as a boss playa, so what you saying?
-Let me show you, got some hookers we can toss later
-Before I let her get me, I got her
-Went in her purse took a hundred dollars
-<phrase type="profanity">Nigga</phrase> I'm so scandalous</verse>
+        <verse>
+            <singer>2Pac</singer>
+            <line>How's it hangin'? 'Cause baby from the back the <phrase type="profanity"
+                    >shit</phrase> is bangin'</line>
+            <line>I've been stressing in this ghetto game, trying to do my thang</line>
+            <line>Won't be no <phrase type="profanity">bullshit</phrase>, no <phrase
+                    type="profanity">ass-kissin'</phrase></line>
+            <line>This <phrase type="profanity">bitch'll</phrase> have ya wakin' up with all your
+                cash missin'</line>
+            <line>I'm askin', as if I'm qualified to analyze</line>
+            <line>You're lookin' at a <phrase type="profanity">bitch</phrase> who specialize in
+                tellin' lies</line>
+            <line>She got a body make a <phrase type="profanity">motherfucker</phrase>
+                fantasize</line>
+            <line>Her face ain't never shed a tear through them scandalous eyes</line>
+            <line>My sister precious in poverty</line>
+            <line>Plus I knew she was a <phrase type="dt">freak</phrase>
+                <phrase type="profanity">bitch</phrase> so why should it bother me?</line>
+            <line>I'd probably be sprung, addicted to the heat of her tongue</line>
+            <line>And though I don't where we're goin', she's makin' me come</line>
+            <line>I've been trained as a boss playa, so what you saying?</line>
+            <line>Let me show you, got some hookers we can toss later</line>
+            <line>Before I let her get me, I got her</line>
+            <line>Went in her purse took a hundred dollars</line>
+            <line><phrase type="profanity">Nigga</phrase> I'm so scandalous</line>
+        </verse>
 
-<chorus><featuredSinger>[Nate Dogg]</featuredSinger>
-Scandalous!, she's so scandalous, she's so scandalous
-She's so scandalous!, she's so scandalous, she's so scandalous
-Scandalous!, she's so scandalous, she's so scandalous
-She's so scandalous!, she's so scandalous, she's so scandalous</chorus>
+        <chorus>
+            <featuredSinger>Nate Dogg</featuredSinger>
+            <line>Scandalous!, she's so scandalous, she's so scandalous</line>
+            <line>She's so scandalous!, she's so scandalous, she's so scandalous</line>
+            <line>Scandalous!, she's so scandalous, she's so scandalous</line>
+            <line>She's so scandalous!, she's so scandalous, she's so scandalous</line>
+        </chorus>
 
-<verse><singer>[2Pac]</singer>
-Dangerous and ambitious, while schemin' on gettin' riches
-I'm spittin' at <phrase type="dt">tricks</phrase> 'cause I'm addicted to pretty <phrase type="profanity">bitches</phrase>
-Currency motivated, not easily terminated
-Now that we made it, my <phrase type="profanity">niggas</phrase> can never be faded
-This is my prophecy, I gotta be paid
-All you cowards that try to stop me is beggin' for early graves
-I thought we was cool, I was a fool, thinkin' you could be true
-When I don't <phrase type="profanity">fuck</phrase> with your punk crew
-These are the tales for my <phrase type="profanity">niggas</phrase> doin' time in the cell
-I went from hell, to livin' well
-Busting at <phrase type="profanity">niggas</phrase> who said my name in vain
-I got no time for them tricks, I'm heavy in the game
-I wanna be a baller, please
-But the <phrase type="profanity">bitches</phrase> and the liquor keep on calling me
-I'm tokin' free on the highway, formulatin' plans
-Can't wait til I see L.A., 'cause it's so scandalous</verse>
+        <verse>
+            <singer>2Pac</singer>
+            <line>Dangerous and ambitious, while schemin' on gettin' riches</line>
+            <line>I'm spittin' at <phrase type="dt">tricks</phrase> 'cause I'm addicted to pretty
+                    <phrase type="profanity">bitches</phrase></line>
+            <line>Currency motivated, not easily terminated</line>
+            <line>Now that we made it, my <phrase type="profanity">niggas</phrase> can never be
+                faded</line>
+            <line>This is my prophecy, I gotta be paid</line>
+            <line>All you cowards that try to stop me is beggin' for early graves</line>
+            <line>I thought we was cool, I was a fool, thinkin' you could be true</line>
+            <line>When I don't <phrase type="profanity">fuck</phrase> with your punk crew</line>
+            <line>These are the tales for my <phrase type="profanity">niggas</phrase> doin' time in
+                the cell</line>
+            <line>I went from hell, to livin' well</line>
+            <line>Busting at <phrase type="profanity">niggas</phrase> who said my name in
+                vain</line>
+            <line>I got no time for them tricks, I'm heavy in the game</line>
+            <line>I wanna be a baller, please</line>
+            <line>But the <phrase type="profanity">bitches</phrase> and the liquor keep on calling
+                me</line>
+            <line>I'm tokin' free on the highway, formulatin' plans</line>
+            <line>Can't wait til I see L.A., 'cause it's so scandalous</line>
+        </verse>
 
-<chorus><featuredSinger>[Nate Dogg]</featuredSinger>
-Scandalous!, she's so scandalous, she's so scandalous
-She's so scandalous!, she's so scandalous, she's so scandalous
-Scandalous!, she's so scandalous, she's so scandalous
-She's so scandalous!, she's so scandalous, she's so scandalous</chorus>
+        <chorus>
+            <featuredSinger>Nate Dogg</featuredSinger>
+            <line>Scandalous!, she's so scandalous, she's so scandalous</line>
+            <line>She's so scandalous!, she's so scandalous, she's so scandalous</line>
+            <line>Scandalous!, she's so scandalous, she's so scandalous</line>
+            <line>She's so scandalous!, she's so scandalous, she's so scandalous</line>
+        </chorus>
 
-<outro><singer>[2Pac]</singer>
-Aiyyo.. how the prettiest <phrase type="profanity">bitch</phrase> be the more scandalous the <phrase type="dt">hoe</phrase> be
-You ever peep that <phrase type="profanity">shit</phrase>? (Nah)
-A <phrase type="profanity">bitch</phrase> can be like 15, <phrase type="profanity">fucking</phrase> with a nigga 35
-Gettin' him for everything
-<phrase type="dt">Hoes</phrase> these days is way too <phrase type="profanity">motherfucking</phrase> intelligent
-When these <phrase type="profanity">niggas</phrase> get to tricking, hahaha, it's over then
-That's aight though
-Keep a <phrase type="profanity">nigga</phrase> heavy in the game, 'bout so long
-Watch them <phrase type="dt">hoes</phrase>
-All you <phrase type="profanity">niggas</phrase> out there
-Beware these lying <phrase type="profanity">ass</phrase> scandalous bitches</outro></lyrics></song>
+        <outro>
+            <singer>2Pac</singer>
+            <line>Aiyyo.. how the prettiest <phrase type="profanity">bitch</phrase> be the more
+                scandalous the <phrase type="dt">hoe</phrase> be</line>
+            <line>You ever peep that <phrase type="profanity">shit</phrase>? (Nah)</line>
+            <line>A <phrase type="profanity">bitch</phrase> can be like 15, <phrase type="profanity"
+                    >fucking</phrase> with a nigga 35</line>
+            <line>Gettin' him for everything</line>
+            <line><phrase type="dt">Hoes</phrase> these days is way too <phrase type="profanity"
+                    >motherfucking</phrase> intelligent</line>
+            <line>When these <phrase type="profanity">niggas</phrase> get to tricking, hahaha, it's
+                over then</line>
+            <line>That's aight though</line>
+            <line>Keep a <phrase type="profanity">nigga</phrase> heavy in the game, 'bout so
+                long</line>
+            <line>Watch them <phrase type="dt">hoes</phrase></line>
+            <line>All you <phrase type="profanity">niggas</phrase> out there</line>
+            <line>Beware these lying <phrase type="profanity">ass</phrase> scandalous bitches</line>
+        </outro>
+    </lyrics>
+</song>

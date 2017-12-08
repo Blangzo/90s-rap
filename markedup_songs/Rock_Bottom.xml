@@ -1,95 +1,122 @@
-<song><head><songTitle><line>Rock Bottom</line></songTitle>
-<artist><line>Eminem</line></artist>
-<producer><line>Bass Brothers</line></producer>
-<album><line>The Slim Shady LP</line></album>
-<certification><line>Diamond</line></certification>
-</head>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>Rock Bottom</songTitle>
+        <artist>Eminem</artist>
+        <producer>Bass Brothers</producer>
+        <album>The Slim Shady LP</album>
+        <certification>Diamond</certification>
+    </head>
 
-<intro><line>Ayo, this song is dedicated</line>
-<line>To all the happy people</line>
-<line>All the happy people</line>
-<line>Who have real nice lives</line>
-<line>And have no idea</line>
-<line>What it's like to be broke as <phrase type="profanity">fuck</phrase></line></intro>
+    <lyrics>
+        <intro>
+            <line>Ayo, this song is dedicated</line>
+            <line>To all the happy people</line>
+            <line>All the happy people</line>
+            <line>Who have real nice lives</line>
+            <line>And have no idea</line>
+            <line>What it's like to be broke as <phrase type="profanity">fuck</phrase></line>
+        </intro>
 
-<verse><line>I feel like I'm walkin' a tight rope without a circus net</line>
-<line>Poppin' Percocet, I'm a nervous wreck</line>
-<line>I deserve respect but I work a sweat for this worthless check</line>
-<line>I'm about to burst this TEC at somebody to reverse this debt</line>
-<line>Minimum wage got my adrenaline caged</line>
-<line>Full of venom and <phrase type="emotion">rage</phrase>, especially when I'm engaged</line>
-<line>And my daughter's down to her last diaper, it's got my <phrase type="profanity">ass</phrase> hyper</line>
-<line>I pray that God answers — maybe I'll ask nicer</line>
-<line>Watchin' ballers while they're flossin' in their Pathfinders</line>
-<line>These overnight stars becomin' autograph-signers</line>
-<line>We all long to blow up and leave the past behind us</line>
-<line>Along with the small fries and average half-pinters</line>
-<line>But player-haters turnin' <phrase type="dt">bitch</phrase> like they have vaginas</line>
-<line>‘Cause we see them dollar signs and let the cash blind us</line>
-<line>Money'll brainwash you and leave yo' <phrase type="profanity">ass</phrase> mindless</line>
-<line>Them snakes slither in the grass spineless</line>
-</verse>
+        <verse>
+            <line>I feel like I'm walkin' a tight rope without a circus net</line>
+            <line>Poppin' Percocet, I'm a nervous wreck</line>
+            <line>I deserve respect but I work a sweat for this worthless check</line>
+            <line>I'm about to burst this TEC at somebody to reverse this debt</line>
+            <line>Minimum wage got my adrenaline caged</line>
+            <line>Full of venom and <phrase type="emotion">rage</phrase>, especially when I'm
+                engaged</line>
+            <line>And my daughter's down to her last diaper, it's got my <phrase type="profanity"
+                    >ass</phrase> hyper</line>
+            <line>I pray that God answers — maybe I'll ask nicer</line>
+            <line>Watchin' ballers while they're flossin' in their Pathfinders</line>
+            <line>These overnight stars becomin' autograph-signers</line>
+            <line>We all long to blow up and leave the past behind us</line>
+            <line>Along with the small fries and average half-pinters</line>
+            <line>But player-haters turnin' <phrase type="dt">bitch</phrase> like they have
+                vaginas</line>
+            <line>‘Cause we see them dollar signs and let the cash blind us</line>
+            <line>Money'll brainwash you and leave yo' <phrase type="profanity">ass</phrase>
+                mindless</line>
+            <line>Them snakes slither in the grass spineless</line>
+        </verse>
 
-<chorus><line>That's rock bottom</line>
-<line>When this life makes you <phrase type="profanity">mad</phrase> enough to kill</line>
-<line>That's rock bottom</line>
-<line>When you want somethin' bad enough to steal</line>
-<line>That's rock bottom</line>
-<line>When you feel like you've had it up to here</line>
-<line>‘Cause you're <phrase type="profanity">mad</phrase> enough to scream</line>
-<line>But you're <phrase type="profanity">sad</phrase> enough to tear</line></chorus>
+        <chorus>
+            <line>That's rock bottom</line>
+            <line>When this life makes you <phrase type="profanity">mad</phrase> enough to
+                kill</line>
+            <line>That's rock bottom</line>
+            <line>When you want somethin' bad enough to steal</line>
+            <line>That's rock bottom</line>
+            <line>When you feel like you've had it up to here</line>
+            <line>‘Cause you're <phrase type="profanity">mad</phrase> enough to scream</line>
+            <line>But you're <phrase type="profanity">sad</phrase> enough to tear</line>
+        </chorus>
 
-<verse><line>My life is full of empty promises and broken dreams</line>
-<line>I'm hopin' things look up, but there ain't no job openings</line>
-<line>I feel <phrase type="emotion">discouraged</phrase>, hungry and malnourished</line>
-<phrase type="lifeEvent"><line>Livin' in this house with no furnace, unfurnished</line></phrase>
-<line>And I'm sick of workin' dead-end jobs with lame pay</line>
-<line>And I'm tired of bein' hired and fired the same day</line>
-<line>But <phrase type="profanity">fuck</phrase> it — if you know the rules to the game, play!</line>
-<line>‘Cause when we die, we know we all goin' the same way</line>
-<line>‘Cause it's cool to be the player, but it sucks to be the fan</line>
-<line>When all you need is bucks to be the man, plus a luxury sedan</line>
-<line>Or comfortable and roomy in a 6</line>
-<line>But they threw me in the mix with all these gloomy lunatics</line>
-<line>Who walk around <phrase type="emotion">depressed</phrase>, and smoke a pound of cess a day</line>
-<line>And yesterday went by so quick it seems like it was just today</line>
-<line>My daughter wants to throw the ball, but I'm too stressed to play</line>
-<line>Live half my life and throw the rest away</line></verse>
+        <verse>
+            <line>My life is full of empty promises and broken dreams</line>
+            <line>I'm hopin' things look up, but there ain't no job openings</line>
+            <line>I feel <phrase type="emotion">discouraged</phrase>, hungry and malnourished</line>
+            <line><phrase type="lifeEvent">Livin' in this house with no furnace,
+                    unfurnished</phrase></line>
+            <line>And I'm sick of workin' dead-end jobs with lame pay</line>
+            <line>And I'm tired of bein' hired and fired the same day</line>
+            <line>But <phrase type="profanity">fuck</phrase> it — if you know the rules to the game,
+                play!</line>
+            <line>‘Cause when we die, we know we all goin' the same way</line>
+            <line>‘Cause it's cool to be the player, but it sucks to be the fan</line>
+            <line>When all you need is bucks to be the man, plus a luxury sedan</line>
+            <line>Or comfortable and roomy in a 6</line>
+            <line>But they threw me in the mix with all these gloomy lunatics</line>
+            <line>Who walk around <phrase type="emotion">depressed</phrase>, and smoke a pound of
+                cess a day</line>
+            <line>And yesterday went by so quick it seems like it was just today</line>
+            <line>My daughter wants to throw the ball, but I'm too stressed to play</line>
+            <line>Live half my life and throw the rest away</line>
+        </verse>
 
-<chorus><line>That's rock bottom</line>
-<line>When this life makes you <phrase type="emotion">mad</phrase> enough to kill</line>
-<line>That's rock bottom</line>
-<line>When you want somethin' bad enough to steal</line>
-<line>That's rock bottom</line>
-<line>When you feel like you've had it up to here</line>
-<line>‘Cause you're <phrase type="emotion">mad</phrase> enough to scream</line>
-<line>But you're <phrase type="emotion">sad</phrase> enough to tear</line></chorus>
+        <chorus>
+            <line>That's rock bottom</line>
+            <line>When this life makes you <phrase type="emotion">mad</phrase> enough to kill</line>
+            <line>That's rock bottom</line>
+            <line>When you want somethin' bad enough to steal</line>
+            <line>That's rock bottom</line>
+            <line>When you feel like you've had it up to here</line>
+            <line>‘Cause you're <phrase type="emotion">mad</phrase> enough to scream</line>
+            <line>But you're <phrase type="emotion">sad</phrase> enough to tear</line>
+        </chorus>
 
-<verse><line>There's people that love me and people that hate me</line>
-<line>But it's the evil that made me</line>
-<line>This backstabbin', deceitful and shady</line>
-<line>I want the money, the women, the fortune and fame</line>
-<line>If it means I end up burnin' in Hell, scorchin' in flames</line>
-<line>If it means I'm stealin' your checkbook and forgin' your name</line>
-<line>This lifetime bliss for eternal torture and pain</line>
-<line>‘Cause right now, I feel like I've just hit the rock bottom</line>
-<line>I've got problems — now everybody on my block's got 'em</line>
-<line>I'm screamin' like them two cops when 2Pac shot 'em</line>
-<line>Holdin' two Glocks, hope your doors got new locks on 'em</line>
-<line>My daughter's feet ain't got no shoes or socks on 'em</line>
-<line>And them rings you wearin' look like they got a few rocks on 'em</line>
-<line>And while you flaunt 'em</line>
-<line>I could be takin' 'em to shops to pawn 'em</line>
-<line>I got a couple of rings and a brand-new watch — you want 'em?</line>
-<line>‘Cause I ain't never went gold off one song</line>
-<line>I'm runnin' up on someone's lawn, with guns drawn</line></verse>
+        <verse>
+            <line>There's people that love me and people that hate me</line>
+            <line>But it's the evil that made me</line>
+            <line>This backstabbin', deceitful and shady</line>
+            <line>I want the money, the women, the fortune and fame</line>
+            <line>If it means I end up burnin' in Hell, scorchin' in flames</line>
+            <line>If it means I'm stealin' your checkbook and forgin' your name</line>
+            <line>This lifetime bliss for eternal torture and pain</line>
+            <line>‘Cause right now, I feel like I've just hit the rock bottom</line>
+            <line>I've got problems — now everybody on my block's got 'em</line>
+            <line>I'm screamin' like them two cops when 2Pac shot 'em</line>
+            <line>Holdin' two Glocks, hope your doors got new locks on 'em</line>
+            <line>My daughter's feet ain't got no shoes or socks on 'em</line>
+            <line>And them rings you wearin' look like they got a few rocks on 'em</line>
+            <line>And while you flaunt 'em</line>
+            <line>I could be takin' 'em to shops to pawn 'em</line>
+            <line>I got a couple of rings and a brand-new watch — you want 'em?</line>
+            <line>‘Cause I ain't never went gold off one song</line>
+            <line>I'm runnin' up on someone's lawn, with guns drawn</line>
+        </verse>
 
-<chorus><line>That's rock bottom</line>
-<line>When this life makes you <phrase type="emotion">mad</phrase> enough to kill</line>
-<line>That's rock bottom</line>
-<line>When you want somethin' bad enough to steal</line>
-<line>That's rock bottom</line>
-<line>When you feel like you've had it up to here</line>
-<line>‘Cause you're <phrase type="emotion">mad</phrase> enough to scream</line>
-<line>But you're <phrase type="emotion">sad</phrase> enough to tear</line></chorus>
+        <chorus>
+            <line>That's rock bottom</line>
+            <line>When this life makes you <phrase type="emotion">mad</phrase> enough to kill</line>
+            <line>That's rock bottom</line>
+            <line>When you want somethin' bad enough to steal</line>
+            <line>That's rock bottom</line>
+            <line>When you feel like you've had it up to here</line>
+            <line>‘Cause you're <phrase type="emotion">mad</phrase> enough to scream</line>
+            <line>But you're <phrase type="emotion">sad</phrase> enough to tear</line>
+        </chorus>
+    </lyrics>
 </song>

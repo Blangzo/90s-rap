@@ -1,101 +1,125 @@
-<song><head><line><songTitle>If I Had</songTitle></line>
-<artist><line>Eminem</line></artist>
-<producer><line>Eminem and Bass Brothers</line></producer>
-<album><line>Slim Shady EP</line></album>
-<certification><line>Diamond</line></certification></head>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>If I Had</songTitle>
+        <artist>Eminem</artist>
+        <producer>Eminem and Bass Brothers</producer>
+        <album>Slim Shady EP</album>
+        <certification>Diamond</certification>
+    </head>
 
-<lyrics><intro><line>"Life," by Marshall Mathers</line>
-<line>What is life? Life is like a big obstacle</line>
-<line>Put in front of your optical to slow you down</line>
-<line>And every time you think you've gotten past it</line>
-<line>It's gonna come back around</line>
-<line>And tackle you to the <phrase type="profanity">damn</phrase> ground</line>
-<line>What are friends?</line>
-<line>Friends are people that you think are your friends</line>
-<line>But they're really your enemies, with secret identities</line>
-<line>And disguises to hide their true colors</line>
-<line>So just when you think you're close enough to be brothers</line>
-<line>They wanna come back</line>
-<line>And cut your throat when you ain't lookin'</line>
-<line>What is money?</line>
-<line>Money is what makes a man act funny</line>
-<line>Money is the root of all evil</line>
-<line>Money'll make them same friends come back around</line>
-<line>Swearin' that they was always down</line>
-<line>What is life? I'm tired of life</line></intro>
+    <lyrics>
+        <intro>
+            <line>"Life," by Marshall Mathers</line>
+            <line>What is life? Life is like a big obstacle</line>
+            <line>Put in front of your optical to slow you down</line>
+            <line>And every time you think you've gotten past it</line>
+            <line>It's gonna come back around</line>
+            <line>And tackle you to the <phrase type="profanity">damn</phrase> ground</line>
+            <line>What are friends?</line>
+            <line>Friends are people that you think are your friends</line>
+            <line>But they're really your enemies, with secret identities</line>
+            <line>And disguises to hide their true colors</line>
+            <line>So just when you think you're close enough to be brothers</line>
+            <line>They wanna come back</line>
+            <line>And cut your throat when you ain't lookin'</line>
+            <line>What is money?</line>
+            <line>Money is what makes a man act funny</line>
+            <line>Money is the root of all evil</line>
+            <line>Money'll make them same friends come back around</line>
+            <line>Swearin' that they was always down</line>
+            <line>What is life? I'm tired of life</line>
+        </intro>
 
-<verse><line>I'm tired of backstabbin'-ass snakes with friendly grins</line>
-<line>I'm tired of committin' so many sins</line>
-<line>Tired of always givin' in when this bottle of Henny wins</line>
-<line>Tired of never havin' any ends</line>
-<line>Tired of havin' skinny friends, hooked on crack and Mini Thins</line>
-<line>I'm tired of this DJ playin' your shit when he spins</line>
-<line>Tired of not havin' a deal</line>
-<line>Tired of havin' to deal with the bullshit without grabbin' a steel</line>
-<line>Tired of drownin' in my sorrow</line>
-<line>Tired of havin' to borrow a dollar for gas to start my Monte Carlo</line>
-<line>I'm tired of <phrase type="profanity">motherfuckers</phrase> sprayin' <phrase type="profanity">shit</phrase> and dartin' off</line>
-<line>I'm tired of jobs startin' off</line>
-<line>At $5.50 an hour, then this boss wonders why I'm smartin' off</line>
-<line>I'm tired of bein' fired every time I fart and cough</line>
-<line>Tired of havin' to work as a gas station clerk</line>
-<line>For this jerk, breathin' down my neck, drivin' me berserk</line>
-<line>I'm tired of usin' plastic silverware</line>
-<line>Tired of workin' at Builder's Square</line>
-<line>Tired of not bein' a millionaire</line></verse>
+        <verse>
+            <line>I'm tired of backstabbin'-ass snakes with friendly grins</line>
+            <line>I'm tired of committin' so many sins</line>
+            <line>Tired of always givin' in when this bottle of Henny wins</line>
+            <line>Tired of never havin' any ends</line>
+            <line>Tired of havin' skinny friends, hooked on crack and Mini Thins</line>
+            <line>I'm tired of this DJ playin' your shit when he spins</line>
+            <line>Tired of not havin' a deal</line>
+            <line>Tired of havin' to deal with the bullshit without grabbin' a steel</line>
+            <line>Tired of drownin' in my sorrow</line>
+            <line>Tired of havin' to borrow a dollar for gas to start my Monte Carlo</line>
+            <line>I'm tired of <phrase type="profanity">motherfuckers</phrase> sprayin' <phrase
+                    type="profanity">shit</phrase> and dartin' off</line>
+            <line>I'm tired of jobs startin' off</line>
+            <line>At $5.50 an hour, then this boss wonders why I'm smartin' off</line>
+            <line>I'm tired of bein' fired every time I fart and cough</line>
+            <line>Tired of havin' to work as a gas station clerk</line>
+            <line>For this jerk, breathin' down my neck, drivin' me berserk</line>
+            <line>I'm tired of usin' plastic silverware</line>
+            <line>Tired of workin' at Builder's Square</line>
+            <line>Tired of not bein' a millionaire</line>
+        </verse>
 
-<chorus><line>But if I had a million dollars</line>
-<line>I'd buy a <phrase type="profanity">damn</phrase> brewery and turn the planet into alcoholics</line>
-<line>If I had a magic wand</line>
-<line>I'd make the world suck my dick without a condom on</line>
-<line>While I'm on the john</line>
-<line>If I had a million bucks, it wouldn't be enough</line>
-<line>Because I'd still be out robbin' armored trucks</line>
-<line>If I had one wish, I would ask</line>
-<line>For a big enough ass for the whole world to kiss</line></chorus>
+        <chorus>
+            <line>But if I had a million dollars</line>
+            <line>I'd buy a <phrase type="profanity">damn</phrase> brewery and turn the planet into
+                alcoholics</line>
+            <line>If I had a magic wand</line>
+            <line>I'd make the world suck my dick without a condom on</line>
+            <line>While I'm on the john</line>
+            <line>If I had a million bucks, it wouldn't be enough</line>
+            <line>Because I'd still be out robbin' armored trucks</line>
+            <line>If I had one wish, I would ask</line>
+            <line>For a big enough ass for the whole world to kiss</line></chorus>
 
-<verse><line>I'm tired of bein' white trash, broke and always poor</line>
-<line>Tired of takin' pop bottles back to the party store</line>
-<line>I'm tired of not havin' a phone</line>
-<line>Tired of not havin' a home to have one in if I did have one on</line>
-<line>Tired of not drivin' a BM</line>
-<line>Tired of not workin' at GM, tired of wantin' to be him</line>
-<line>Tired of not sleepin' without a Tylenol PM</line>
-<line>Tired of not performin' in a packed coliseum</line>
-<line>Tired of not bein' on tour</line>
-<line>Tired of <phrase type="profanity">fuckin'</phrase> the same blonde <phrase type="dt">whore</phrase></line>
-<line>After work, in the back of a Contour</line>
-<line>I'm tired of fakin' knots with a stack of ones</line>
-<line>Havin' a lack of funds and resortin' back to guns</line>
-<line>Tired of bein' stared at</line>
-<line>Tired of wearin' the same <phrase type="profanity">damn</phrase> Nike Air hat</line>
-<line>Tired of steppin' in clubs, wearin' the same pair of Lugz</line>
-<line>Tired of people sayin' they're tired of hearin' me rap about drugs</line>
-<line>Tired of other rappers who ain't bringin' half the skill as me</line>
-<line>Sayin' they wasn't feelin' me on "Nobody's As Ill As Me"</line>
-<line>And I'm tired of radio stations tellin' fibs</line>
-<line>Tired of JLB sayin', "where hip-hop lives"</line></verse>
+        <verse><line>I'm tired of bein' white trash, broke and always poor</line>
+            <line>Tired of takin' pop bottles back to the party store</line>
+            <line>I'm tired of not havin' a phone</line>
+            <line>Tired of not havin' a home to have one in if I did have one on</line>
+            <line>Tired of not drivin' a BM</line>
+            <line>Tired of not workin' at GM, tired of wantin' to be him</line>
+            <line>Tired of not sleepin' without a Tylenol PM</line>
+            <line>Tired of not performin' in a packed coliseum</line>
+            <line>Tired of not bein' on tour</line>
+            <line>Tired of <phrase type="profanity">fuckin'</phrase> the same blonde <phrase
+                    type="dt">whore</phrase></line>
+            <line>After work, in the back of a Contour</line>
+            <line>I'm tired of fakin' knots with a stack of ones</line>
+            <line>Havin' a lack of funds and resortin' back to guns</line>
+            <line>Tired of bein' stared at</line>
+            <line>Tired of wearin' the same <phrase type="profanity">damn</phrase> Nike Air
+                hat</line>
+            <line>Tired of steppin' in clubs, wearin' the same pair of Lugz</line>
+            <line>Tired of people sayin' they're tired of hearin' me rap about drugs</line>
+            <line>Tired of other rappers who ain't bringin' half the skill as me</line>
+            <line>Sayin' they wasn't feelin' me on "Nobody's As Ill As Me"</line>
+            <line>And I'm tired of radio stations tellin' fibs</line>
+            <line>Tired of JLB sayin', "where hip-hop lives"</line>
+        </verse>
 
-<chorus><line>But if I had a million dollars</line>
-<line>I'd buy a <phrase type="profanity">damn</phrase> brewery and turn the planet into alcoholics</line>
-<line>If I had a magic wand</line>
-<line>I'd make the world suck my dick without a condom on</line>
-<line>While I'm on the john</line>
-<line>If I had a million bucks, it wouldn't be enough</line>
-<line>Because I'd still be out robbin' armored trucks</line>
-<line>If I had one wish, I would ask</line>
-<line>For a big enough <phrase type="profanity">ass</phrase> for the whole world to kiss</line></chorus>
+        <chorus>
+            <line>But if I had a million dollars</line>
+            <line>I'd buy a <phrase type="profanity">damn</phrase> brewery and turn the planet into
+                alcoholics</line>
+            <line>If I had a magic wand</line>
+            <line>I'd make the world suck my dick without a condom on</line>
+            <line>While I'm on the john</line>
+            <line>If I had a million bucks, it wouldn't be enough</line>
+            <line>Because I'd still be out robbin' armored trucks</line>
+            <line>If I had one wish, I would ask</line>
+            <line>For a big enough <phrase type="profanity">ass</phrase> for the whole world to
+                kiss</line>
+        </chorus>
 
-<outro><line>You know what I'm sayin'?</line>
-<line>I'm tired of all of this <phrase type="profanity">bullshit</phrase>, tellin' me to be positive</line>
-<line>How am I 'posed to be positive when I don't see <phrase type="profanity">shit</phrase> positive?</line>
-<line>You know what I'm sayin'?</line>
-<line>I rap about <phrase type="profanity">shit</phrase> around me, shit I see</line>
-<line>You know what I'm sayin'?</line>
-<line>And right now, I'm tired of everything</line>
-<line>Tired of all this player-hatin' that's goin' on in my own city</line>
-<line>Can't get no airplay, you know what I'm sayin'?</line>
-<line>But hey, it's cool though, you know what I'm sayin'?</line>
-<line>I'm just fed up, that's my word</line></outro></lyrics>
-
+        <outro>
+            <line>You know what I'm sayin'?</line>
+            <line>I'm tired of all of this <phrase type="profanity">bullshit</phrase>, tellin' me to
+                be positive</line>
+            <line>How am I 'posed to be positive when I don't see <phrase type="profanity"
+                    >shit</phrase> positive?</line>
+            <line>You know what I'm sayin'?</line>
+            <line>I rap about <phrase type="profanity">shit</phrase> around me, shit I see</line>
+            <line>You know what I'm sayin'?</line>
+            <line>And right now, I'm tired of everything</line>
+            <line>Tired of all this player-hatin' that's goin' on in my own city</line>
+            <line>Can't get no airplay, you know what I'm sayin'?</line>
+            <line>But hey, it's cool though, you know what I'm sayin'?</line>
+            <line>I'm just fed up, that's my word</line>
+        </outro>
+    </lyrics>
 </song>

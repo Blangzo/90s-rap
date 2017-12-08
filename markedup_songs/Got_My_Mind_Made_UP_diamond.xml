@@ -1,144 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song><head><songTitle>Got My Mind Made Up</songTitle>
-<singer>2Pac</singer>
-<featuredSingers>Tha Dogg Pound, Method Man and Redman</featuredSingers>
-<producers>2Pac and Daz Dillinger</producers>
-<album>All Eyez on Me</album>
-<certification>Gold</certification></head>
- 
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>Got My Mind Made Up</songTitle>
+        <artist>2Pac</artist>
+        <featuredArtist>Tha Dogg Pound</featuredArtist>
+        <featuredArtist>Method Man</featuredArtist>
+        <featuredArtist>Redman</featuredArtist>
+        <producer>2Pac</producer>
+        <producer>Daz Dillinger</producer>
+        <album>All Eyez on Me</album>
+        <certification>Gold</certification>
+    </head>
 
-<lyrics><verse><featuredSinger>[Daz Dillinger]</featuredSinger>
-You find an MC like me, who's strong
-Leavin' <phrase type="profanity">motherfuckers</phrase> aborted, with no verbal support
-When I command the microphone
-I get deadly as Khan, though
-With a bear and a snake and a panda, I'm all those
-Who can withstand the more power I gain?
-And make it possible, for me
-To drop a few to wreck yo' brain
-Imagine and keep on wishin' upon a star
-Finally realizin' who the <phrase type="profanity">fuck</phrase> we are
-When I penetrate, it's been withstandin', faded
-Would it be the greatest MC of all-time?
-When I created rhyme
-For the simple fact, when I attack I crush your pride
-Our intention to ride, every time, all night
-I'm faced with the scars beyond this one bar
-For me to put down my guard, I'm faced what I'ma ride
-Breakin' in gas with the '68 all day
-In-and-out with my pay, I'm soon to count the bodies</verse>
+    <lyrics>
+        <verse>
+            <featuredSinger>Daz Dillinger</featuredSinger>
+            <line>You find an MC like me, who's strong</line>
+            <line>Leavin' <phrase type="profanity">motherfuckers</phrase> aborted, with no verbal support</line>
+            <line>When I command the microphone</line>
+            <line>I get deadly as Khan, though</line>
+            <line>With a bear and a snake and a panda, I'm all those</line>
+            <line>Who can withstand the more power I gain?</line>
+            <line>And make it possible, for me</line>
+            <line>To drop a few to wreck yo' brain</line>
+            <line>Imagine and keep on wishin' upon a star</line>
+            <line>Finally realizin' who the <phrase type="profanity">fuck</phrase> we are</line>
+            <line>When I penetrate, it's been withstandin', faded</line>
+            <line>Would it be the greatest MC of all-time?</line>
+            <line>When I created rhyme</line>
+            <line>For the simple fact, when I attack I crush your pride</line>
+            <line>Our intention to ride, every time, all night</line>
+            <line>I'm faced with the scars beyond this one bar</line>
+            <line>For me to put down my guard, I'm faced what I'ma ride</line>
+            <line>Breakin' in gas with the '68 all day</line>
+            <line>In-and-out with my pay, I'm soon to count the bodies</line>
+        </verse>
 
-<verse><singer>[2Pac]</singer>
-So mandatory my elevation, my lyrics like orientation
-So you can be more familiar with the <phrase type="profanity">nigga</phrase> you facin'
-We must be patient, nothin' better than communication
-Known to damage and highly flammable, like gas stations
-Sorry, I left that <phrase type="profanity">ass</phrase> waitin', no more procrastination
-Give up to fate and get that <phrase type="profanity">ass</phrase> shakin'
-I'm bustin' and makin' <phrase type="profanity">motherfuckers</phrase> panic
-Don't take your life for granted
-Put that <phrase type="profanity">ass</phrase> in the dirt, you swear the <phrase type="profanity">bitch</phrase> was planted
-My lyrics motivate the planet
-It's similar to "Rhythm Nation", but thugged out
-Forgive me, Janet
-Who's in control? I'm activatin' your souls
-You know the way the games get controlled
-Yo, two years ago, a friend of mine
-Told me Alize and Cristal blows your mind
-Bear witness to the dopest <phrase type="profanity">fuckin'</phrase> rhyme I wrote
-Takin' off my coat, clearin' my throat
-</verse>
-<chorus><featuredSinger>[Method Man]</featuredSinger>
-I got my mind made up, come on
-Get in, get into
-Let it ride, tonight's the night
-I got my mind made up, come on
-Get in, get into
-Let it ride, tonight's the night</chorus>
+        <verse>
+            <singer>2Pac</singer>
+            <line>So mandatory my elevation, my lyrics like orientation</line>
+            <line>So you can be more familiar with the <phrase type="profanity">nigga</phrase> you facin'</line>
+            <line>We must be patient, nothin' better than communication</line>
+            <line>Known to damage and highly flammable, like gas stations</line>
+            <line>Sorry, I left that ass waitin', no more procrastination</line>
+            <line>Give up to fate and get that ass shakin'</line>
+            <line>I'm bustin' and makin' <phrase type="profanity">motherfuckers</phrase> panic</line>
+            <line>Don't take your life for granted</line>
+            <line>Put that ass in the dirt, you swear the <phrase type="profanity">bitch</phrase> was planted</line>
+            <line>My lyrics motivate the planet</line>
+            <line>It's similar to "Rhythm Nation", but thugged out</line>
+            <line>Forgive me, Janet</line>
+            <line>Who's in control? I'm activatin' your souls</line>
+            <line>You know the way the games get controlled</line>
+            <line>Yo, two years ago, a friend of mine</line>
+            <line>Told me Alize and Cristal blows your mind</line>
+            <line>Bear witness to the dopest fuckin' rhyme I wrote</line>
+            <line>Takin' off my coat, clearin' my throat</line>
+        </verse>
 
-<verse><featuredSinger>[Kurupt]</featuredSinger>
-Well, I comes through with two packs
-Of the bomb prophylactics
-For protection, so my <phrase type="profanity">fuckin'</phrase> sack won't collapse
-'Cause nowadays, <phrase type="profanity">shit's</phrase> evadin' the X-rays
-Sendin' young <phrase type="profanity">motherfuckers</phrase> to an early grave
-I wonder if my terrifyin' tactics of torturin' MCs
-Shows my heart's as cold as the tundra
-Electrifyin' like thunder, I'm just too much
-Rough and raw with that <phrase type="profanity">motherfuckin'</phrase> poisonous touch
-I'm an MC with lyrics that's the <phrase type="profanity">fuckin'</phrase> Bombay
-You got ten steps before instant death, like Bai Mei
-My rhymes'll leave a mark on your mind
-As the deadly virus spread through your head, like Sand Palm
-There's no escape, nah, I ain't blastin'
-I use my mental to assassinate assassins for those askin'
-Opposed to laughin', raw maniacal villain
-Laughter enhances the chances of the killin'
-Why is that? 'Cause smilin' faces deceive
-You best believe: to MCs, I'm the deadliest disease
-My thoughts rip your throat and make it hard to breathe
-Your whole camp's under siege, and I'm Jason Voorhees
-In the heat of the night is when I defeat and ignite mics
-My verbal snipe your vocabs on site
-I'm out the cut, uncut and raw with no clause for all
-So all my rhymes hit and split the bricks on the wall
-You already have an idea about the superior sphere
-The greater rhyme creator on both sides of the Equator
-I rock from here to there, to Philly and back
-To L.A., on the spot where I rock and bust, like straps
-As your views get overshadowed when you come in contact
-Beware, set and prepare to enter verbal combat</verse>
+        <verse>
+            <featuredSinger>Method Man</featuredSinger>
+            <line>I got my mind made up, come on</line>
+            <line>Get in, get into</line>
+            <line>Let it ride, tonight's the night</line>
+            <line>I got my mind made up, come on</line>
+            <line>Get in, get into</line>
+            <line>Let it ride, tonight's the night</line>
+        </verse>
 
-<verse><featuredSinger>[Method Man]</featuredSinger>
-<phrase type="profanity">Fuck</phrase> you losers!
-While you fake jacks, I makes manoeuvres
-Like Hitler stickin' up {Jews} with German {Lugers}
-The mister Meth-Tical from Staten Isle
-Will be back after this message, don't touch the dial
-Rarely do you see an MC out for justice
-Got my gun powder and my musket—blaow!
-Melons get swellings
-I paint mental pictures, like Magellan
-Half of my clan's repeat felons
-<phrase type="profanity">Niggas</phrase> best protect they joints for nine-nickel
-Man, I stay on point, like icicles
-Now, who wanna test Tical, then touch Tical?
-All up in your <phrase type="profanity">motherfuckin'</phrase> mouth
-Headbanger boogie, catch me on tour with Al Doogie
-Method Man rolled too tight, you can't pull me
-Better take one and pass or that's that <phrase type="profanity">ass</phrase>
-Your vital statistics are low and fallin' fast
-Johnny Blaze out to get loot, like Johnny Cash
-Play a game of Russian Roulette and have a blast</verse>
+        <verse>
+            <featuredSinger>Kurupt</featuredSinger>
+            <line>Well, I comes through with two packs</line>
+            <line>Of the bomb prophylactics</line>
+            <line>For protection, so my fuckin' sack won't collapse</line>
+            <line>'Cause nowadays, <phrase type="profanity">shit's</phrase> evadin' the X-rays</line>
+            <line>Sendin' young <phrase type="profanity">motherfuckers</phrase> to an early grave</line>
+            <line>I wonder if my terrifyin' tactics of torturin' MCs</line>
+            <line>Shows my heart's as cold as the tundra</line>
+            <line>Electrifyin' like thunder, I'm just too much</line>
+            <line>Rough and raw with that motherfuckin' poisonous touch</line>
+            <line>I'm an MC with lyrics that's the fuckin' Bombay</line>
+            <line>You got ten steps before instant death, like Bai Mei</line>
+            <line>My rhymes'll leave a mark on your mind</line>
+            <line>As the deadly virus spread through your head, like Sand Palm</line>
+            <line>There's no escape, nah, I ain't blastin'</line>
+            <line>I use my mental to assassinate assassins for those askin'</line>
+            <line>Opposed to laughin', raw maniacal villain</line>
+            <line>Laughter enhances the chances of the killin'</line>
+            <line>Why is that? 'Cause smilin' faces deceive</line>
+            <line>You best believe: to MCs, I'm the deadliest disease</line>
+            <line>My thoughts rip your throat and make it hard to breathe</line>
+            <line>Your whole camp's under siege, and I'm Jason Voorhees</line>
+            <line>In the heat of the night is when I defeat and ignite mics</line>
+            <line>My verbal snipe your vocabs on site</line>
+            <line>I'm out the cut, uncut and raw with no clause for all</line>
+            <line>So all my rhymes hit and split the bricks on the wall</line>
+            <line>You already have an idea about the superior sphere</line>
+            <line>The greater rhyme creator on both sides of the Equator</line>
+            <line>I rock from here to there, to Philly and back</line>
+            <line>To L.A., on the spot where I rock and bust, like straps</line>
+            <line>As your views get overshadowed when you come in contact</line>
+            <line>Beware, set and prepare to enter verbal combat</line>
+        </verse>
 
-<verse><featuredSinger>[Redman]</featuredSinger>
-Ayo, lyrical gat spittin' the criminal tactics
-Non-believers get my dick and genitals backwards
-Let's face it, there's no replacement
-Taste this mad underground basement <phrase type="profanity">shit</phrase> I'm laced with
-Avalanche on your whole camp when I'm spliffted
-Funk Doctor, who?
-Spock, <phrase type="profanity">bitch</phrase>, don't get it twisted
-I got connects, like Federal Express
-To get the fresh package of bless the dogs can't fetch
-Got the clear spot from the rear block
-To bust 'til every <phrase type="profanity">nigga</phrase> here drop, men I fear not
-Hold your nose and blow out 'til your ears pop
-Since your crew suit you to shift
-Now, you claim that your gears locked
-Whiff this underground cannabis
-I'm dangerous, like John the Bomb Analyst
-Flip MCs like kis
-My degrees freeze consecutively, like EPMD LPs
-Lick off a shot and hit your fam by mistake
-So I erase the whole front row at the wake
-I planned my escape in case Jake wanna snake
-Bust it, I'm the one pushin' the hearse, in the first place
-Confidence for you <phrase type="profanity">shaky-ass</phrase> folks
-Pump for Rockafella for the day he got smoked
-Choke off this antidote, got you ope
-Get roast by my lyrical Billy Dee .45 Colt
-(And I'm out for nine-nickel)</verse>
-<outro>
-I-N-S the Rebel</outro></lyrics>
+        <verse>
+            <featuredSinger>Method Man</featuredSinger>
+            <line> <phrase type="profanity">Fuck</phrase>  you losers!</line>
+            <line>While you fake jacks, I makes manoeuvres</line>
+            <line>Like Hitler stickin' up {Jews} with German {Lugers}</line>
+            <line>The mister Meth-Tical from Staten Isle</line>
+            <line>Will be back after this message, don't touch the dial</line>
+            <line>Rarely do you see an MC out for justice</line>
+            <line>Got my gun powder and my musket—blaow!</line>
+            <line>Melons get swellings</line>
+            <line>I paint mental pictures, like Magellan</line>
+            <line>Half of my clan's repeat felons</line>
+            <line> <phrase type="profanity">Niggas</phrase>  best protect they joints for nine-nickel</line>
+            <line>Man, I stay on point, like icicles</line>
+            <line>Now, who wanna test Tical, then touch Tical?</line>
+            <line>All up in your motherfuckin' mouth</line>
+            <line>Headbanger boogie, catch me on tour with Al Doogie</line>
+            <line>Method Man rolled too tight, you can't pull me</line>
+            <line>Better take one and pass or that's that ass</line>
+            <line>Your vital statistics are low and fallin' fast</line>
+            <line>Johnny Blaze out to get loot, like Johnny Cash</line>
+            <line>Play a game of Russian Roulette and have a blast</line>
+        </verse>
+
+        <verse>
+            <featuredSinger>Redman</featuredSinger>
+            <line>Ayo, lyrical gat spittin' the criminal tactics</line>
+            <line>Non-believers get my dick and genitals backwards</line>
+            <line>Let's face it, there's no replacement</line>
+            <line>Taste this mad underground basement <phrase type="profanity">shit</phrase> I'm laced with</line>
+            <line>Avalanche on your whole camp when I'm spliffted</line>
+            <line>Funk Doctor, who?</line>
+            <line>Spock, bitch, don't get it twisted</line>
+            <line>I got connects, like Federal Express</line>
+            <line>To get the fresh package of bless the dogs can't fetch</line>
+            <line>Got the clear spot from the rear block</line>
+            <line>To bust 'til every <phrase type="profanity">nigga</phrase> here drop, men I fear not</line>
+            <line>Hold your nose and blow out 'til your ears pop</line>
+            <line>Since your crew suit you to shift</line>
+            <line>Now, you claim that your gears locked</line>
+            <line>Whiff this underground cannabis</line>
+            <line>I'm dangerous, like John the Bomb Analyst</line>
+            <line>Flip MCs like kis</line>
+            <line>My degrees freeze consecutively, like EPMD LPs</line>
+            <line>Lick off a shot and hit your fam by mistake</line>
+            <line>So I erase the whole front row at the wake</line>
+            <line>I planned my escape in case Jake wanna snake</line>
+            <line>Bust it, I'm the one pushin' the hearse, in the first place</line>
+            <line>Confidence for you shaky-ass folks</line>
+            <line>Pump for Rockafella for the day he got smoked</line>
+            <line>Choke off this antidote, got you ope</line>
+            <line>Get roast by my lyrical Billy Dee .45 Colt</line>
+            <line>(And I'm out for nine-nickel)</line>
+        </verse>
+
+        <outro>
+            <line>I-N-S the Rebel</line>
+        </outro>
+    </lyrics>
 </song>

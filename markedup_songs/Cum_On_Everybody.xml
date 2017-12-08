@@ -1,76 +1,109 @@
-<song><head><songTitle><line>Cum On Everybody</line></songTitle>
-<artist><line>Eminem</line></artist>
-<featuredArtist><line>Dina Rae</line></featuredArtist>
-<producer><line>Eminem and Bass Brothers</line></producer>
-<album><line>The Slim Shady LP</line></album>
-<certification><line>Diamond</line></certification></head>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>Cum On Everybody</songTitle>
+        <artist>Eminem</artist>
+        <featuredArtist>Dina Rae</featuredArtist>
+        <producer>Eminem</producer>
+        <producer>Bass Brothers</producer>
+        <album>The Slim Shady LP</album>
+        <certification>Diamond</certification>
+    </head>
 
-<lyrics><intro><line>Yeah, haha, whoo, <phrase type="profanity">shit</phrase></line>
-<line>Yo, mic check, testing</line>
-<line>One, two, um… twelve</line>
-<line>Whattup whattup whattup! (Outsidaz)</line>
-<line>This is my dance song, can you hear me?</line>
-<line>(Rah Digga, Pacewon, Young Zee)</line>
-<line>Alright, aye, turn my headphones up</line>
-</intro>
+    <lyrics>
+        <intro>
+            <line>Yeah, haha, whoo, <phrase type="profanity">shit</phrase></line>
+            <line>Yo, mic check, testing</line>
+            <line>One, two, um… twelve</line>
+            <line>Whattup whattup whattup! (Outsidaz)</line>
+            <line>This is my dance song, can you hear me?</line>
+            <line>(Rah Digga, Pacewon, Young Zee)</line>
+            <line>Alright, aye, turn my headphones up</line>
+        </intro>
 
-<verse><line>My favorite color is red, like the blood shed</line>
-<line>From Kurt Cobain's head when he shot himself dead</line>
-<line>Women all grabbin' at my shish-kabob</line>
-<line>Bought Lauryn Hill's tape so her kids could starve</line>
-<line>(“I can’t stand white people”)</line>
-<line>You thought I was ill and now I'm even more so</line>
-<line><phrase type="profanity">Shit</phrase>, I got full-blown AIDS and a sore throat</line>
-<line>I got a wardrobe with an orange robe</line>
-<line>I'm in the fourth row, signin' autographs at your show</line>
-<line>I just remembered that I'm absent-minded</line>
-<line>Wait, I mean I've lost my mind, I can't find it</line>
-<line>I'm freestylin' every verse that I spit</line>
-<line>‘Cause I don't even remember the words to my <phrase type="profanity">shit</phrase></line>
-<line>I told the doc I need a change in sickness</line>
-<line>And gave a girl herpes in exchange for syphilis</line>
-<line>Put my LP on your Christmas gift list</line>
-<line>You want to get high? Here, <phrase type="dt">bitch</phrase>, just sniff this!</line></verse>
+        <verse>
+            <line>My favorite color is red, like the blood shed</line>
+            <line>From Kurt Cobain's head when he shot himself dead</line>
+            <line>Women all grabbin' at my shish-kabob</line>
+            <line>Bought Lauryn Hill's tape so her kids could starve</line>
+            <line>(“I can’t stand white people”)</line>
+            <line>You thought I was ill and now I'm even more so</line>
+            <line><phrase type="profanity">Shit</phrase>, I got full-blown AIDS and a sore
+                throat</line>
+            <line>I got a wardrobe with an orange robe</line>
+            <line>I'm in the fourth row, signin' autographs at your show</line>
+            <line>I just remembered that I'm absent-minded</line>
+            <line>Wait, I mean I've lost my mind, I can't find it</line>
+            <line>I'm freestylin' every verse that I spit</line>
+            <line>‘Cause I don't even remember the words to my <phrase type="profanity"
+                    >shit</phrase></line>
+            <line>I told the doc I need a change in sickness</line>
+            <line>And gave a girl herpes in exchange for syphilis</line>
+            <line>Put my LP on your Christmas gift list</line>
+            <line>You want to get high? Here, <phrase type="dt">bitch</phrase>, just sniff
+                this!</line>
+        </verse>
 
-<chorus><line>Cum on everybody</line>
-<line>(Get down tonight)</line></chorus>
+        <chorus>
+            <line>Cum on everybody</line>
+            <line>(Get down tonight)</line>
+        </chorus>
 
-<verse><phrase type="lifeEvent"><line>I tried suicide once and I'll try it again</line></phrase>
-<line>That's why I write songs where I die at the end</line>
-<line>‘Cause I don't give a <phrase type="profanity">fuck</phrase>, like my middle finger was stuck</line>
-<line>And I was wavin' it at everybody, screaming, "I suck!"</line>
-<line>I go on stage in front of a sell-out crowd</line>
-<line>And yell out loud: "All y'all get the <phrase type="profanity">hell</phrase> out now!"</line>
-<line><phrase type="profanity">Fuck</phrase> rap, I'm givin' it up, y'all, I'm sorry</line>
-<line>(But Eminem, this is your record release party!)</line>
-<line>I'm bored out of my gourd, so I took a hammer and nailed my foot to the floorboard of my Ford</line>
-<line>Guess I'm just a sick sick <phrase type="dt">bastard</phrase></line>
-<line>Who's one sandwich short of a picnic basket</line>
-<line>One Excedrin tablet short of a full medicine cabinet</line>
-<line>I feel like my head has been shredded</line>
-<line>Like lettuce and cabbage</line>
-<line>And if you ever see a video for this <phrase type="profanity">shit</phrase></line>
-<line>I'll probably be dressed up like a mummy with my wrists slit</line></verse>
+        <verse>
+            <line><phrase type="lifeEvent">I tried suicide once and I'll try it
+                again</phrase></line>
+            <line>That's why I write songs where I die at the end</line>
+            <line>‘Cause I don't give a <phrase type="profanity">fuck</phrase>, like my middle
+                finger was stuck</line>
+            <line>And I was wavin' it at everybody, screaming, "I suck!"</line>
+            <line>I go on stage in front of a sell-out crowd</line>
+            <line>And yell out loud: "All y'all get the <phrase type="profanity">hell</phrase> out
+                now!"</line>
+            <line><phrase type="profanity">Fuck</phrase> rap, I'm givin' it up, y'all, I'm
+                sorry</line>
+            <line>(But Eminem, this is your record release party!)</line>
+            <line>I'm bored out of my gourd, so I took a hammer and nailed my foot to the floorboard
+                of my Ford</line>
+            <line>Guess I'm just a sick sick <phrase type="dt">bastard</phrase></line>
+            <line>Who's one sandwich short of a picnic basket</line>
+            <line>One Excedrin tablet short of a full medicine cabinet</line>
+            <line>I feel like my head has been shredded</line>
+            <line>Like lettuce and cabbage</line>
+            <line>And if you ever see a video for this <phrase type="profanity">shit</phrase></line>
+            <line>I'll probably be dressed up like a mummy with my wrists slit</line>
+        </verse>
 
-<chorus><line>Cum on everybody</line>
-<line>(Get down tonight)</line></chorus>
+        <chorus>
+            <line>Cum on everybody</line>
+            <line>(Get down tonight)</line>
+        </chorus>
 
-<verse><line>Got <phrase type="profanity">bitches</phrase> on my jock out in East Detroit</line>
-<line>‘Cause they think that I'm a <phrase type="profanity">motherfuckin'</phrase> Beastie Boy</line>
-<line>So I told 'em I was Mike D</line>
-<line>They was like, "Gee, I don't know, he might be!"</line>
-<line>I told 'em, "Meet me at Kid Rock's next concert</line>
-<line>I'll be standin' by the Loch Ness Monster."</line>
-<line>Peace out, then I jetted to the weed house, smoked out</line>
-<line>'Til I started bustin' freestyles, broke out</line>
-<line>Then I dipped quick back to the crib, put on lipstick</line>
-<line>Crushed up the Tylenol and ate it with a dipstick</line>
-<line>Made a couple of crank calls collect (*brrrrrrring, click*)</line>
-<line>"It's Ken Kaniff from Connecticut, can you accept?"</line>
-<line>I want to make songs all the fellas dub</line>
-<line>And murder every rich rapper that I'm <phrase type="emotion">jealous</phrase> of</line>
-<line>So just remember when I bomb your set</line>
-<line>Yo, I only cuss to make your mom <phrase type="emotion">upset</phrase></line></verse>
+        <verse>
+            <line>Got <phrase type="profanity">bitches</phrase> on my jock out in East
+                Detroit</line>
+            <line>‘Cause they think that I'm a <phrase type="profanity">motherfuckin'</phrase>
+                Beastie Boy</line>
+            <line>So I told 'em I was Mike D</line>
+            <line>They was like, "Gee, I don't know, he might be!"</line>
+            <line>I told 'em, "Meet me at Kid Rock's next concert</line>
+            <line>I'll be standin' by the Loch Ness Monster."</line>
+            <line>Peace out, then I jetted to the weed house, smoked out</line>
+            <line>'Til I started bustin' freestyles, broke out</line>
+            <line>Then I dipped quick back to the crib, put on lipstick</line>
+            <line>Crushed up the Tylenol and ate it with a dipstick</line>
+            <line>Made a couple of crank calls collect (*brrrrrrring, click*)</line>
+            <line>"It's Ken Kaniff from Connecticut, can you accept?"</line>
+            <line>I want to make songs all the fellas dub</line>
+            <line>And murder every rich rapper that I'm <phrase type="emotion">jealous</phrase>
+                of</line>
+            <line>So just remember when I bomb your set</line>
+            <line>Yo, I only cuss to make your mom <phrase type="emotion">upset</phrase></line>
+        </verse>
 
-<chorus><line>Cum on everybody</line>
-<line>(Get down tonight)</line></chorus></lyrics></song>
+        <chorus>
+            <line>Cum on everybody</line>
+            <line>(Get down tonight)</line>
+        </chorus>
+    </lyrics>
+</song>

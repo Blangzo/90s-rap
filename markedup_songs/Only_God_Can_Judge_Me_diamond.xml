@@ -1,153 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song><head><songTitle>Only God Can Judge Me</songTitle>
-<singer>2Pac</singer>
-<featuredSinger>Rappin' 4-Tay</featuredSinger>
-<producers>Harold Scrap Frettie and Doug Rasheed</producers>
-<album>All Eyez on Me</album>
-<certification>Diamond</certification></head>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>Only God Can Judge Me</songTitle>
+        <artist>2Pac</artist>
+        <featuredArtist>Rappin' 4-Tay</featuredArtist>
+        <producer>Harold Scrap Frettie</producer>
+        <producer>Doug Rasheed</producer>
+        <album>All Eyez on Me</album>
+        <certification>Diamond</certification>
+    </head>
 
-<lyrics><intro><singer>[2Pac]</singer>
-Only God can judge me (that right?)
-Only God can judge me now
-Nobody else (nobody else)
-All you other <phrase type="profanity">motherfuckers</phrase> get out my business (really)
-Only God can judge me now</intro>
-<verse>
-<singer>[2Pac]</singer>
-Perhaps I was blind to the facts, stabbed in the back
-I couldn't trust my own homies, just a bunch of dirty rats
-Will I succeed? Paranoid from the weed
-And hocus pocus, I try to focus, but I can't see
-And in my mind I'm a blind man doin' time
-Look to my future, ‘cause my past is all behind me
-Is it a crime to fight for what is mine?
-Everybody's dyin', tell me what's the use of tryin'
-I've been trapped since birth, cautious ‘cause I'm cursed
-And fantasies of my family in a hearse
-And they say it's the White man I should fear
-But it's my own kind doin' all the killin' here
-I can't lie, ain't no love for the other side
-<phrase type="emotion">Jealousy</phrase> inside, make 'em wish I died
-Oh my Lord, tell me what I'm livin' for
-Everybody's droppin', got me knockin' on Heaven's door
-<phrase type="lifeEvent">And all my memories of seein' brothers bleed</phrase>
-And everybody grieves, but still nobody sees
-Recollect your thoughts, don't get caught up in the mix
-‘Cause the media is full of dirty tricks</verse>
+    <lyrics>
+        <intro>
+            <singer>2Pac</singer>
+            <line>Only God can judge me (that right?)</line>
+            <line>Only God can judge me now</line>
+            <line>Nobody else (nobody else)</line>
+            <line>All you other <phrase type="profanity">motherfuckers</phrase> get out my business
+                (really)</line>
+            <line>Only God can judge me now</line>
+        </intro>
 
-<chorus><singer>[2Pac]</singer>
-Only God can judge me
-Only God can judge me, only God
-Only God can judge me
-Only God can judge me
-Only God can judge me, only God
-Only God can judge me now
-Only God can judge me, only God
-Only God can judge me
-Only God can judge me, only God
-Only God can judge me</chorus>
+        <verse>
+            <singer>2Pac</singer>
+            <line>Perhaps I was blind to the facts, stabbed in the back</line>
+            <line>I couldn't trust my own homies, just a bunch of dirty rats</line>
+            <line>Will I succeed? Paranoid from the weed</line>
+            <line>And hocus pocus, I try to focus, but I can't see</line>
+            <line>And in my mind I'm a blind man doin' time</line>
+            <line>Look to my future, ‘cause my past is all behind me</line>
+            <line>Is it a crime to fight for what is mine?</line>
+            <line>Everybody's dyin', tell me what's the use of tryin'</line>
+            <line>I've been trapped since birth, cautious ‘cause I'm cursed</line>
+            <line>And fantasies of my family in a hearse</line>
+            <line>And they say it's the White man I should fear</line>
+            <line>But it's my own kind doin' all the killin' here</line>
+            <line>I can't lie, ain't no love for the other side</line>
+            <line><phrase type="emotion">Jealousy</phrase> inside, make 'em wish I died</line>
+            <line>Oh my Lord, tell me what I'm livin' for</line>
+            <line>Everybody's droppin', got me knockin' on Heaven's door</line>
+            <line><phrase type="lifeEvent">And all my memories of seein' brothers
+                bleed</phrase></line>
+            <line>And everybody grieves, but still nobody sees</line>
+            <line>Recollect your thoughts, don't get caught up in the mix</line>
+            <line>‘Cause the media is full of dirty tricks</line>
+        </verse>
 
-[Flatline]
+        <chorus>
+            <singer>2Pac</singer>
+            <line>Only God can judge me</line>
+            <line>Only God can judge me, only God</line>
+            <line>Only God can judge me</line>
+            <line>Only God can judge me</line>
+            <line>Only God can judge me, only God</line>
+            <line>Only God can judge me now</line>
+            <line>Only God can judge me, only God</line>
+            <line>Only God can judge me</line>
+            <line>Only God can judge me, only God</line>
+            <line>Only God can judge me</line>
+        </chorus>
 
-<verse><singer>[2Pac]</singer>
-I hear the doctor standin' over me, screamin' I can make it
-Got a body full of bullet holes, layin' here naked
-Still I can't breathe, something's evil in my IV
-‘Cause everytime I breathe I think they killin' me
-I'm havin' nightmares, homicidal fantasies
-I wake up stranglin', dangled in my bed sheets
-I call the nurse ‘cause it hurts to reminisce
-How did it come to this? I wish they didn't miss
-Somebody help me, tell me where to go from here
-‘Cause even thugs cry, but do the Lord care?
-Try to remember but it hurts
-I'm walkin' through the cemetery, talkin' to the dirt
-I'd rather die like a man than live like a coward
-There's a ghetto up in Heaven and it's ours
-"Black Power!" is what we scream
-As we dream in a paranoid state
-And our fate is a lifetime of hate
-Dear Mama, can you save me? And <phrase type="profanity">fuck</phrase> peace
-‘Cause the streets got our babies, we gotta eat
-No more hesitation, each and every black male's trapped
-And they wonder why we suicidal running 'round strapped
-Mr. Police, please try to see
-That there's a million <phrase type="profanity">motherfuckers</phrase> stressin' just like me</verse>
+        <verse>
+            <line>Flatline</line>
+        </verse>
 
-<chorus><singer>[2Pac]</singer>
-Only God can judge me
-Only God can judge me, only God
-Only God can judge me
-Only God can judge me
-Only God can judge me, only God
-Only God can judge me now
-Only God can judge me, only God
-Only God can judge me
-Only God can judge me, only God
-Only God can judge me</chorus>
+        <verse>
+            <singer>2Pac</singer>
+            <line>I hear the doctor standin' over me, screamin' I can make it</line>
+            <line>Got a body full of bullet holes, layin' here naked</line>
+            <line>Still I can't breathe, something's evil in my IV</line>
+            <line>‘Cause everytime I breathe I think they killin' me</line>
+            <line>I'm havin' nightmares, homicidal fantasies</line>
+            <line>I wake up stranglin', dangled in my bed sheets</line>
+            <line>I call the nurse ‘cause it hurts to reminisce</line>
+            <line>How did it come to this? I wish they didn't miss</line>
+            <line>Somebody help me, tell me where to go from here</line>
+            <line>‘Cause even thugs cry, but do the Lord care?</line>
+            <line>Try to remember but it hurts</line>
+            <line>I'm walkin' through the cemetery, talkin' to the dirt</line>
+            <line>I'd rather die like a man than live like a coward</line>
+            <line>There's a ghetto up in Heaven and it's ours</line>
+            <line>"Black Power!" is what we scream</line>
+            <line>As we dream in a paranoid state</line>
+            <line>And our fate is a lifetime of hate</line>
+            <line>Dear Mama, can you save me? And <phrase type="profanity">fuck</phrase>
+                peace</line>
+            <line>‘Cause the streets got our babies, we gotta eat</line>
+            <line>No more hesitation, each and every black male's trapped</line>
+            <line>And they wonder why we suicidal running 'round strapped</line>
+            <line>Mr. Police, please try to see</line>
+            <line>That there's a million <phrase type="profanity">motherfuckers</phrase> stressin'
+                just like me</line>
+        </verse>
 
-<verse><singer>[2Pac]</singer>
-That which does not kill me can only make me stronger
-That's for real
-And I don't see why everybody feel as though
-That they gotta tell me how to live my life
-You know?
-Let me live, baby, let me live</verse>
+        <chorus>
+            <singer>2Pac</singer>
+            <line>Only God can judge me</line>
+            <line>Only God can judge me, only God</line>
+            <line>Only God can judge me</line>
+            <line>Only God can judge me</line>
+            <line>Only God can judge me, only God</line>
+            <line>Only God can judge me now</line>
+            <line>Only God can judge me, only God</line>
+            <line>Only God can judge me</line>
+            <line>Only God can judge me, only God</line>
+            <line>Only God can judge me</line>
+        </chorus>
 
-<verse><featuredSinger>[Rappin' 4-Tay]</featuredSinger>
-Pac, I feel ya, keep servin' it on the reala
-For instance, say a playa-hatin' mark is out to kill ya
-Would you be wrong for buckin' a <phrase type="profanity">nigga</phrase> to the pavement?
-He gon' get me first, if I don't get him fool start prayin'
-Ain't no such thing as self-defense in the court of law
-So judge us when we get to where we're goin wearin' a cross
-That's real, got him, lurked him, crept the <phrase type="profanity">fuck</phrase> up on him
-Sold a half a million tapes, now everybody want him
-After talkin' behind my back like a <phrase type="profanity">bitch</phrase> would
-Tellin' them <phrase type="profanity">niggas</phrase>, "You can fade him"
-Punk, I wish you would
-It be them same <phrase type="profanity">motherfuckers</phrase> in your face
-That'll rush up in your place to get your safe
-Knowin' you on that paper chase
-Grass, glass, big screen and leather couch
-My new shit is so fetti, already sold a ki or ounce
-<phrase type="profanity">Bitch</phrase>, remember 2Pac and 4-Tay
-The same two brothers dodgin' bullets, representin' the Bay
-Pac, when you was locked down
-That's when I'll be around
-Start climbin' up the charts, so sick, but they tried to clown
-That's why they ride the bandwagon
-Still be draggin', sellin' lies
-Don't think I don't see you haters, I know y'all in disguise</verse>
-<verse>
-<singer>[2Pac]</singer>
-Guess you figure you know me, ‘cause I'm a thug
-That love to hit the late night club drink and buzzed
-Been livin' lavish like a player all day
-Now I'm bout to floss 'em off, player <phrase type="profanity">shit</phrase> with 4-Tay</verse>
+        <verse>
+            <singer>2Pac</singer>
+            <line>That which does not kill me can only make me stronger</line>
+            <line>That's for real</line>
+            <line>And I don't see why everybody feel as though</line>
+            <line>That they gotta tell me how to live my life</line>
+            <line>You know?</line>
+            <line>Let me live, baby, let me live</line>
+        </verse>
 
-<chorus><singer>[2Pac]</singer>
-Only God can judge me
-Only God can judge me, only God
-Only God can judge me
-Only God can judge me
-Only God can judge me, only God
-Only God can judge me now
-Only God can judge me, only God
-Only God can judge me
-Only God can judge me, only God
-Only God can judge me</chorus>
+        <verse>
+            <featuredSinger>Rappin' 4-Tay</featuredSinger>
+            <line>Pac, I feel ya, keep servin' it on the reala</line>
+            <line>For instance, say a playa-hatin' mark is out to kill ya</line>
+            <line>Would you be wrong for buckin' a <phrase type="profanity">nigga</phrase> to the
+                pavement?</line>
+            <line>He gon' get me first, if I don't get him fool start prayin'</line>
+            <line>Ain't no such thing as self-defense in the court of law</line>
+            <line>So judge us when we get to where we're goin wearin' a cross</line>
+            <line>That's real, got him, lurked him, crept the <phrase type="profanity">fuck</phrase>
+                up on him</line>
+            <line>Sold a half a million tapes, now everybody want him</line>
+            <line>After talkin' behind my back like a <phrase type="profanity">bitch</phrase>
+                would</line>
+            <line>Tellin' them <phrase type="profanity">niggas</phrase>, "You can fade him"</line>
+            <line>Punk, I wish you would</line>
+            <line>It be them same <phrase type="profanity">motherfuckers</phrase> in your
+                face</line>
+            <line>That'll rush up in your place to get your safe</line>
+            <line>Knowin' you on that paper chase</line>
+            <line>Grass, glass, big screen and leather couch</line>
+            <line>My new shit is so fetti, already sold a ki or ounce</line>
+            <line><phrase type="profanity">Bitch</phrase>, remember 2Pac and 4-Tay</line>
+            <line>The same two brothers dodgin' bullets, representin' the Bay</line>
+            <line>Pac, when you was locked down</line>
+            <line>That's when I'll be around</line>
+            <line>Start climbin' up the charts, so sick, but they tried to clown</line>
+            <line>That's why they ride the bandwagon</line>
+            <line>Still be draggin', sellin' lies</line>
+            <line>Don't think I don't see you haters, I know y'all in disguise</line>
+        </verse>
 
-<outro>[<singer>2Pac</singer> and <featuredSinger>Rappin 4-Tay</featuredSinger>]
-Only God man
-That right?
-That’s real
-Hahahahahaha
-<phrase type="profanity">Fuck</phrase> everybody else, you know what I’m sayin'?
-Man, look here, man
-My only fear of death
-Is comin' back to this <phrase type="profanity">bitch</phrase> reincarnated, man
-That’s for the homie mental
-Hehehehe
-We up out</outro></lyrics>
+        <verse>
+            <singer>2Pac</singer>
+            <line>Guess you figure you know me, ‘cause I'm a thug</line>
+            <line>That love to hit the late night club drink and buzzed</line>
+            <line>Been livin' lavish like a player all day</line>
+            <line>Now I'm bout to floss 'em off, player <phrase type="profanity">shit</phrase> with
+                4-Tay</line>
+        </verse>
+
+        <chorus>
+            <singer>2Pac</singer>
+            <line>Only God can judge me</line>
+            <line>Only God can judge me, only God</line>
+            <line>Only God can judge me</line>
+            <line>Only God can judge me</line>
+            <line>Only God can judge me, only God</line>
+            <line>Only God can judge me now</line>
+            <line>Only God can judge me, only God</line>
+            <line>Only God can judge me</line>
+            <line>Only God can judge me, only God</line>
+            <line>Only God can judge me</line>
+        </chorus>
+
+        <outro>
+            <singer>2Pac</singer>
+            <featuredSinger>Rappin 4-Tay</featuredSinger>
+            <line>Only God man</line>
+            <line>That right?</line>
+            <line>That’s real</line>
+            <line>Hahahahahaha</line>
+            <line><phrase type="profanity">Fuck</phrase> everybody else, you know what I’m
+                sayin'?</line>
+            <line>Man, look here, man</line>
+            <line>My only fear of death</line>
+            <line>Is comin' back to this <phrase type="profanity">bitch</phrase> reincarnated,
+                man</line>
+            <line>That’s for the homie mental</line>
+            <line>Hehehehe</line>
+            <line>We up out</line>
+        </outro>
+    </lyrics>
 </song>

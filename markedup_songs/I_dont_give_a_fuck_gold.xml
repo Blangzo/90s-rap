@@ -1,120 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song><head><songTitle>I Don't Give A Fuck</songTitle>
-<artist>2Pac</artist>
-<featuredArtist>Featuring Pogo</featuredArtist>
-<producer>Produced by The Underground Railroad</producer>
-<album>2Pacalypse Now</album>
-<certification>Gold</certification></head>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>I Don't Give A Fuck</songTitle>
+        <artist>2Pac</artist>
+        <featuredArtist>Featuring Pogo</featuredArtist>
+        <producer>Produced by The Underground Railroad</producer>
+        <album>2Pacalypse Now</album>
+        <certification>Gold</certification>
+    </head>
 
-<lyrics><intro>
-"What's up?"
-"Yo this scene, rollers tried to jack a <phrase type="profanity">nigga</phrase> 'cause a <phrase type="profanity">nigga</phrase> with a pearl rollin' on a Coupé with goldens"
-"Yo man, what's up, this riding <phrase type="profanity">motherfucker</phrase>
-Jack me at rollin' 'round bumping
-’Cause music's too loud, you know what I'm sayin'?"
-"Yo this P-O to the G-O
-<phrase type="profanity">Motherfucking</phrase> cop just jacked me 'cause I was drinking beer in Mill Valley"
-"What's up man?"
-"Aight' man, <phrase type="profanity">fuck</phrase> 'em"</intro>
+    <lyrics>
+        <intro>
+            <line>"What's up?"</line>
+            <line>"Yo this scene, rollers tried to jack a <phrase type="profanity">nigga</phrase>
+                'cause a <phrase type="profanity">nigga</phrase> with a pearl rollin' on a Coupé
+                with goldens"</line>
+            <line>"Yo man, what's up, this riding <phrase type="profanity"
+                >motherfucker</phrase></line>
+            <line>Jack me at rollin' 'round bumping</line>
+            <line>’Cause music's too loud, you know what I'm sayin'?"</line>
+            <line>"Yo this P-O to the G-O</line>
+            <line><phrase type="profanity">Motherfucking</phrase> cop just jacked me 'cause I was
+                drinking beer in Mill Valley"</line>
+            <line>"What's up man?"</line>
+            <line>"Aight' man, <phrase type="profanity">fuck</phrase> 'em"</line>
+        </intro>
 
-<verse>[2Pac]
-I don't give a <phrase type="profanity">fuck</phrase>
-They done pushed me to my limit, I'm all in
-I might blow up any minute, did it again
-And now I'm in the back of the paddy wagon
-While this cop's bragging about the <phrase type="profanity">nigga</phrase> he's jackin'
-I see no justice, all I see is <phrase type="profanity">niggas</phrase> dying fast
-The sound of a gun blast, then watch the hearse pass
-Just another day in the life, G
-Gotta step lightly, cause cops tried to snipe me
-The cabs, they don't wanna stop for a brother, man
-But <phrase type="profanity">damn</phrase> near have an accident to pick up another man
-I went to the bank to cash my check
-I get more respect from the <phrase type="profanity">mothafucking</phrase> dope man
-The Grammy's and American Music shows
-They pimp us like <phrase type="dt">hoes</phrase>, take our dough, but they hate us though
-You better keep your mind on the real shit
-And <phrase type="profanity">fuck</phrase> trying to get with these crooked <phrase type="profanity">ass</phrase> hypocrites
-The way they see it, we was meant to be kept down
-Just can't understand why we getting respect now
-<phrase type="lifeEvent">Mama told me there'd be days like this</phrase>
-But I'm pissed, cause it stays like this
-And now they're trying to ship me off to Kuwait?
-Give me a break, how much <phrase type="profanity">shit</phrase> can a <phrase type="profanity">nigga</phrase> take?
-I ain't going nowhere no how
-Bush wanna throw down?
-Better bring the gun, pal
-Cause this is the day we make 'em pay
-<phrase type="profanity">Fuck</phrase> bailing hay, I better spray with an AK
-And even if they shoot me down
-There'll be another <phrase type="profanity">nigga</phrase> bigger from the <phrase type="profanity">mothafuckin'</phrase> underground
-So step but you better step quick
-Cause the clock's going tick and I'm sick of the <phrase type="profanity">bullshit</phrase>
-You're watching the makings of a psychopath
-But you sit and laugh before the wrath and aftermath
-Who's that behind the trigger?
-Who do you think? A <phrase type="profanity">mothafucking</phrase> 90's <phrase type="profanity">nigga</phrase>
-Ready to buck and rip <phrase type="profanity">shit</phrase> up, I had enough!
-(Yeah) And I just Don't Give a <phrase type="profanity">Fuck</phrase></verse>
+        <verse>
+            <singer>2Pac</singer>
+            <line>I don't give a <phrase type="profanity">fuck</phrase></line>
+            <line>They done pushed me to my limit, I'm all in</line>
+            <line>I might blow up any minute, did it again</line>
+            <line>And now I'm in the back of the paddy wagon</line>
+            <line>While this cop's bragging about the <phrase type="profanity">nigga</phrase> he's
+                jackin'</line>
+            <line>I see no justice, all I see is <phrase type="profanity">niggas</phrase> dying
+                fast</line>
+            <line>The sound of a gun blast, then watch the hearse pass</line>
+            <line>Just another day in the life, G</line>
+            <line>Gotta step lightly, cause cops tried to snipe me</line>
+            <line>The cabs, they don't wanna stop for a brother, man</line>
+            <line>But <phrase type="profanity">damn</phrase> near have an accident to pick up
+                another man</line>
+            <line>I went to the bank to cash my check</line>
+            <line>I get more respect from the <phrase type="profanity">mothafucking</phrase> dope
+                man</line>
+            <line>The Grammy's and American Music shows</line>
+            <line>They pimp us like <phrase type="dt">hoes</phrase>, take our dough, but they hate
+                us though</line>
+            <line>You better keep your mind on the real shit</line>
+            <line>And <phrase type="profanity">fuck</phrase> trying to get with these crooked
+                    <phrase type="profanity">ass</phrase> hypocrites</line>
+            <line>The way they see it, we was meant to be kept down</line>
+            <line>Just can't understand why we getting respect now</line>
+            <line><phrase type="lifeEvent">Mama told me there'd be days like this</phrase></line>
+            <line>But I'm pissed, cause it stays like this</line>
+            <line>And now they're trying to ship me off to Kuwait?</line>
+            <line>Give me a break, how much <phrase type="profanity">shit</phrase> can a <phrase
+                    type="profanity">nigga</phrase> take?</line>
+            <line>I ain't going nowhere no how</line>
+            <line>Bush wanna throw down?</line>
+            <line>Better bring the gun, pal</line>
+            <line>Cause this is the day we make 'em pay</line>
+            <line><phrase type="profanity">Fuck</phrase> bailing hay, I better spray with an
+                AK</line>
+            <line>And even if they shoot me down</line>
+            <line>There'll be another <phrase type="profanity">nigga</phrase> bigger from the
+                    <phrase type="profanity">mothafuckin'</phrase> underground</line>
+            <line>So step but you better step quick</line>
+            <line>Cause the clock's going tick and I'm sick of the <phrase type="profanity"
+                    >bullshit</phrase></line>
+            <line>You're watching the makings of a psychopath</line>
+            <line>But you sit and laugh before the wrath and aftermath</line>
+            <line>Who's that behind the trigger?</line>
+            <line>Who do you think? A <phrase type="profanity">mothafucking</phrase> 90's <phrase
+                    type="profanity">nigga</phrase></line>
+            <line>Ready to buck and rip <phrase type="profanity">shit</phrase> up, I had
+                enough!</line>
+            <line>(Yeah) And I just Don't Give a <phrase type="profanity">Fuck</phrase></line>
+        </verse>
 
-<verse>[Verse 2: Pogo]
-<phrase type="profanity">Nigga</phrase>, it ain't just the blacks
-It's also a gang of <phrase type="profanity">motherfuckers</phrase> dressed in blue slacks
-They say <phrase type="profanity">niggas</phrase> hang in packs and they attitudes is <phrase type="profanity">shitty</phrase>
-So tell me, who's the biggest gang of <phrase type="profanity">niggas</phrase> in the city?
-They say we <phrase type="profanity">niggas</phrase> like to do <phrase type="profanity">niggas</phrase>
-So me an' a cop are just two <phrase type="profanity">niggas</phrase>
-A street walking <phrase type="profanity">nigga</phrase> and a beat walking <phrase type="profanity">nigga</phrase>
-With a badge, I end his future and his past
-With a blast take his cash before I dash I bash his head in
-Dump him at the dead end and that's just his luck
-Cause a <phrase type="profanity">nigga</phrase> like P, don't really give a <phrase type="profanity">fuck</phrase></verse>
+        <verse>
+            <featuredSinger>Pogo</featuredSinger>
+            <line><phrase type="profanity">Nigga</phrase>, it ain't just the blacks</line>
+            <line>It's also a gang of <phrase type="profanity">motherfuckers</phrase> dressed in
+                blue slacks</line>
+            <line>They say <phrase type="profanity">niggas</phrase> hang in packs and they attitudes
+                is <phrase type="profanity">shitty</phrase></line>
+            <line>So tell me, who's the biggest gang of <phrase type="profanity">niggas</phrase> in
+                the city?</line>
+            <line>They say we <phrase type="profanity">niggas</phrase> like to do <phrase
+                    type="profanity">niggas</phrase></line>
+            <line>So me an' a cop are just two <phrase type="profanity">niggas</phrase></line>
+            <line>A street walking <phrase type="profanity">nigga</phrase> and a beat walking
+                    <phrase type="profanity">nigga</phrase></line>
+            <line>With a badge, I end his future and his past</line>
+            <line>With a blast take his cash before I dash I bash his head in</line>
+            <line>Dump him at the dead end and that's just his luck</line>
+            <line>Cause a <phrase type="profanity">nigga</phrase> like P, don't really give a
+                    <phrase type="profanity">fuck</phrase></line>
+        </verse>
 
-<verse>[Verse 3: 2Pac]
-Walked in the store, what's everybody staring at?
-They act like they never seen a <phrase type="profanity">motherfucker</phrase> wearing black
-Following a <phrase type="profanity">nigga</phrase> and shit - ain't this a bitch?
-All I wanted was some chips
-I wanna take my business elsewhere - but where?
-’Cause who in the <phrase type="profanity">hell</phrase> cares?
-About a black man with a black need
-They wanna jack me like some kind of crack fiend
-I wonder if he knows that my income
-Is more than his pension, salary and then some
-Your daughter is my number one fan
-And your <phrase type="profanity">trife-ass</phrase> wife wants a life with a black man
-So who's the mack, in fact who's the black jack?
-Sit back and get fat off the fat cat
-While he thinks that he's getting over
-I bust a move as smooth as Casanova
-And count another quick mill'
-I'm getting paid for my trade but I'm still real
-And if you look between the lines you'll find a rhyme
-As strong as a <phrase type="profanity">fucking</phrase> nine
-Mail stacked up, <phrase type="profanity">niggas</phrase> wanna act up
-Let's put the gats up and throw your blacks up
-But the cops getting dropped by the gun shot
-Used to come but he's done, now we run the block
-To my brothers: stay strong keep your heads up
-They know we fed up; but they just Don't Give a <phrase type="profanity">Fuck</phrase>
+        <verse>
+            <singer>2Pac</singer>
+            <line>Walked in the store, what's everybody staring at?</line>
+            <line>They act like they never seen a <phrase type="profanity">motherfucker</phrase>
+                wearing black</line>
+            <line>Following a <phrase type="profanity">nigga</phrase> and shit - ain't this a
+                bitch?</line>
+            <line>All I wanted was some chips</line>
+            <line>I wanna take my business elsewhere - but where?</line>
+            <line>’Cause who in the <phrase type="profanity">hell</phrase> cares?</line>
+            <line>About a black man with a black need</line>
+            <line>They wanna jack me like some kind of crack fiend</line>
+            <line>I wonder if he knows that my income</line>
+            <line>Is more than his pension, salary and then some</line>
+            <line>Your daughter is my number one fan</line>
+            <line>And your <phrase type="profanity">trife-ass</phrase> wife wants a life with a
+                black man</line>
+            <line>So who's the mack, in fact who's the black jack?</line>
+            <line>Sit back and get fat off the fat cat</line>
+            <line>While he thinks that he's getting over</line>
+            <line>I bust a move as smooth as Casanova</line>
+            <line>And count another quick mill'</line>
+            <line>I'm getting paid for my trade but I'm still real</line>
+            <line>And if you look between the lines you'll find a rhyme</line>
+            <line>As strong as a <phrase type="profanity">fucking</phrase> nine</line>
+            <line>Mail stacked up, <phrase type="profanity">niggas</phrase> wanna act up</line>
+            <line>Let's put the gats up and throw your blacks up</line>
+            <line>But the cops getting dropped by the gun shot</line>
+            <line>Used to come but he's done, now we run the block</line>
+            <line>To my brothers: stay strong keep your heads up</line>
+            <line>They know we fed up; but they just Don't Give a <phrase type="profanity"
+                    >Fuck</phrase></line>
+            <line>They just don't give a <phrase type="profanity">fuck</phrase></line>
+        </verse>
 
-They just don't give a <phrase type="profanity">fuck</phrase></verse>
-
-<outro>[Outro: 2Pac]
-I gotta give my <phrase type="profanity">fuck</phrase> offs
-<phrase type="profanity">Fuck</phrase> you to the San Francisco Police Department
-<phrase type="profanity">Fuck</phrase> you to the Marin County Sheriff's Department
-<phrase type="profanity">Fuck</phrase> you to the FBI
-<phrase type="profanity">Fuck</phrase> you to the CIA
-<phrase type="profanity">Fuck</phrase> you to the B-U-S-H
-<phrase type="profanity">Fuck</phrase> you to the Ameri-K-K-Ka
-<phrase type="profanity">Fuck</phrase> you to all you redneck prejudice <phrase type="profanity">motherfuckers</phrase>
-That wanna <phrase type="profanity">fuck</phrase> with me, fuck y'all!
-Punk gay sensitive little dick <phrase type="dt">bastards</phrase>
-2Pacalypse <phrase type="profanity">motherfuckerin'</phrase> now
-Y'all can all kiss my <phrase type="profanity">ass</phrase> and suck my dick
-And my Uncle Tommy's balls
-<phrase type="profanity">Fuck</phrase> y'all
-Punks (*echoes*)</outro></lyrics></song>
-
-
+        <outro>
+            <singer>2Pac</singer>
+            <line>I gotta give my <phrase type="profanity">fuck</phrase> offs</line>
+            <line><phrase type="profanity">Fuck</phrase> you to the San Francisco Police
+                Department</line>
+            <line><phrase type="profanity">Fuck</phrase> you to the Marin County Sheriff's
+                Department</line>
+            <line><phrase type="profanity">Fuck</phrase> you to the FBI</line>
+            <line><phrase type="profanity">Fuck</phrase> you to the CIA</line>
+            <line><phrase type="profanity">Fuck</phrase> you to the B-U-S-H</line>
+            <line><phrase type="profanity">Fuck</phrase> you to the Ameri-K-K-Ka</line>
+            <line><phrase type="profanity">Fuck</phrase> you to all you redneck prejudice <phrase
+                    type="profanity">motherfuckers</phrase></line>
+            <line>That wanna <phrase type="profanity">fuck</phrase> with me, fuck y'all!</line>
+            <line>Punk gay sensitive little dick <phrase type="dt">bastards</phrase></line>
+            <line>2Pacalypse <phrase type="profanity">motherfuckerin'</phrase> now</line>
+            <line>Y'all can all kiss my <phrase type="profanity">ass</phrase> and suck my
+                dick</line>
+            <line>And my Uncle Tommy's balls</line>
+            <line><phrase type="profanity">Fuck</phrase> y'all</line>
+            <line>Punks (*echoes*)</line>
+        </outro>
+    </lyrics>
+</song>

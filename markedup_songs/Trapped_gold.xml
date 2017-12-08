@@ -1,122 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song><head><songTitle>Trapped</songTitle>
-<artist>2Pac</artist>
-<featuredArtist>Featuring Shock G</featuredArtist>
-<producer>Produced by The Underground Railroad</producer>
-<album>2Pacalypse Now</album>
-<certification>Gold</certification></head>
+<?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <songTitle>Trapped</songTitle>
+        <artist>2Pac</artist>
+        <featuredArtist>Featuring Shock G</featuredArtist>
+        <producer>Produced by The Underground Railroad</producer>
+        <album>2Pacalypse Now</album>
+        <certification>Gold</certification>
+    </head>
 
-<lyrics>
-<verse>
-You know they got me trapped in this prison of seclusion
-<phrase type="emotion">Happiness</phrase>, living on the streets is a delusion
-Even a smooth criminal one day must get caught
-Shot up or shot down with the bullet that he bought
-Nine millimeter kickin' thinkin' about what the streets do to me
-Cause they never talk peace in the black community
-All we know is violence, do the job in silence
-Walk the city streets like a rat pack of tyrants
-Too many brothers daily heading for the big pen
-<phrase type="profanity">Niggas</phrase> comin' out worse-off than when they went in
-Over the years I done a lot of growin' up
-Gettin drunk, throwin' up
-Cuffed up
-Then I said I had enough
-There must be another route, way out
-To money and fame, I changed my name
-And played a different game
-Tired of being trapped in this vicious cycle
-If one more cop harrasses me I just might go psycho
-And when I get 'em, I'll hit 'em with the bum rush
-Only a lunatic would like to see his skull crushed
-Yo, if you're smart you'll really let me go, G
-But keep me cooped up in this ghetto and catch the Uzi
-They got me trapped</verse>
+    <lyrics>
+        <verse>
+            <line>You know they got me trapped in this prison of seclusion</line>
+            <line><phrase type="emotion">Happiness</phrase>, living on the streets is a
+                delusion</line>
+            <line>Even a smooth criminal one day must get caught</line>
+            <line>Shot up or shot down with the bullet that he bought</line>
+            <line>Nine millimeter kickin' thinkin' about what the streets do to me</line>
+            <line>Cause they never talk peace in the black community</line>
+            <line>All we know is violence, do the job in silence</line>
+            <line>Walk the city streets like a rat pack of tyrants</line>
+            <line>Too many brothers daily heading for the big pen</line>
+            <line><phrase type="profanity">Niggas</phrase> comin' out worse-off than when they went
+                in</line>
+            <line>Over the years I done a lot of growin' up</line>
+            <line>Gettin drunk, throwin' up</line>
+            <line>Cuffed up</line>
+            <line>Then I said I had enough</line>
+            <line>There must be another route, way out</line>
+            <line>To money and fame, I changed my name</line>
+            <line>And played a different game</line>
+            <line>Tired of being trapped in this vicious cycle</line>
+            <line>If one more cop harrasses me I just might go psycho</line>
+            <line>And when I get 'em, I'll hit 'em with the bum rush</line>
+            <line>Only a lunatic would like to see his skull crushed</line>
+            <line>Yo, if you're smart you'll really let me go, G</line>
+            <line>But keep me cooped up in this ghetto and catch the Uzi</line>
+            <line>They got me trapped</line>
+        </verse>
 
-<chorus>
-Uh uh, they can't keep the black man down
-They got me trapped
-Naw, they can't keep the black man down
-Trapped
-Uh uh, they can't keep the black man down
-Trapped
-Naw, they can't keep the black man down
-</chorus>
-<verse>[Verse 2]
-They got me trapped
-Can barely walk the city streets
-Without a cop harrassing me, searching me
-Then asking my identity
-Hands up, throw me up against the wall
-Didn't do a thing at all
-I'm telling you one day these suckers gotta fall
-Cuffed up throw me on the concrete
-Coppers try to kill me
-But they didn't know this was the wrong street
-Bang bang, count another casualty
-But it's a cop who's shot for his brutality
-Who do you blame? It's a shame because the man's slain
-He got caught in the chains of his own game
-How can I feel guilty after all the things they did to me?
-Sweated me, hunted me
-Trapped in my own community
-One day I'm gonna bust
-Blow up on this society
-Why did ya lie to me?
-I couldn't find a trace of equality
-Work me like a slave while they laid back
-Homie don't play that
-It's time I let 'em suffer the payback
-I'm tryin to avoid physical contact
-I can't hold back, it's time to attack jack
-They got me trapped
-</verse>
-<chorus>
-Uh uh, they can't keep the black man down
-They got me trapped
-Naw, they can't keep the black man down
-Trapped
-Uh uh, they can't keep the black man down
-Trapped
-Naw, they can't keep the black man down
-</chorus>
-<verse>
-Now I'm trapped and want to find my getaway
-All I need is a 'G' and somewhere safe to stay
-Can't use the phone
-Cause I'm sure someone is tapping in
-Did it before
-Ain't scared to use my gat again
-I look back in hindsight the fight was irrelevant
-But now he's the devils friend
-Too late to be tellin' him
-He shot first and I'll be <phrase type="profanity">damned</phrase> if I run away
-Homie is done away I should've put my gun away
-I wasn't thinkin' all I heard was the ridicule
-Girlies was laughin', Tup sayin "<phrase type="profanity">Damn</phrase> homies is dissin you"
-I fired my weapon
-Started steppin' in the hurricane
-I got shot so I dropped
-Feelin' a burst of pain
-Got to my feet
-Couldn't see nothin' but bloody blood
-Now I'm a fugitive to be hunted like a murderer
-Ran through an alley
-Still lookin' for my getaway
-Coppers said, "Freeze, or you'll be dead today."
-Trapped in a corner
-Dark and I couldn't see the light
-Thoughts in my mind was the nine and a better life
-What do I do? Live my life in a prison cell?
-I'd rather die than be trapped in a living hell
-They got me trapped</verse>
+        <chorus>
+            <line>Uh uh, they can't keep the black man down</line>
+            <line>They got me trapped</line>
+            <line>Naw, they can't keep the black man down</line>
+            <line>Trapped</line>
+            <line>Uh uh, they can't keep the black man down</line>
+            <line>Trapped</line>
+            <line>Naw, they can't keep the black man down</line>
+        </chorus>
 
-<chorus>
-Uh uh, they can't keep the black man down
-They got me trapped
-Naw, they can't keep the black man down
-Trapped
-Uh uh, they can't keep the black man down
-Trapped
-Naw, they can't keep the black man down</chorus></lyrics>
+        <verse>
+            <line>They got me trapped</line>
+            <line>Can barely walk the city streets</line>
+            <line>Without a cop harrassing me, searching me</line>
+            <line>Then asking my identity</line>
+            <line>Hands up, throw me up against the wall</line>
+            <line>Didn't do a thing at all</line>
+            <line>I'm telling you one day these suckers gotta fall</line>
+            <line>Cuffed up throw me on the concrete</line>
+            <line>Coppers try to kill me</line>
+            <line>But they didn't know this was the wrong street</line>
+            <line>Bang bang, count another casualty</line>
+            <line>But it's a cop who's shot for his brutality</line>
+            <line>Who do you blame? It's a shame because the man's slain</line>
+            <line>He got caught in the chains of his own game</line>
+            <line>How can I feel guilty after all the things they did to me?</line>
+            <line>Sweated me, hunted me</line>
+            <line>Trapped in my own community</line>
+            <line>One day I'm gonna bust</line>
+            <line>Blow up on this society</line>
+            <line>Why did ya lie to me?</line>
+            <line>I couldn't find a trace of equality</line>
+            <line>Work me like a slave while they laid back</line>
+            <line>Homie don't play that</line>
+            <line>It's time I let 'em suffer the payback</line>
+            <line>I'm tryin to avoid physical contact</line>
+            <line>I can't hold back, it's time to attack jack</line>
+            <line>They got me trapped</line>
+        </verse>
+
+        <chorus>
+            <line>Uh uh, they can't keep the black man down</line>
+            <line>They got me trapped</line>
+            <line>Naw, they can't keep the black man down</line>
+            <line>Trapped</line>
+            <line>Uh uh, they can't keep the black man down</line>
+            <line>Trapped</line>
+            <line>Naw, they can't keep the black man down</line>
+        </chorus>
+
+        <verse>
+            <line>Now I'm trapped and want to find my getaway</line>
+            <line>All I need is a 'G' and somewhere safe to stay</line>
+            <line>Can't use the phone</line>
+            <line>Cause I'm sure someone is tapping in</line>
+            <line>Did it before</line>
+            <line>Ain't scared to use my gat again</line>
+            <line>I look back in hindsight the fight was irrelevant</line>
+            <line>But now he's the devils friend</line>
+            <line>Too late to be tellin' him</line>
+            <line>He shot first and I'll be <phrase type="profanity">damned</phrase> if I run
+                away</line>
+            <line>Homie is done away I should've put my gun away</line>
+            <line>I wasn't thinkin' all I heard was the ridicule</line>
+            <line>Girlies was laughin', Tup sayin "<phrase type="profanity">Damn</phrase> homies is
+                dissin you"</line>
+            <line>I fired my weapon</line>
+            <line>Started steppin' in the hurricane</line>
+            <line>I got shot so I dropped</line>
+            <line>Feelin' a burst of pain</line>
+            <line>Got to my feet</line>
+            <line>Couldn't see nothin' but bloody blood</line>
+            <line>Now I'm a fugitive to be hunted like a murderer</line>
+            <line>Ran through an alley</line>
+            <line>Still lookin' for my getaway</line>
+            <line>Coppers said, "Freeze, or you'll be dead today."</line>
+            <line>Trapped in a corner</line>
+            <line>Dark and I couldn't see the light</line>
+            <line>Thoughts in my mind was the nine and a better life</line>
+            <line>What do I do? Live my life in a prison cell?</line>
+            <line>I'd rather die than be trapped in a living hell</line>
+            <line>They got me trapped</line>
+        </verse>
+
+        <chorus>
+            <line>Uh uh, they can't keep the black man down</line>
+            <line>They got me trapped</line>
+            <line>Naw, they can't keep the black man down</line>
+            <line>Trapped</line>
+            <line>Uh uh, they can't keep the black man down</line>
+            <line>Trapped</line>
+            <line>Naw, they can't keep the black man down</line>
+        </chorus>
+    </lyrics>
 </song>
