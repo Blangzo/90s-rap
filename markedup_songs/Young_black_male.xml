@@ -6,7 +6,7 @@
 <certification>Gold</certification></head>
 
 <lyrics><intro>
-<line><artist>2Pac and 2Pac as "Soulja"</artist>
+<artist>2Pac and 2Pac as "Soulja"</artist>
 <line>All you wanted to be, a soulja, a soulja</line>
 <line>All you wanted to be, a soulja, like me</line>
 <line>All you wanted to be, a soulja, a soulja</line>
@@ -19,29 +19,30 @@
 <line>They think crime is rising now</line>
 <line>You got whites killing blacks</line>
 <line>Cops killing blacks, and blacks killing blacks</line>
-<line><line>Shit just gon' get worse</line></line>
-<line><line>They just gon' become souljas</line></line>
+<line>Shit just gon' get worse</line>
+<line>They just gon' become souljas</line>
 <line>Straight souljas</line>
 </intro>
-<line><chorus>[Hook]</line>
-<line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</line>
-<line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</line>
-<line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</line>
-<line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</chorus></line>
 
-<line><verse><singer>2Pac as "Soulja"</singer></line>
+<chorus>[Hook]
+<line>All you wanted to be, a soulja, a soulja</line>
+<line>All you wanted to be, a soulja, like me</line>
+<line>All you wanted to be, a soulja, a soulja</line>
+<line>All you wanted to be, a soulja, like me</line>
+<line>All you wanted to be, a soulja, a soulja</line>
+<line>All you wanted to be, a soulja, like me</line>
+<line>All you wanted to be, a soulja, a soulja</line>
+    <line>All you wanted to be, a soulja, like me</line></chorus>
+
+<verse><singer>2Pac as "Soulja"</singer>
 <line>Crack done took a part of my family tree</line>
 <line><phrase type="lifeEvent">My momma's on the shit, my daddy split and moms is steady blaming me</phrase></line>
 <line>Is it my fault, just cause I'm a young black male?</line>
 <line>Cops sweat me as if my destiny is makin' crack sales</line>
 <line>Only fifteen and got problems</line>
 <line>Cops on my tail, so I bail 'til I dodge 'em</line>
-<line><phrase type="lifeEvent">They finally pull me over and I laugh</line>
-<line>"Remember Rodney King?" and I blast on his punk ass</phrase></line>
+<line><phrase type="lifeEvent">They finally pull me over and I laugh</phrase></line>
+    <line><phrase type="history">Remember Rodney King?"</phrase> and I blast on his punk ass</line>
 <line>Now I got a murder case...</line>
 <line>You speak of heaven punk? I never heard of the place</line>
 <line>Wanted to come up fast, got a Uz' and a black mask</line>
@@ -59,18 +60,18 @@
 <line>Coolin' in the pen, where the good's kept</line>
 <line>Now my little brother wants to follow in my footsteps</line>
 <line>A soulja</line>
-<line></verse></line>
+</verse>
 
-<line><chorus>All you wanted to be, a soulja, a soulja</line>
+    <chorus><line>All you wanted to be, a soulja, a soulja</line>
 <line>All you wanted to be, a soulja, like me</line>
 <line>All you wanted to be, a soulja, a soulja</line>
 <line>All you wanted to be, a soulja, like me</line>
 <line>All you wanted to be, a soulja, a soulja</line>
 <line>All you wanted to be, a soulja, like me</line>
 <line>All you wanted to be, a soulja, a soulja</line>
-<line>All you wanted to be, a soulja, like me</chorus></line>
+        <line>All you wanted to be, a soulja, like me</line></chorus>
 
-<line><verse><artist>2Pac</artist> as the younger brother]</line>
+<verse><artist>2Pac</artist> as the younger brother]
 <line>Buck, buck -<phrase type="profanity">niggas</phrase> get <phrase type="profanity">fucked</phrase>, don't step to this</line>
 <line>Quiet as kept I'm blessed on a quest with a death wish</line>
 <line>Tell 'em to come and test, and arrest, <phrase type="profanity">nigga</phrase> it's hectic</line>
@@ -102,13 +103,13 @@
 <line>They brought my brother in a jiffy</line>
 <line>I took a cop, just in case things got tricky</line>
 <line>And just as we was walkin' out (BANG!)</line>
-<line><lifeEvent>I caught a bullet in the head, the screams never left my mouth</line>
-<line>My brother caught a bullet too</lifeEvent></line>
+<line><phrase type="lifeEvent">I caught a bullet in the head, the screams never left my mouth</phrase></line>
+    <line><phrase type="lifeEvent">My brother caught a bullet too</phrase></line>
 <line>I think he gon' pull through, he deserve to</line>
 <line>The fast life ain't everything they told ya</line>
-<line>Never get much older, following the tracks of a soulja</verse></line>
+    <line>Never get much older, following the tracks of a soulja</line></verse>
 
-<line><outro>[Outro]</line>
+<outro>[Outro]
 <line>All you wanted to be, a soulja, a soulja</line>
 <line>All you wanted to be, a soulja, like me</line>
 <line>All you wanted to be, a soulja, a soulja</line>
@@ -117,4 +118,5 @@
 <line>All you wanted to be, a soulja, like me</line>
 <line>All you wanted to be, a soulja, a soulja</line>
 <line>All you wanted to be, a soulja, like me</line>
-<line>Straight soulja, 1993, and forward</outro></lyrics></song></line>
+<line>Straight soulja, 1993, and forward</line>
+</outro></lyrics></song>
