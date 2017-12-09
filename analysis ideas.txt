@@ -1,7 +1,7 @@
 Bar graph of albums:
 the 4 types of phrases
-length
-wordcount
+length (number of lines)
+wordcount - probably not
 
 Bar graph comparing artists:
 variety of phrases (different profanities)
