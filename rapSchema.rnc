@@ -4,7 +4,7 @@ start = song
 
 song = element song {head, lyrics}
 
-head = element head {songTitle, artist, featuredArtist*, producer+, album, certification}
+head = element head {songTitle, artist, featuredArtist*, producer+, album, certification, order}
 
 songTitle = element songTitle {text}
 artist = element artist {text}
@@ -12,6 +12,7 @@ featuredArtist = element featuredArtist {text}
 producer = element producer {text}
 album = element album {text}
 certification = element certification {text}
+order = element order {text}
 
 lyrics = element lyrics {(line+ | intro | verse | chorus | outro)*}
 

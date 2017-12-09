@@ -3,11 +3,12 @@
 <song>
     <head>
         <songTitle>2 Of Amerikaz Most Wanted</songTitle>
-        <artist>Tupac</artist>
+        <artist>2Pac</artist>
         <featuredArtist>Snoop Dogg</featuredArtist>
         <producer>Daz Dillinger</producer>
         <album>All Eyez on Me</album>
         <certification>Diamond</certification>
+        <order>19</order>
     </head>
     <lyrics>
         <intro>

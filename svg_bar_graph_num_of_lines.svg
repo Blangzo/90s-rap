@@ -1,1385 +1,618 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--124-->
+<!--linemax file: Only God Can Judge Me-->
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="1800"
-     height="250"
-     viewBox="0 0 1800 250">
-   <g transform="translate(50 200)">
-      <text x="90" y="-180" fill="red">Line graph of the Count of lines per song used in the project</text>
+     width="5000"
+     height="400"
+     viewBox="0 0 5000 400">
+   <g transform="translate(50 160)">
+      <text x="90" y="-144" fill="red">Line graph of the count of lines in
+                    each of the songs.</text>
       <line x1="0"
             y1="0"
-            x2="4200"
+            x2="4242"
             y2="0"
             stroke-width="3"
             stroke="black"/>
       <line x1="0"
             y1="0"
             x2="0"
-            y2="-2500"
+            y2="-134"
             stroke-width="3"
             stroke="black"/>
-      <text x="-10" y="-20" fill="red" text-anchor="middle">1</text>
+      <text x="-5" y="-20" fill="red" text-anchor="end">20</text>
       <line x1="0"
             y1="-20"
-            x2="4200"
+            x2="4242"
             y2="-20"
             stroke="red"
             stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-40" fill="red" text-anchor="middle">2</text>
+            stroke-dasharray="30"/>
+      <text x="-5" y="-40" fill="red" text-anchor="end">40</text>
       <line x1="0"
             y1="-40"
-            x2="4200"
+            x2="4242"
             y2="-40"
             stroke="red"
             stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-60" fill="red" text-anchor="middle">3</text>
+            stroke-dasharray="30"/>
+      <text x="-5" y="-60" fill="red" text-anchor="end">60</text>
       <line x1="0"
             y1="-60"
-            x2="4200"
+            x2="4242"
             y2="-60"
             stroke="red"
             stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-80" fill="red" text-anchor="middle">4</text>
+            stroke-dasharray="30"/>
+      <text x="-5" y="-80" fill="red" text-anchor="end">80</text>
       <line x1="0"
             y1="-80"
-            x2="4200"
+            x2="4242"
             y2="-80"
             stroke="red"
             stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-100" fill="red" text-anchor="middle">5</text>
+            stroke-dasharray="30"/>
+      <text x="-5" y="-100" fill="red" text-anchor="end">100</text>
       <line x1="0"
             y1="-100"
-            x2="4200"
+            x2="4242"
             y2="-100"
             stroke="red"
             stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-120" fill="red" text-anchor="middle">6</text>
+            stroke-dasharray="30"/>
+      <text x="-5" y="-120" fill="red" text-anchor="end">120</text>
       <line x1="0"
             y1="-120"
-            x2="4200"
+            x2="4242"
             y2="-120"
             stroke="red"
             stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-140" fill="red" text-anchor="middle">7</text>
-      <line x1="0"
-            y1="-140"
-            x2="4200"
-            y2="-140"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-160" fill="red" text-anchor="middle">8</text>
-      <line x1="0"
-            y1="-160"
-            x2="4200"
-            y2="-160"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-180" fill="red" text-anchor="middle">9</text>
-      <line x1="0"
-            y1="-180"
-            x2="4200"
-            y2="-180"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-200" fill="red" text-anchor="middle">10</text>
-      <line x1="0"
-            y1="-200"
-            x2="4200"
-            y2="-200"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-220" fill="red" text-anchor="middle">11</text>
-      <line x1="0"
-            y1="-220"
-            x2="4200"
-            y2="-220"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-240" fill="red" text-anchor="middle">12</text>
-      <line x1="0"
-            y1="-240"
-            x2="4200"
-            y2="-240"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-260" fill="red" text-anchor="middle">13</text>
-      <line x1="0"
-            y1="-260"
-            x2="4200"
-            y2="-260"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-280" fill="red" text-anchor="middle">14</text>
-      <line x1="0"
-            y1="-280"
-            x2="4200"
-            y2="-280"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-300" fill="red" text-anchor="middle">15</text>
-      <line x1="0"
-            y1="-300"
-            x2="4200"
-            y2="-300"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-320" fill="red" text-anchor="middle">16</text>
-      <line x1="0"
-            y1="-320"
-            x2="4200"
-            y2="-320"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-340" fill="red" text-anchor="middle">17</text>
-      <line x1="0"
-            y1="-340"
-            x2="4200"
-            y2="-340"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-360" fill="red" text-anchor="middle">18</text>
-      <line x1="0"
-            y1="-360"
-            x2="4200"
-            y2="-360"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-380" fill="red" text-anchor="middle">19</text>
-      <line x1="0"
-            y1="-380"
-            x2="4200"
-            y2="-380"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-400" fill="red" text-anchor="middle">20</text>
-      <line x1="0"
-            y1="-400"
-            x2="4200"
-            y2="-400"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-420" fill="red" text-anchor="middle">21</text>
-      <line x1="0"
-            y1="-420"
-            x2="4200"
-            y2="-420"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-440" fill="red" text-anchor="middle">22</text>
-      <line x1="0"
-            y1="-440"
-            x2="4200"
-            y2="-440"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-460" fill="red" text-anchor="middle">23</text>
-      <line x1="0"
-            y1="-460"
-            x2="4200"
-            y2="-460"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-480" fill="red" text-anchor="middle">24</text>
-      <line x1="0"
-            y1="-480"
-            x2="4200"
-            y2="-480"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-500" fill="red" text-anchor="middle">25</text>
-      <line x1="0"
-            y1="-500"
-            x2="4200"
-            y2="-500"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-520" fill="red" text-anchor="middle">26</text>
-      <line x1="0"
-            y1="-520"
-            x2="4200"
-            y2="-520"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-540" fill="red" text-anchor="middle">27</text>
-      <line x1="0"
-            y1="-540"
-            x2="4200"
-            y2="-540"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-560" fill="red" text-anchor="middle">28</text>
-      <line x1="0"
-            y1="-560"
-            x2="4200"
-            y2="-560"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-580" fill="red" text-anchor="middle">29</text>
-      <line x1="0"
-            y1="-580"
-            x2="4200"
-            y2="-580"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-600" fill="red" text-anchor="middle">30</text>
-      <line x1="0"
-            y1="-600"
-            x2="4200"
-            y2="-600"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-620" fill="red" text-anchor="middle">31</text>
-      <line x1="0"
-            y1="-620"
-            x2="4200"
-            y2="-620"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-640" fill="red" text-anchor="middle">32</text>
-      <line x1="0"
-            y1="-640"
-            x2="4200"
-            y2="-640"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-660" fill="red" text-anchor="middle">33</text>
-      <line x1="0"
-            y1="-660"
-            x2="4200"
-            y2="-660"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-680" fill="red" text-anchor="middle">34</text>
-      <line x1="0"
-            y1="-680"
-            x2="4200"
-            y2="-680"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-700" fill="red" text-anchor="middle">35</text>
-      <line x1="0"
-            y1="-700"
-            x2="4200"
-            y2="-700"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-720" fill="red" text-anchor="middle">36</text>
-      <line x1="0"
-            y1="-720"
-            x2="4200"
-            y2="-720"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-740" fill="red" text-anchor="middle">37</text>
-      <line x1="0"
-            y1="-740"
-            x2="4200"
-            y2="-740"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-760" fill="red" text-anchor="middle">38</text>
-      <line x1="0"
-            y1="-760"
-            x2="4200"
-            y2="-760"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-780" fill="red" text-anchor="middle">39</text>
-      <line x1="0"
-            y1="-780"
-            x2="4200"
-            y2="-780"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-800" fill="red" text-anchor="middle">40</text>
-      <line x1="0"
-            y1="-800"
-            x2="4200"
-            y2="-800"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-820" fill="red" text-anchor="middle">41</text>
-      <line x1="0"
-            y1="-820"
-            x2="4200"
-            y2="-820"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-840" fill="red" text-anchor="middle">42</text>
-      <line x1="0"
-            y1="-840"
-            x2="4200"
-            y2="-840"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-860" fill="red" text-anchor="middle">43</text>
-      <line x1="0"
-            y1="-860"
-            x2="4200"
-            y2="-860"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-880" fill="red" text-anchor="middle">44</text>
-      <line x1="0"
-            y1="-880"
-            x2="4200"
-            y2="-880"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-900" fill="red" text-anchor="middle">45</text>
-      <line x1="0"
-            y1="-900"
-            x2="4200"
-            y2="-900"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-920" fill="red" text-anchor="middle">46</text>
-      <line x1="0"
-            y1="-920"
-            x2="4200"
-            y2="-920"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-940" fill="red" text-anchor="middle">47</text>
-      <line x1="0"
-            y1="-940"
-            x2="4200"
-            y2="-940"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-960" fill="red" text-anchor="middle">48</text>
-      <line x1="0"
-            y1="-960"
-            x2="4200"
-            y2="-960"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-980" fill="red" text-anchor="middle">49</text>
-      <line x1="0"
-            y1="-980"
-            x2="4200"
-            y2="-980"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1000" fill="red" text-anchor="middle">50</text>
-      <line x1="0"
-            y1="-1000"
-            x2="4200"
-            y2="-1000"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1020" fill="red" text-anchor="middle">51</text>
-      <line x1="0"
-            y1="-1020"
-            x2="4200"
-            y2="-1020"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1040" fill="red" text-anchor="middle">52</text>
-      <line x1="0"
-            y1="-1040"
-            x2="4200"
-            y2="-1040"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1060" fill="red" text-anchor="middle">53</text>
-      <line x1="0"
-            y1="-1060"
-            x2="4200"
-            y2="-1060"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1080" fill="red" text-anchor="middle">54</text>
-      <line x1="0"
-            y1="-1080"
-            x2="4200"
-            y2="-1080"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1100" fill="red" text-anchor="middle">55</text>
-      <line x1="0"
-            y1="-1100"
-            x2="4200"
-            y2="-1100"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1120" fill="red" text-anchor="middle">56</text>
-      <line x1="0"
-            y1="-1120"
-            x2="4200"
-            y2="-1120"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1140" fill="red" text-anchor="middle">57</text>
-      <line x1="0"
-            y1="-1140"
-            x2="4200"
-            y2="-1140"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1160" fill="red" text-anchor="middle">58</text>
-      <line x1="0"
-            y1="-1160"
-            x2="4200"
-            y2="-1160"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1180" fill="red" text-anchor="middle">59</text>
-      <line x1="0"
-            y1="-1180"
-            x2="4200"
-            y2="-1180"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1200" fill="red" text-anchor="middle">60</text>
-      <line x1="0"
-            y1="-1200"
-            x2="4200"
-            y2="-1200"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1220" fill="red" text-anchor="middle">61</text>
-      <line x1="0"
-            y1="-1220"
-            x2="4200"
-            y2="-1220"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1240" fill="red" text-anchor="middle">62</text>
-      <line x1="0"
-            y1="-1240"
-            x2="4200"
-            y2="-1240"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1260" fill="red" text-anchor="middle">63</text>
-      <line x1="0"
-            y1="-1260"
-            x2="4200"
-            y2="-1260"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1280" fill="red" text-anchor="middle">64</text>
-      <line x1="0"
-            y1="-1280"
-            x2="4200"
-            y2="-1280"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1300" fill="red" text-anchor="middle">65</text>
-      <line x1="0"
-            y1="-1300"
-            x2="4200"
-            y2="-1300"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1320" fill="red" text-anchor="middle">66</text>
-      <line x1="0"
-            y1="-1320"
-            x2="4200"
-            y2="-1320"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1340" fill="red" text-anchor="middle">67</text>
-      <line x1="0"
-            y1="-1340"
-            x2="4200"
-            y2="-1340"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1360" fill="red" text-anchor="middle">68</text>
-      <line x1="0"
-            y1="-1360"
-            x2="4200"
-            y2="-1360"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1380" fill="red" text-anchor="middle">69</text>
-      <line x1="0"
-            y1="-1380"
-            x2="4200"
-            y2="-1380"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1400" fill="red" text-anchor="middle">70</text>
-      <line x1="0"
-            y1="-1400"
-            x2="4200"
-            y2="-1400"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1420" fill="red" text-anchor="middle">71</text>
-      <line x1="0"
-            y1="-1420"
-            x2="4200"
-            y2="-1420"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1440" fill="red" text-anchor="middle">72</text>
-      <line x1="0"
-            y1="-1440"
-            x2="4200"
-            y2="-1440"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1460" fill="red" text-anchor="middle">73</text>
-      <line x1="0"
-            y1="-1460"
-            x2="4200"
-            y2="-1460"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1480" fill="red" text-anchor="middle">74</text>
-      <line x1="0"
-            y1="-1480"
-            x2="4200"
-            y2="-1480"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1500" fill="red" text-anchor="middle">75</text>
-      <line x1="0"
-            y1="-1500"
-            x2="4200"
-            y2="-1500"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1520" fill="red" text-anchor="middle">76</text>
-      <line x1="0"
-            y1="-1520"
-            x2="4200"
-            y2="-1520"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1540" fill="red" text-anchor="middle">77</text>
-      <line x1="0"
-            y1="-1540"
-            x2="4200"
-            y2="-1540"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1560" fill="red" text-anchor="middle">78</text>
-      <line x1="0"
-            y1="-1560"
-            x2="4200"
-            y2="-1560"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1580" fill="red" text-anchor="middle">79</text>
-      <line x1="0"
-            y1="-1580"
-            x2="4200"
-            y2="-1580"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1600" fill="red" text-anchor="middle">80</text>
-      <line x1="0"
-            y1="-1600"
-            x2="4200"
-            y2="-1600"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1620" fill="red" text-anchor="middle">81</text>
-      <line x1="0"
-            y1="-1620"
-            x2="4200"
-            y2="-1620"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1640" fill="red" text-anchor="middle">82</text>
-      <line x1="0"
-            y1="-1640"
-            x2="4200"
-            y2="-1640"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1660" fill="red" text-anchor="middle">83</text>
-      <line x1="0"
-            y1="-1660"
-            x2="4200"
-            y2="-1660"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1680" fill="red" text-anchor="middle">84</text>
-      <line x1="0"
-            y1="-1680"
-            x2="4200"
-            y2="-1680"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1700" fill="red" text-anchor="middle">85</text>
-      <line x1="0"
-            y1="-1700"
-            x2="4200"
-            y2="-1700"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1720" fill="red" text-anchor="middle">86</text>
-      <line x1="0"
-            y1="-1720"
-            x2="4200"
-            y2="-1720"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1740" fill="red" text-anchor="middle">87</text>
-      <line x1="0"
-            y1="-1740"
-            x2="4200"
-            y2="-1740"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1760" fill="red" text-anchor="middle">88</text>
-      <line x1="0"
-            y1="-1760"
-            x2="4200"
-            y2="-1760"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1780" fill="red" text-anchor="middle">89</text>
-      <line x1="0"
-            y1="-1780"
-            x2="4200"
-            y2="-1780"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1800" fill="red" text-anchor="middle">90</text>
-      <line x1="0"
-            y1="-1800"
-            x2="4200"
-            y2="-1800"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1820" fill="red" text-anchor="middle">91</text>
-      <line x1="0"
-            y1="-1820"
-            x2="4200"
-            y2="-1820"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1840" fill="red" text-anchor="middle">92</text>
-      <line x1="0"
-            y1="-1840"
-            x2="4200"
-            y2="-1840"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1860" fill="red" text-anchor="middle">93</text>
-      <line x1="0"
-            y1="-1860"
-            x2="4200"
-            y2="-1860"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1880" fill="red" text-anchor="middle">94</text>
-      <line x1="0"
-            y1="-1880"
-            x2="4200"
-            y2="-1880"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1900" fill="red" text-anchor="middle">95</text>
-      <line x1="0"
-            y1="-1900"
-            x2="4200"
-            y2="-1900"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1920" fill="red" text-anchor="middle">96</text>
-      <line x1="0"
-            y1="-1920"
-            x2="4200"
-            y2="-1920"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1940" fill="red" text-anchor="middle">97</text>
-      <line x1="0"
-            y1="-1940"
-            x2="4200"
-            y2="-1940"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1960" fill="red" text-anchor="middle">98</text>
-      <line x1="0"
-            y1="-1960"
-            x2="4200"
-            y2="-1960"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-1980" fill="red" text-anchor="middle">99</text>
-      <line x1="0"
-            y1="-1980"
-            x2="4200"
-            y2="-1980"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2000" fill="red" text-anchor="middle">100</text>
-      <line x1="0"
-            y1="-2000"
-            x2="4200"
-            y2="-2000"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2020" fill="red" text-anchor="middle">101</text>
-      <line x1="0"
-            y1="-2020"
-            x2="4200"
-            y2="-2020"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2040" fill="red" text-anchor="middle">102</text>
-      <line x1="0"
-            y1="-2040"
-            x2="4200"
-            y2="-2040"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2060" fill="red" text-anchor="middle">103</text>
-      <line x1="0"
-            y1="-2060"
-            x2="4200"
-            y2="-2060"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2080" fill="red" text-anchor="middle">104</text>
-      <line x1="0"
-            y1="-2080"
-            x2="4200"
-            y2="-2080"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2100" fill="red" text-anchor="middle">105</text>
-      <line x1="0"
-            y1="-2100"
-            x2="4200"
-            y2="-2100"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2120" fill="red" text-anchor="middle">106</text>
-      <line x1="0"
-            y1="-2120"
-            x2="4200"
-            y2="-2120"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2140" fill="red" text-anchor="middle">107</text>
-      <line x1="0"
-            y1="-2140"
-            x2="4200"
-            y2="-2140"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2160" fill="red" text-anchor="middle">108</text>
-      <line x1="0"
-            y1="-2160"
-            x2="4200"
-            y2="-2160"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2180" fill="red" text-anchor="middle">109</text>
-      <line x1="0"
-            y1="-2180"
-            x2="4200"
-            y2="-2180"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2200" fill="red" text-anchor="middle">110</text>
-      <line x1="0"
-            y1="-2200"
-            x2="4200"
-            y2="-2200"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2220" fill="red" text-anchor="middle">111</text>
-      <line x1="0"
-            y1="-2220"
-            x2="4200"
-            y2="-2220"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2240" fill="red" text-anchor="middle">112</text>
-      <line x1="0"
-            y1="-2240"
-            x2="4200"
-            y2="-2240"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2260" fill="red" text-anchor="middle">113</text>
-      <line x1="0"
-            y1="-2260"
-            x2="4200"
-            y2="-2260"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2280" fill="red" text-anchor="middle">114</text>
-      <line x1="0"
-            y1="-2280"
-            x2="4200"
-            y2="-2280"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2300" fill="red" text-anchor="middle">115</text>
-      <line x1="0"
-            y1="-2300"
-            x2="4200"
-            y2="-2300"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2320" fill="red" text-anchor="middle">116</text>
-      <line x1="0"
-            y1="-2320"
-            x2="4200"
-            y2="-2320"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2340" fill="red" text-anchor="middle">117</text>
-      <line x1="0"
-            y1="-2340"
-            x2="4200"
-            y2="-2340"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2360" fill="red" text-anchor="middle">118</text>
-      <line x1="0"
-            y1="-2360"
-            x2="4200"
-            y2="-2360"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2380" fill="red" text-anchor="middle">119</text>
-      <line x1="0"
-            y1="-2380"
-            x2="4200"
-            y2="-2380"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2400" fill="red" text-anchor="middle">120</text>
-      <line x1="0"
-            y1="-2400"
-            x2="4200"
-            y2="-2400"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2420" fill="red" text-anchor="middle">121</text>
-      <line x1="0"
-            y1="-2420"
-            x2="4200"
-            y2="-2420"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2440" fill="red" text-anchor="middle">122</text>
-      <line x1="0"
-            y1="-2440"
-            x2="4200"
-            y2="-2440"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2460" fill="red" text-anchor="middle">123</text>
-      <line x1="0"
-            y1="-2460"
-            x2="4200"
-            y2="-2460"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <text x="-10" y="-2480" fill="red" text-anchor="middle">124</text>
-      <line x1="0"
-            y1="-2480"
-            x2="4200"
-            y2="-2480"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="10"/>
-      <!--What is the value of $Pos? 1-->
-      <text x="50" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="50" cy="0" r="3" fill="black"/>
-      <line x1="50"
-            y1="0"
-            x2="150"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 2-->
-      <text x="150" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="150" cy="0" r="3" fill="black"/>
-      <line x1="150"
-            y1="0"
-            x2="250"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 3-->
-      <text x="250" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="250" cy="0" r="3" fill="black"/>
-      <line x1="250"
-            y1="0"
-            x2="350"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 4-->
-      <text x="350" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="350" cy="0" r="3" fill="black"/>
-      <line x1="350"
-            y1="0"
-            x2="450"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 5-->
-      <text x="450" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="450" cy="0" r="3" fill="black"/>
-      <line x1="450"
-            y1="0"
-            x2="550"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 6-->
-      <text x="550" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="550" cy="0" r="3" fill="black"/>
-      <line x1="550"
-            y1="0"
-            x2="650"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 7-->
-      <text x="650" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="650" cy="0" r="3" fill="black"/>
-      <line x1="650"
-            y1="0"
-            x2="750"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 8-->
-      <text x="750" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="750" cy="0" r="3" fill="black"/>
-      <line x1="750"
-            y1="0"
-            x2="850"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 9-->
-      <text x="850" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="850" cy="0" r="3" fill="black"/>
-      <line x1="850"
-            y1="0"
-            x2="950"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 10-->
-      <text x="950" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="950" cy="0" r="3" fill="black"/>
-      <line x1="950"
-            y1="0"
-            x2="1050"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 11-->
-      <text x="1050" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="1050" cy="0" r="3" fill="black"/>
-      <line x1="1050"
-            y1="0"
-            x2="1150"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 12-->
-      <text x="1150" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="1150" cy="0" r="3" fill="black"/>
-      <line x1="1150"
-            y1="0"
-            x2="1250"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 13-->
-      <text x="1250" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="1250" cy="0" r="3" fill="black"/>
-      <line x1="1250"
-            y1="0"
-            x2="1350"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 14-->
-      <text x="1350" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="1350" cy="0" r="3" fill="black"/>
-      <line x1="1350"
-            y1="0"
-            x2="1450"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 15-->
-      <text x="1450" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="1450" cy="0" r="3" fill="black"/>
-      <line x1="1450"
-            y1="0"
-            x2="1550"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 16-->
-      <text x="1550" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="1550" cy="0" r="3" fill="black"/>
-      <line x1="1550"
-            y1="0"
-            x2="1650"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 17-->
-      <text x="1650" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="1650" cy="0" r="3" fill="black"/>
-      <line x1="1650"
-            y1="0"
-            x2="1750"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 18-->
-      <text x="1750" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="1750" cy="0" r="3" fill="black"/>
-      <line x1="1750"
-            y1="0"
-            x2="1850"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 19-->
-      <text x="1850" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="1850" cy="0" r="3" fill="black"/>
-      <line x1="1850"
-            y1="0"
-            x2="1950"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 20-->
-      <text x="1950" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="1950" cy="0" r="3" fill="black"/>
-      <line x1="1950"
-            y1="0"
-            x2="2050"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 21-->
-      <text x="2050" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="2050" cy="0" r="3" fill="black"/>
-      <line x1="2050"
-            y1="0"
-            x2="2150"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 22-->
-      <text x="2150" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="2150" cy="0" r="3" fill="black"/>
-      <line x1="2150"
-            y1="0"
-            x2="2250"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 23-->
-      <text x="2250" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="2250" cy="0" r="3" fill="black"/>
-      <line x1="2250"
-            y1="0"
-            x2="2350"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 24-->
-      <text x="2350" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="2350" cy="0" r="3" fill="black"/>
-      <line x1="2350"
-            y1="0"
-            x2="2450"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 25-->
-      <text x="2450" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="2450" cy="0" r="3" fill="black"/>
-      <line x1="2450"
-            y1="0"
-            x2="2550"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 26-->
-      <text x="2550" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="2550" cy="0" r="3" fill="black"/>
-      <line x1="2550"
-            y1="0"
-            x2="2650"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 27-->
-      <text x="2650" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="2650" cy="0" r="3" fill="black"/>
-      <line x1="2650"
-            y1="0"
-            x2="2750"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 28-->
-      <text x="2750" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="2750" cy="0" r="3" fill="black"/>
-      <line x1="2750"
-            y1="0"
-            x2="2850"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 29-->
-      <text x="2850" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="2850" cy="0" r="3" fill="black"/>
-      <line x1="2850"
-            y1="0"
-            x2="2950"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 30-->
-      <text x="2950" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="2950" cy="0" r="3" fill="black"/>
-      <line x1="2950"
-            y1="0"
-            x2="3050"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 31-->
-      <text x="3050" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="3050" cy="0" r="3" fill="black"/>
-      <line x1="3050"
-            y1="0"
-            x2="3150"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 32-->
-      <text x="3150" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="3150" cy="0" r="3" fill="black"/>
-      <line x1="3150"
-            y1="0"
-            x2="3250"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 33-->
-      <text x="3250" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="3250" cy="0" r="3" fill="black"/>
-      <line x1="3250"
-            y1="0"
-            x2="3350"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 34-->
-      <text x="3350" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="3350" cy="0" r="3" fill="black"/>
-      <line x1="3350"
-            y1="0"
-            x2="3450"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 35-->
-      <text x="3450" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="3450" cy="0" r="3" fill="black"/>
-      <line x1="3450"
-            y1="0"
-            x2="3550"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 36-->
-      <text x="3550" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="3550" cy="0" r="3" fill="black"/>
-      <line x1="3550"
-            y1="0"
-            x2="3650"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 37-->
-      <text x="3650" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="3650" cy="0" r="3" fill="black"/>
-      <line x1="3650"
-            y1="0"
-            x2="3750"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 38-->
-      <text x="3750" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="3750" cy="0" r="3" fill="black"/>
-      <line x1="3750"
-            y1="0"
-            x2="3850"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 39-->
-      <text x="3850" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="3850" cy="0" r="3" fill="black"/>
-      <line x1="3850"
-            y1="0"
-            x2="3950"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 40-->
-      <text x="3950" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="3950" cy="0" r="3" fill="black"/>
-      <line x1="3950"
-            y1="0"
-            x2="4050"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 41-->
-      <text x="4050" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="4050" cy="0" r="3" fill="black"/>
-      <line x1="4050"
-            y1="0"
-            x2="4150"
-            y2="0"
-            stroke-width="2"
-            stroke="green"/>
-      <!--What is the value of $Pos? 42-->
-      <text x="4150" y="15" fill="red" text-anchor="middle"/>
-      <circle cx="4150" cy="0" r="3" fill="black"/>
+            stroke-dasharray="30"/>
+      <text x="50"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 50 25)">2 Of Amerikaz Most Wanted</text>
+      <rect width="50"
+            height="106"
+            x="50"
+            y="-106"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---106-->
+      <text x="150"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 150 25)">313</text>
+      <rect width="50"
+            height="83"
+            x="150"
+            y="-83"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---83-->
+      <text x="250"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 250 25)">97' Bonnie and Clyde</text>
+      <rect width="50"
+            height="88"
+            x="250"
+            y="-88"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---88-->
+      <text x="350"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 350 25)">All Bout U</text>
+      <rect width="50"
+            height="101"
+            x="350"
+            y="-101"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---101-->
+      <text x="450"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 450 25)">Ambitionz Az A Ridah</text>
+      <rect width="50"
+            height="99"
+            x="450"
+            y="-99"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---99-->
+      <text x="550"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 550 25)">As the World Turns</text>
+      <rect width="50"
+            height="110"
+            x="550"
+            y="-110"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---110-->
+      <text x="650"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 650 25)">Bad Meets Evil</text>
+      <rect width="50"
+            height="93"
+            x="650"
+            y="-93"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---93-->
+      <text x="750"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 750 25)">Brain Damage</text>
+      <rect width="50"
+            height="93"
+            x="750"
+            y="-93"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---93-->
+      <text x="850"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 850 25)">Brenda's Got a Baby</text>
+      <rect width="50"
+            height="43"
+            x="850"
+            y="-43"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---43-->
+      <text x="950"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 950 25)">"California Love"</text>
+      <rect width="50"
+            height="76"
+            x="950"
+            y="-76"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---76-->
+      <text x="1050"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 1050 25)">Crooked Ass Nigga</text>
+      <rect width="50"
+            height="96"
+            x="1050"
+            y="-96"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---96-->
+      <text x="1150"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 1150 25)">Cum On Everybody</text>
+      <rect width="50"
+            height="62"
+            x="1150"
+            y="-62"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---62-->
+      <text x="1250"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 1250 25)">Got My Mind Made Up</text>
+      <rect width="50"
+            height="122"
+            x="1250"
+            y="-122"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---122-->
+      <text x="1350"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 1350 25)">Heartz of Men</text>
+      <rect width="50"
+            height="76"
+            x="1350"
+            y="-76"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---76-->
+      <text x="1450"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 1450 25)">How Do U Want It</text>
+      <rect width="50"
+            height="115"
+            x="1450"
+            y="-115"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---115-->
+      <text x="1550"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 1550 25)">I'm Shady</text>
+      <rect width="50"
+            height="76"
+            x="1550"
+            y="-76"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---76-->
+      <text x="1650"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 1650 25)">If I Had</text>
+      <rect width="50"
+            height="88"
+            x="1650"
+            y="-88"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---88-->
+      <text x="1750"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 1750 25)">If My Homie Calls</text>
+      <rect width="50"
+            height="64"
+            x="1750"
+            y="-64"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---64-->
+      <text x="1850"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 1850 25)">It's Okay</text>
+      <rect width="50"
+            height="64"
+            x="1850"
+            y="-64"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---64-->
+      <text x="1950"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 1950 25)">I Don't Give A Fuck</text>
+      <rect width="50"
+            height="100"
+            x="1950"
+            y="-100"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---100-->
+      <text x="2050"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 2050 25)">Just Don't Give a Fuck</text>
+      <rect width="50"
+            height="95"
+            x="2050"
+            y="-95"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---95-->
+      <text x="2150"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 2150 25)">Life Goes On</text>
+      <rect width="50"
+            height="94"
+            x="2150"
+            y="-94"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---94-->
+      <text x="2250"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 2250 25)">Maxine</text>
+      <rect width="50"
+            height="97"
+            x="2250"
+            y="-97"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---97-->
+      <text x="2350"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 2350 25)">Never 2 Far</text>
+      <rect width="50"
+            height="93"
+            x="2350"
+            y="-93"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---93-->
+      <text x="2450"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 2450 25)">No More Pain</text>
+      <rect width="50"
+            height="116"
+            x="2450"
+            y="-116"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---116-->
+      <text x="2550"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 2550 25)">Only God Can Judge Me</text>
+      <rect width="50"
+            height="124"
+            x="2550"
+            y="-124"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---124-->
+      <text x="2650"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 2650 25)">Open Mic</text>
+      <rect width="50"
+            height="105"
+            x="2650"
+            y="-105"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---105-->
+      <text x="2750"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 2750 25)">Part Time Mutha</text>
+      <rect width="50"
+            height="67"
+            x="2750"
+            y="-67"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---67-->
+      <text x="2850"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 2850 25)">Rebel of the Underground</text>
+      <rect width="50"
+            height="99"
+            x="2850"
+            y="-99"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---99-->
+      <text x="2950"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 2950 25)">Rock Bottom</text>
+      <rect width="50"
+            height="80"
+            x="2950"
+            y="-80"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---80-->
+      <text x="3050"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 3050 25)">Role Model</text>
+      <rect width="50"
+            height="70"
+            x="3050"
+            y="-70"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---70-->
+      <text x="3150"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 3150 25)">Searchin'</text>
+      <rect width="50"
+            height="82"
+            x="3150"
+            y="-82"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---82-->
+      <text x="3250"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 3250 25)">Skandalouz</text>
+      <rect width="50"
+            height="80"
+            x="3250"
+            y="-80"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---80-->
+      <text x="3350"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 3350 25)">Something Wicked</text>
+      <rect width="50"
+            height="57"
+            x="3350"
+            y="-57"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---57-->
+      <text x="3450"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 3450 25)">Soulja's Story</text>
+      <rect width="50"
+            height="101"
+            x="3450"
+            y="-101"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---101-->
+      <text x="3550"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 3550 25)">Still Don't Give a Fuck</text>
+      <rect width="50"
+            height="81"
+            x="3550"
+            y="-81"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---81-->
+      <text x="3650"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 3650 25)">Tha' Lunatic</text>
+      <rect width="50"
+            height="91"
+            x="3650"
+            y="-91"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---91-->
+      <text x="3750"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 3750 25)">Tonite</text>
+      <rect width="50"
+            height="76"
+            x="3750"
+            y="-76"
+            stroke="black"
+            stroke-width=".5"
+            fill="Red"/>
+      <!---76-->
+      <text x="3850"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 3850 25)">Trapped</text>
+      <rect width="50"
+            height="101"
+            x="3850"
+            y="-101"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---101-->
+      <text x="3950"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 3950 25)">Violent</text>
+      <rect width="50"
+            height="98"
+            x="3950"
+            y="-98"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---98-->
+      <text x="4050"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 4050 25)">Words of Wisdom</text>
+      <rect width="50"
+            height="101"
+            x="4050"
+            y="-101"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---101-->
+      <text x="4150"
+            y="15"
+            fill="red"
+            text-anchor="beginning"
+            transform="rotate(50 4150 25)">Young Black Male</text>
+      <rect width="50"
+            height="69"
+            x="4150"
+            y="-69"
+            stroke="black"
+            stroke-width=".5"
+            fill="Black"/>
+      <!---69-->
    </g>
 </svg>
