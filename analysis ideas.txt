@@ -1,4 +1,10 @@
+Bar graph of albums:
 the 4 types of phrases
 length
 wordcount
+
+Bar graph comparing artists:
 variety of phrases (different profanities)
+
+Scatterplot:
+comparing 2pac and eminem

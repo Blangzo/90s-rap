@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?xml-model href="../rapSchema.rnc" type="application/relax-ng-compact-syntax"?>
-
 <song>
     <head>
         <songTitle>2 Of Amerikaz Most Wanted</songTitle>
