@@ -1,5 +1,5 @@
 html{
-    background-color: #1D0ED7;
+    background-color: #FFE9BE;
     color: #675CF1;
 }
 
@@ -28,7 +28,7 @@ div#fieldset{
 }
 
 div#main{
-    background-color: #0E0858;
+    background-color: #E7CA92;
     text-align: left;
     width: 60%;
     margin-left: 1%;
@@ -36,7 +36,7 @@ div#main{
     padding: 10px 10px 40px 10px;
     border-radius: 10px;
     border-radius: 10px;
-    color: #675CF1;
+    color: #3f3f3f;
 }
 
 h1{
@@ -48,7 +48,7 @@ h2{
 }
 
 h3, h4, h5{
-    color: #7DCE00;
+    color: #6BA038;
 }
 
 /*
