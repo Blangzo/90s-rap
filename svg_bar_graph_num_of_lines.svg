@@ -6,7 +6,7 @@
      height="400"
      viewBox="0 0 5000 400">
    <g transform="translate(50 160)">
-      <text x="90" y="-144" fill="red">Line graph of the count of lines in
+      <text x="90" y="-144" fill="red">Bar graph of the count of lines in
                     each of the songs.</text>
       <line x1="0"
             y1="0"
@@ -20,7 +20,7 @@
             y2="-134"
             stroke-width="3"
             stroke="black"/>
-      <text x="-5" y="-20" fill="red" text-anchor="end">20</text>
+      <text x="-5" y="-15" fill="red" text-anchor="end">20</text>
       <line x1="0"
             y1="-20"
             x2="4242"
@@ -28,7 +28,7 @@
             stroke="red"
             stroke-width=".5"
             stroke-dasharray="30"/>
-      <text x="-5" y="-40" fill="red" text-anchor="end">40</text>
+      <text x="-5" y="-35" fill="red" text-anchor="end">40</text>
       <line x1="0"
             y1="-40"
             x2="4242"
@@ -36,7 +36,7 @@
             stroke="red"
             stroke-width=".5"
             stroke-dasharray="30"/>
-      <text x="-5" y="-60" fill="red" text-anchor="end">60</text>
+      <text x="-5" y="-55" fill="red" text-anchor="end">60</text>
       <line x1="0"
             y1="-60"
             x2="4242"
@@ -44,7 +44,7 @@
             stroke="red"
             stroke-width=".5"
             stroke-dasharray="30"/>
-      <text x="-5" y="-80" fill="red" text-anchor="end">80</text>
+      <text x="-5" y="-75" fill="red" text-anchor="end">80</text>
       <line x1="0"
             y1="-80"
             x2="4242"
@@ -52,7 +52,7 @@
             stroke="red"
             stroke-width=".5"
             stroke-dasharray="30"/>
-      <text x="-5" y="-100" fill="red" text-anchor="end">100</text>
+      <text x="-5" y="-95" fill="red" text-anchor="end">100</text>
       <line x1="0"
             y1="-100"
             x2="4242"
@@ -60,7 +60,7 @@
             stroke="red"
             stroke-width=".5"
             stroke-dasharray="30"/>
-      <text x="-5" y="-120" fill="red" text-anchor="end">120</text>
+      <text x="-5" y="-115" fill="red" text-anchor="end">120</text>
       <line x1="0"
             y1="-120"
             x2="4242"
@@ -614,5 +614,16 @@
             stroke-width=".5"
             fill="Black"/>
       <!---69-->
+      <text x="4262" y="-140" style="font-size:24; text-decoration: underline;">Legend: Artist</text>
+      <text>
+         <tspan x="4262"
+                y="-120"
+                fill="red"
+                style="font-size:18; text-decoration: none;">Eminem</tspan>
+         <tspan x="4262"
+                y="-100"
+                fill="black"
+                style="font-size:18; text-decoration: none;">Tupac</tspan>
+      </text>
    </g>
 </svg>

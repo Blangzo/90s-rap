@@ -23,7 +23,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" width="{5000}" height="{400}"
             viewBox="0 0 {5000} {400}">
             <g transform="translate(50 {160})">
-                <text x="90" y="{-$lineMax - 20}" fill="red">Line graph of the count of lines in
+                <text x="90" y="{-$lineMax - 20}" fill="red">Bar graph of the count of lines in
                     each of the songs.</text>
                 <!--X axis: -->
                 <line x1="0" y1="0" x2="{$numSongs * ($Xinterval+1)}" y2="0" stroke-width="3"
@@ -35,7 +35,7 @@
                     <xsl:if test=". mod 20 = 0">
                         <xsl:variable name="HashLocator" select="."/>
                         <xsl:variable name="HashLabel" select="."/>
-                        <text x="-5" y="{-$HashLocator}" fill="red" text-anchor="end">
+                        <text x="-5" y="{-$HashLocator + 5}" fill="red" text-anchor="end">
                             <xsl:value-of select="."/>
                         </text>
                         <line x1="0" y1="{-.}" x2="{$numSongs * ($Xinterval+1)}" y2="{-.}"
@@ -69,6 +69,13 @@
                             stroke-width="2" stroke="green"/>
                     </xsl:if>-->
                 </xsl:for-each>
+                <!-- Legend -->
+                <xsl:variable name="max_xval" select="$numSongs * ($Xinterval+1)"/>
+                <text x ="{$max_xval+20}" y ="-140" style="font-size:24; text-decoration: underline;">Legend: Artist</text>
+                <text>
+                    <tspan x="{$max_xval+20}" y="-120" fill = "red" style="font-size:18; text-decoration: none;">Eminem</tspan>
+                    <tspan x="{$max_xval+20}" y="-100" fill = "black" style="font-size:18; text-decoration: none;">Tupac</tspan>
+                </text>
             </g>
         </svg>
     </xsl:template>
