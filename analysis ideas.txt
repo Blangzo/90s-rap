@@ -1,9 +1,9 @@
 Bar graph of albums:
-the 4 types of phrases
+the 4 types of phrases (profanity, lifeEvent, dt, emotion)
 length (number of lines)
 
 Bar graph comparing artists:
-variety of phrases (different profanities)
+variety of phrases (unique profanities per song)
 
 Scatterplot:
 comparing 2pac and eminem

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--124-->
-<!--linemax file: Only God Can Judge Me-->
+<!--40-->
+<!--phrasemax: 8-->
+<!--phrasemax file: Soulja's Story-->
 <svg xmlns="http://www.w3.org/2000/svg"
      width="5000"
      height="400"
      viewBox="0 0 5000 400">
-   <g transform="translate(50 160)">
-      <text x="90" y="-144" fill="red">Bar graph of the count of lines in
-                    each of the songs.</text>
+   <g transform="translate(50 200)">
+      <text x="90" y="-138" fill="red">Bar graph of the count of Life
+                    Events mentioned all of the songs.</text>
       <line x1="0"
             y1="0"
             x2="4242"
@@ -17,10 +18,10 @@
       <line x1="0"
             y1="0"
             x2="0"
-            y2="-134"
+            y2="-126"
             stroke-width="3"
             stroke="black"/>
-      <text x="-5" y="-15" fill="red" text-anchor="end">20</text>
+      <text x="-5" y="-15" fill="red" text-anchor="end">2</text>
       <line x1="0"
             y1="-20"
             x2="4242"
@@ -28,7 +29,7 @@
             stroke="red"
             stroke-width=".5"
             stroke-dasharray="30"/>
-      <text x="-5" y="-35" fill="red" text-anchor="end">40</text>
+      <text x="-5" y="-35" fill="red" text-anchor="end">4</text>
       <line x1="0"
             y1="-40"
             x2="4242"
@@ -36,7 +37,7 @@
             stroke="red"
             stroke-width=".5"
             stroke-dasharray="30"/>
-      <text x="-5" y="-55" fill="red" text-anchor="end">60</text>
+      <text x="-5" y="-55" fill="red" text-anchor="end">6</text>
       <line x1="0"
             y1="-60"
             x2="4242"
@@ -44,7 +45,7 @@
             stroke="red"
             stroke-width=".5"
             stroke-dasharray="30"/>
-      <text x="-5" y="-75" fill="red" text-anchor="end">80</text>
+      <text x="-5" y="-75" fill="red" text-anchor="end">8</text>
       <line x1="0"
             y1="-80"
             x2="4242"
@@ -52,652 +53,679 @@
             stroke="red"
             stroke-width=".5"
             stroke-dasharray="30"/>
-      <text x="-5" y="-95" fill="red" text-anchor="end">100</text>
-      <line x1="0"
-            y1="-100"
-            x2="4242"
-            y2="-100"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="30"/>
-      <text x="-5" y="-115" fill="red" text-anchor="end">120</text>
-      <line x1="0"
-            y1="-120"
-            x2="4242"
-            y2="-120"
-            stroke="red"
-            stroke-width=".5"
-            stroke-dasharray="30"/>
+      <!--1-->
       <text x="50"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 50 25)">2 Of Amerikaz Most Wanted
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="106"
+            height="0"
             x="50"
-            y="-106"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---106-->
+      <!--0-->
+      <!--2-->
       <text x="150"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 150 25)">313
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="83"
+            height="10"
             x="150"
-            y="-83"
+            y="-10"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---83-->
+      <!---1-->
+      <!--3-->
       <text x="250"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 250 25)">97' Bonnie and Clyde
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="88"
+            height="0"
             x="250"
-            y="-88"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---88-->
+      <!--0-->
+      <!--4-->
       <text x="350"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 350 25)">All Bout U
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="101"
+            height="20"
             x="350"
-            y="-101"
+            y="-20"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---101-->
+      <!---2-->
+      <!--5-->
       <text x="450"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 450 25)">Ambitionz Az A Ridah
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="99"
+            height="20"
             x="450"
-            y="-99"
+            y="-20"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---99-->
+      <!---2-->
+      <!--6-->
       <text x="550"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 550 25)">As the World Turns
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="110"
+            height="10"
             x="550"
-            y="-110"
+            y="-10"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---110-->
+      <!---1-->
+      <!--7-->
       <text x="650"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 650 25)">Bad Meets Evil
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="93"
+            height="0"
             x="650"
-            y="-93"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---93-->
+      <!--0-->
+      <!--8-->
       <text x="750"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 750 25)">Brain Damage
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="93"
+            height="0"
             x="750"
-            y="-93"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---93-->
+      <!--0-->
+      <!--9-->
       <text x="850"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 850 25)">Brenda's Got a Baby
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="43"
+            height="60"
             x="850"
-            y="-43"
+            y="-60"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---43-->
+      <!---6-->
+      <!--10-->
       <text x="950"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 950 25)">"California Love"
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="76"
+            height="0"
             x="950"
-            y="-76"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---76-->
+      <!--0-->
+      <!--11-->
       <text x="1050"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 1050 25)">Crooked Ass Nigga
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="96"
+            height="0"
             x="1050"
-            y="-96"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---96-->
+      <!--0-->
+      <!--12-->
       <text x="1150"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 1150 25)">Cum On Everybody
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="62"
+            height="10"
             x="1150"
-            y="-62"
+            y="-10"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---62-->
+      <!---1-->
+      <!--13-->
       <text x="1250"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 1250 25)">Got My Mind Made Up
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="122"
+            height="0"
             x="1250"
-            y="-122"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---122-->
+      <!--0-->
+      <!--14-->
       <text x="1350"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 1350 25)">Heartz of Men
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="76"
+            height="10"
             x="1350"
-            y="-76"
+            y="-10"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---76-->
+      <!---1-->
+      <!--15-->
       <text x="1450"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 1450 25)">How Do U Want It
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="115"
+            height="0"
             x="1450"
-            y="-115"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---115-->
+      <!--0-->
+      <!--16-->
       <text x="1550"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 1550 25)">I'm Shady
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="76"
+            height="0"
             x="1550"
-            y="-76"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---76-->
+      <!--0-->
+      <!--17-->
       <text x="1650"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 1650 25)">If I Had
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="88"
+            height="0"
             x="1650"
-            y="-88"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---88-->
+      <!--0-->
+      <!--18-->
       <text x="1750"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 1750 25)">If My Homie Calls
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="64"
+            height="30"
             x="1750"
-            y="-64"
+            y="-30"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---64-->
+      <!---3-->
+      <!--19-->
       <text x="1850"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 1850 25)">It's Okay
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="64"
+            height="20"
             x="1850"
-            y="-64"
+            y="-20"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---64-->
+      <!---2-->
+      <!--20-->
       <text x="1950"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 1950 25)">I Don't Give A Fuck
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="100"
+            height="10"
             x="1950"
-            y="-100"
+            y="-10"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---100-->
+      <!---1-->
+      <!--21-->
       <text x="2050"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 2050 25)">Just Don't Give a Fuck
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="95"
+            height="0"
             x="2050"
-            y="-95"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---95-->
+      <!--0-->
+      <!--22-->
       <text x="2150"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 2150 25)">Life Goes On
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="94"
+            height="0"
             x="2150"
-            y="-94"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---94-->
+      <!--0-->
+      <!--23-->
       <text x="2250"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 2250 25)">Maxine
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="97"
+            height="10"
             x="2250"
-            y="-97"
+            y="-10"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---97-->
+      <!---1-->
+      <!--24-->
       <text x="2350"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 2350 25)">Never 2 Far
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="93"
+            height="0"
             x="2350"
-            y="-93"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---93-->
+      <!--0-->
+      <!--25-->
       <text x="2450"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 2450 25)">No More Pain
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="116"
+            height="0"
             x="2450"
-            y="-116"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---116-->
+      <!--0-->
+      <!--26-->
       <text x="2550"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 2550 25)">Only God Can Judge Me
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="124"
+            height="10"
             x="2550"
-            y="-124"
+            y="-10"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---124-->
+      <!---1-->
+      <!--27-->
       <text x="2650"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 2650 25)">Open Mic
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="105"
+            height="0"
             x="2650"
-            y="-105"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---105-->
+      <!--0-->
+      <!--28-->
       <text x="2750"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 2750 25)">Part Time Mutha
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="67"
+            height="60"
             x="2750"
-            y="-67"
+            y="-60"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---67-->
+      <!---6-->
+      <!--29-->
       <text x="2850"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 2850 25)">Rebel of the Underground
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="99"
+            height="0"
             x="2850"
-            y="-99"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---99-->
+      <!--0-->
+      <!--30-->
       <text x="2950"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 2950 25)">Rock Bottom
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="80"
+            height="10"
             x="2950"
-            y="-80"
+            y="-10"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---80-->
+      <!---1-->
+      <!--31-->
       <text x="3050"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 3050 25)">Role Model
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="70"
+            height="0"
             x="3050"
-            y="-70"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---70-->
+      <!--0-->
+      <!--32-->
       <text x="3150"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 3150 25)">Searchin'
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="82"
+            height="0"
             x="3150"
-            y="-82"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---82-->
+      <!--0-->
+      <!--33-->
       <text x="3250"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 3250 25)">Skandalouz
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="80"
+            height="0"
             x="3250"
-            y="-80"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---80-->
+      <!--0-->
+      <!--34-->
       <text x="3350"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 3350 25)">Something Wicked
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="57"
+            height="10"
             x="3350"
-            y="-57"
+            y="-10"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---57-->
+      <!---1-->
+      <!--35-->
       <text x="3450"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 3450 25)">Soulja's Story
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="101"
+            height="80"
             x="3450"
-            y="-101"
+            y="-80"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---101-->
+      <!---8-->
+      <!--36-->
       <text x="3550"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 3550 25)">Still Don't Give a Fuck
-                        -
-                        Diamond</text>
+                            -
+                            Diamond</text>
       <rect width="50"
-            height="81"
+            height="10"
             x="3550"
-            y="-81"
+            y="-10"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---81-->
+      <!---1-->
+      <!--37-->
       <text x="3650"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 3650 25)">Tha' Lunatic
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="91"
+            height="0"
             x="3650"
-            y="-91"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---91-->
+      <!--0-->
+      <!--38-->
       <text x="3750"
             y="15"
             fill="Red"
             text-anchor="beginning"
             transform="rotate(50 3750 25)">Tonite
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="76"
+            height="10"
             x="3750"
-            y="-76"
+            y="-10"
             stroke="black"
             stroke-width=".5"
             fill="Red"/>
-      <!---76-->
+      <!---1-->
+      <!--39-->
       <text x="3850"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 3850 25)">Trapped
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="101"
+            height="0"
             x="3850"
-            y="-101"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---101-->
+      <!--0-->
+      <!--40-->
       <text x="3950"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 3950 25)">Violent
-                        -
-                        Gold </text>
+                            -
+                            Gold </text>
       <rect width="50"
-            height="98"
+            height="0"
             x="3950"
-            y="-98"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---98-->
+      <!--0-->
+      <!--41-->
       <text x="4050"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 4050 25)">Words of Wisdom
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="101"
+            height="0"
             x="4050"
-            y="-101"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---101-->
+      <!--0-->
+      <!--42-->
       <text x="4150"
             y="15"
             fill="Black"
             text-anchor="beginning"
             transform="rotate(50 4150 25)">Young Black Male
-                        -
-                        Gold</text>
+                            -
+                            Gold</text>
       <rect width="50"
-            height="69"
+            height="0"
             x="4150"
-            y="-69"
+            y="0"
             stroke="black"
             stroke-width=".5"
             fill="Black"/>
-      <!---69-->
+      <!--0-->
+      <!--done with for-each-->
       <text x="4262" y="-140" style="font-size:24; text-decoration: underline;">Legend: Artist</text>
       <text>
          <tspan x="4262"

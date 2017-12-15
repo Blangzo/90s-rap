@@ -7,38 +7,38 @@
     <!-- global vars -->
     <xsl:variable name="songColl" select="collection('markedup_songs')"/>
     <xsl:variable name="numSongs" select="count($songColl//song)"/>
-    <xsl:variable name="lineMax"
+    <xsl:variable name="phraseMax"
         select="
             max(for $file in $songColl//song
             return
-                count($file//line))"/>
-    <xsl:variable name="temp2" select="$songColl//song[count(//line) eq $lineMax]"/>
+            count($file//phrase[@type='profanity']))"/>
+    <xsl:variable name="temp2" select="$songColl//song[count(//phrase[@type='profanity']) eq $phraseMax]"/>
     <xsl:variable name="Xinterval" select="100"/>
     <!--<xsl:variable name="width" select="$numSongs * ($Xinterval + 1) + 500"/>
-    <xsl:variable name="height" select="$lineMax div 10 * $Yinterval + 300"/>-->
+    <xsl:variable name="height" select="$phraseMax div 10 * $Yinterval + 300"/>-->
     <!-- start -->
     <xsl:template match="/">
-        <xsl:comment><xsl:value-of select="$lineMax"/></xsl:comment>
-        <xsl:comment>linemax file: <xsl:apply-templates select="$temp2//songTitle"/></xsl:comment>
-        <svg xmlns="http://www.w3.org/2000/svg" width="{5000}" height="{400}"
-            viewBox="0 0 {5000} {400}">
-            <g transform="translate(50 {160})">
-                <text x="90" y="{-$lineMax - 20}" fill="red">Bar graph of the count of lines in
+        <xsl:comment><xsl:value-of select="$phraseMax"/></xsl:comment>
+        <xsl:comment>phrasemax file: <xsl:apply-templates select="$temp2//songTitle"/></xsl:comment>
+        <svg xmlns="http://www.w3.org/2000/svg" width="{5000}" height="{450}"
+            viewBox="0 0 {5000} {450}">
+            <g transform="translate(50 {200})">
+                <text x="90" y="{(-$phraseMax - 15) * 2}" fill="red">Bar graph of the count of profanity used in
                     each of the songs.</text>
                 <!--X axis: -->
                 <line x1="0" y1="0" x2="{$numSongs * ($Xinterval+1)}" y2="0" stroke-width="3"
                     stroke="black"/>
                 <!--Y axis: -->
-                <line x1="0" y1="0" x2="0" y2="{-$lineMax - 10}" stroke-width="3" stroke="black"/>
+                <line x1="0" y1="0" x2="0" y2="{(-$phraseMax - 10) * 2}" stroke-width="3" stroke="black"/>
                 <!--Y axis hashmarks and hashlines -->
-                <xsl:for-each select="1 to xs:integer($lineMax)">
-                    <xsl:if test=". mod 20 = 0">
-                        <xsl:variable name="HashLocator" select="."/>
+                <xsl:for-each select="1 to xs:integer($phraseMax)">
+                    <xsl:if test=". mod 10 = 0">
+                        <xsl:variable name="HashLocator" select=". * 2"/>
                         <xsl:variable name="HashLabel" select="."/>
                         <text x="-5" y="{-$HashLocator + 5}" fill="red" text-anchor="end">
                             <xsl:value-of select="."/>
                         </text>
-                        <line x1="0" y1="{-.}" x2="{$numSongs * ($Xinterval+1)}" y2="{-.}"
+                        <line x1="0" y1="{-. * 2}" x2="{$numSongs * ($Xinterval+1)}" y2="{-. * 2}"
                             stroke="red" stroke-width=".5" stroke-dasharray="30"/>
                     </xsl:if>
                 </xsl:for-each>
@@ -61,9 +61,9 @@
                         <xsl:apply-templates select="//certification"/>
                     </text>
                     <!-- rectangle -->
-                    <rect width="50" height="{count(//line)}" x="{$xPos}" y="{-count(//line)}"
+                    <rect width="50" height="{count(//phrase[@type='profanity']) * 2}" x="{$xPos}" y="{-count(//phrase[@type='profanity']) * 2}"
                         stroke="black" stroke-width=".5" fill="{$color}"/>
-                    <xsl:comment><xsl:apply-templates select="-count(//line)"/></xsl:comment>
+                    <xsl:comment><xsl:apply-templates select="-count(//phrase[@type='profanity'])"/></xsl:comment>
                     <!--<xsl:if test="$Pos ne last()">
                         <line x1="{$Pos * $Xinterval - $Xinterval div 2}"
                             y1="{count(descendant::app) * $Yinterval}"
