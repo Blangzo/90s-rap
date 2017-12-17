@@ -37,7 +37,7 @@ div#main{
 /* unvisited link */
 a:link{
     background-color: #000000;
-    color: #0000ff;
+    color: red;
     padding: 3px 9px;
     text-align: center;
     text-decoration: none;
@@ -48,7 +48,7 @@ a:link{
 /* visited link */
 a:visited {
     background-color: #000000;
-    color: #1010ff;
+    color: purple;
     padding: 3px 9px;
     text-align: center;
     text-decoration: none;
@@ -83,6 +83,6 @@ a:active {
   background-color: white;
 }
 
-a#otherLinks{
+/*a#otherLinks{
     color: purple;
-}
+}*/
